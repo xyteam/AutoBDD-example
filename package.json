@@ -1,0 +1,33 @@
+{
+  "name": "webtest-example",
+  "version": "1.0.0",
+  "description": "BDD Automation",
+  "main": "demo-app/index.html",
+  "dependencies": {
+    "http-server": "~0.11.0",
+    "forever": "^1.0.0"
+  },
+  "scripts": {
+    "demo-app": "forever start -s ./node_modules/.bin/http-server ./demo-app -s -p 8082",
+    "start": "npm run demo-app",
+    "stop": "forever stopall",
+    "test-init": "cd ./test-init && chimpy",
+    "test-webpage": "cd ./test-webpage && chimpy",
+    "test-download": "cd ./test-download && chimpy",
+    "test-postman": "cd ./test-postman && chimpy",
+    "test-java": "cd ./test-java && chimpy",
+    "test-demoapp": "cd ./test-demoapp && chimpy",
+    "test": "npm run test-webpage; npm run test-download; npm run test-postman; npm run test-java; npm run test-demoapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xyteam/webtest-example.git"
+  },
+  "keywords": [
+    "AutoBDD",
+    "cucumber"
+  ],
+  "author": "xyteam",
+  "license": "ISC",
+  "devDependencies": {}
+}
