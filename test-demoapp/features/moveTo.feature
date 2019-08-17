@@ -4,7 +4,7 @@ Feature: Test moveTo elements
     with an optional relative X and Y position
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         And   I have a screen that is 1024 by 768 pixels
         When  I scroll to element "#moveTo"
 

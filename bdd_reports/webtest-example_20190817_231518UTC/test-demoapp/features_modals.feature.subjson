@@ -1,0 +1,1033 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the opening, closing and content of modal windows",
+    "elements": [
+      {
+        "id": "test-modals;test-if-alert-is-opened-accepted",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test if alert is opened accepted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 66201219
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a alertbox is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 14389165
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openAlert\"",
+            "result": {
+              "status": "failed",
+              "duration": 18722726,
+              "error_message": "ExpectationFailed: Expected 0 not to be less than 1, 'Element with selector \"#openAlert\" should exist on the page'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toBeLessThan (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/common/checkIfElementExists.js:28:41)\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/action/clickElement.js:23:5)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a alertbox is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that a alertbox contains the text \"I am a alert box!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:177"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I accept the alertbox",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a alertbox is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 111149
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1521648254
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hbGVydF9pc19vcGVuZWRfYWNjZXB0ZWQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYWxlcnRfaXNfb3BlbmVkX2FjY2VwdGVkLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-alert-is-opened-&-dismissed",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test if alert is opened & dismissed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34405979
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a alertbox is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 7977085
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openAlert\"",
+            "result": {
+              "status": "failed",
+              "duration": 16371518,
+              "error_message": "ExpectationFailed: Expected 0 not to be less than 1, 'Element with selector \"#openAlert\" should exist on the page'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toBeLessThan (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/common/checkIfElementExists.js:28:41)\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/action/clickElement.js:23:5)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a alertbox is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I dismiss the alertbox",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a alertbox is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 65461
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1488720313
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hbGVydF9pc19vcGVuZWRfX2Rpc21pc3NlZC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hbGVydF9pc19vcGVuZWRfX2Rpc21pc3NlZC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-confirm-is-canceled",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Test if confirm is canceled",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 33448813
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a confirmbox is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 9625216
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#confirmResult\" not contains any text",
+            "result": {
+              "status": "failed",
+              "duration": 18202776,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#confirmResult\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getAttribute.js:30:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openConfirm\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a confirmbox is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that a alertbox contains the text \"I am a confirm box!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:177"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I dismiss the confirmbox",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a confirmbox is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#confirmResult\" contains the text \"false\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53349
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1549443596
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9jb25maXJtX2lzX2NhbmNlbGVkLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IkZhaWxlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2NvbmZpcm1faXNfY2FuY2VsZWQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-confirm-is-accepted",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Test if confirm is accepted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34674838
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a confirmbox is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 6292329
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#confirmResult\" not contains any text",
+            "result": {
+              "status": "failed",
+              "duration": 13205019,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#confirmResult\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getAttribute.js:30:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openConfirm\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a confirmbox is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I accept the confirmbox",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a confirmbox is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#confirmResult\" contains the text \"true\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 49265
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1466918911
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9jb25maXJtX2lzX2FjY2VwdGVkLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IkZhaWxlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2NvbmZpcm1faXNfYWNjZXB0ZWQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-prompt-is-opened-&-dismissed",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Test if prompt is opened & dismissed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 32921628
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a prompt is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 8119367
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#promptResult\" not contains any text",
+            "result": {
+              "status": "failed",
+              "duration": 19271598,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#promptResult\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getAttribute.js:30:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openPrompt\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that a alertbox contains the text \"I am a prompt!\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:177"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I dismiss the prompt",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#promptResult\" contains the text \"null\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59830
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1538100240
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9wcm9tcHRfaXNfb3BlbmVkX19kaXNtaXNzZWQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfcHJvbXB0X2lzX29wZW5lZF9fZGlzbWlzc2VkLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-prompt-is-accepted",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Test if prompt is accepted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 33664131
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a prompt is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 6386381
+            },
+            "line": 54,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#promptResult\" not contains any text",
+            "result": {
+              "status": "failed",
+              "duration": 11994213,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#promptResult\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getAttribute.js:30:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 55,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openPrompt\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I accept the prompt",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#promptResult\" not contains any text",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:82"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59621
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1459062733
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9wcm9tcHRfaXNfYWNjZXB0ZWQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfcHJvbXB0X2lzX2FjY2VwdGVkLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-modals;test-if-prompt-has-text-entered",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Test if prompt has text entered",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34935184
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "a prompt is not opened",
+            "result": {
+              "status": "passed",
+              "duration": 6358830
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:129"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#promptResult\" not contains any text",
+            "result": {
+              "status": "failed",
+              "duration": 13297778,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#promptResult\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getAttribute.js:30:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#openPrompt\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 65,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"test 1 2 3\" into the prompt",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 67,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I accept the prompt",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 68,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that a prompt is not opened",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 69,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#promptResult\" contains the text \"test 1 2 3\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 67491
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1450317548
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9wcm9tcHRfaGFzX3RleHRfZW50ZXJlZC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9wcm9tcHRfaGFzX3RleHRfZW50ZXJlZC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-modals",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test modals",
+    "tags": [
+      {
+        "name": "@Pending",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/modals.feature"
+  }
+]

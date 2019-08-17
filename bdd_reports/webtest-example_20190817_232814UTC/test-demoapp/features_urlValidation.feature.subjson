@@ -1,0 +1,409 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if the url is a certain value",
+    "elements": [
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-url-should-not-be-http://www.google.com/",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "The url should not be http://www.google.com/",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 286507961
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is not \"http://www.google.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 13430171
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 114809
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1926620452
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3VybF9zaG91bGRfbm90X2JlX2h0dHB3d3dnb29nbGVjb20ucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV91cmxfc2hvdWxkX25vdF9iZV9odHRwd3d3Z29vZ2xlY29tLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-url-should-be-baseurl",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "The url should be baseURL",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 161715405
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 18549965
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 103003
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1498158837
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3VybF9zaG91bGRfYmVfYmFzZVVSTC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3VybF9zaG91bGRfYmVfYmFzZVVSTC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-path-should-not-be-/index.html",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The path should not be /index.html",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 89407570
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the path is not \"/index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 11520440
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:97"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 55948
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1430419541
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3BhdGhfc2hvdWxkX25vdF9iZV9pbmRleGh0bWwucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9wYXRoX3Nob3VsZF9ub3RfYmVfaW5kZXhodG1sLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-path-should-be-/index.html",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The path should be /index.html",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 83169367
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the path is \"/index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 13601938
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:97"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 96840
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1957836891
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3BhdGhfc2hvdWxkX2JlX2luZGV4aHRtbC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3BhdGhfc2hvdWxkX2JlX2luZGV4aHRtbC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-url-should-not-contain-\"google\"",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "The url should not contain \"google\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 142531709
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url to not contain \"google\"",
+            "result": {
+              "status": "passed",
+              "duration": 37908534
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:102"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 106288
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1620336686
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3VybF9zaG91bGRfbm90X2NvbnRhaW5fZ29vZ2xlLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfdXJsX3Nob3VsZF9ub3RfY29udGFpbl9nb29nbGUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-the-url-is-a-certain-value;the-url-should-not-contain-\"index\"",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "The url should not contain \"index\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/index.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 84301354
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url to contain \"index\"",
+            "result": {
+              "status": "passed",
+              "duration": 9221753
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:102"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 117799
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2102455601
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX3VybF9zaG91bGRfbm90X2NvbnRhaW5faW5kZXgucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV91cmxfc2hvdWxkX25vdF9jb250YWluX2luZGV4LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-if-the-url-is-a-certain-value",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test if the url is a certain value",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/urlValidation.feature"
+  }
+]

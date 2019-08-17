@@ -4,7 +4,7 @@ Feature: Test button press
     button is pressed
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         And   I click the "Dropzone" image on the screen
 
     Scenario: Test if element responds to button press

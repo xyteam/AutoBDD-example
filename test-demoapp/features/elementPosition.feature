@@ -3,7 +3,7 @@ Feature: Test the position of a given element
     I want to be able to test if a element has a certain position
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         And   I have a screen that is 800 by 600 pixels
         And   the element "#square100x100" is 100px broad
         And   the element "#square100x100" is 100px tall

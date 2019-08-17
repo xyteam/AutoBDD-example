@@ -4,7 +4,7 @@ Feature: Test select elements
     select element
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Test if we can select the second option of a select element
         Then I expect that element "#selectElementTest option:nth-child(2)" is not selected

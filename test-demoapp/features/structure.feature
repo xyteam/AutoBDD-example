@@ -3,7 +3,7 @@ Feature: Test the page structure
     I want to be able to test if a page has a certain structure
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Test if the page has a H1 I expect its at the top of the page
         Given  there is an element "h1" on the page

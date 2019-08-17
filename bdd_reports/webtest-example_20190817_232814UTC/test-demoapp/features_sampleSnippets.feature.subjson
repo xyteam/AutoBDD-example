@@ -1,0 +1,2641 @@
+[
+  {
+    "description": "    As a developer\n    I should be able to use given text snippets",
+    "elements": [
+      {
+        "id": "sample-snippets-test;open-url",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "open URL",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page url is not \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 14431691
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1679005918
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 13834920
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the url is not \"http://google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 16832501
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 340007
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1749756604
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfb3Blbl9VUkwucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX29wZW5fVVJMLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;open-sub-page-of-weburl",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "open sub page of weburl",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page url is not \"http://webdriverjs.christian-bromann.com/two.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 8258294
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 57795572
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 10662356
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the url is not \"http://google.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 10094509
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 89211
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1613547941
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfb3Blbl9zdWJfcGFnZV9vZl93ZWJ1cmwucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX29wZW5fc3ViX3BhZ2Vfb2Zfd2VidXJsLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;click-on-link",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "click on link",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the title is not \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 10615450
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 61059770
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the link \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 918462691
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the title is \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 14479376
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 48189
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1599253853
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xpY2tfb25fbGluay5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xpY2tfb25fbGluay5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;click-on-button",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "click on button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 47838714
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 83461675
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the button \".btn1\"",
+            "result": {
+              "status": "passed",
+              "duration": 194280987
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".btn1_clicked\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 78207556
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57423
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1486814101
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xpY2tfb25fYnV0dG9uLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9jbGlja19vbl9idXR0b24ucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;double-click-on-a-button",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "double click on a button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 45235768
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1_dblclicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 82611313
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I doubleclick on the element \".btn1\"",
+            "result": {
+              "status": "passed",
+              "duration": 396685744
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".btn1_dblclicked\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 72404339
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 67478
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1535316934
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfZG91YmxlX2NsaWNrX29uX2FfYnV0dG9uLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9kb3VibGVfY2xpY2tfb25fYV9idXR0b24ucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;click-on-element",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "click on element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 55011264
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 86482946
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \".btn1\"",
+            "result": {
+              "status": "passed",
+              "duration": 176180477
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".btn1_clicked\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 71834397
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 52161
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1549272629
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xpY2tfb25fZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xpY2tfb25fZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;add-value-to-an-input-element",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "add value to an input element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 38730608
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" not contains the text \"abc\"",
+            "result": {
+              "status": "passed",
+              "duration": 69028105
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add \"bc\" to the inputfield \"//html/body/section/form/input[1]\"",
+            "result": {
+              "status": "passed",
+              "duration": 70696931
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"//html/body/section/form/input[1]\" contains the text \"abc\"",
+            "result": {
+              "status": "passed",
+              "duration": 61750312
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 96913
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1468988436
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfYWRkX3ZhbHVlX3RvX2FuX2lucHV0X2VsZW1lbnQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX2FkZF92YWx1ZV90b19hbl9pbnB1dF9lbGVtZW50LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;set-value-to-an-input-element",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "set value to an input element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 43751546
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" not contains the text \"bc\"",
+            "result": {
+              "status": "passed",
+              "duration": 81225797
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set \"bc\" to the inputfield \"//html/body/section/form/input[1]\"",
+            "result": {
+              "status": "passed",
+              "duration": 74247287
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"//html/body/section/form/input[1]\" contains the text \"bc\"",
+            "result": {
+              "status": "passed",
+              "duration": 61089737
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 43827
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1493444784
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfc2V0X3ZhbHVlX3RvX2FuX2lucHV0X2VsZW1lbnQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX3NldF92YWx1ZV90b19hbl9pbnB1dF9lbGVtZW50LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;clear-value-of-input-element",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "clear value of input element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 49573144
+            },
+            "line": 55,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set \"test\" to the inputfield \"//html/body/section/form/input[1]\"",
+            "result": {
+              "status": "passed",
+              "duration": 84724206
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clear the inputfield \"//html/body/section/form/input[1]\"",
+            "result": {
+              "status": "passed",
+              "duration": 35138336
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"//html/body/section/form/input[1]\" not contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 44855334
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:82"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 70792
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1506060219
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xlYXJfdmFsdWVfb2ZfaW5wdXRfZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2xlYXJfdmFsdWVfb2ZfaW5wdXRfZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;drag-n-drop",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "drag n drop",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 42192794
+            },
+            "line": 61,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".searchinput\" not contains the text \"Dropped!\"",
+            "result": {
+              "status": "passed",
+              "duration": 76950576
+            },
+            "line": 62,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I drag element \"#overlay\" to element \".red\"",
+            "result": {
+              "status": "passed",
+              "duration": 490122044
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".searchinput\" contains the text \"Dropped!\"",
+            "result": {
+              "status": "passed",
+              "duration": 65787418
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57678
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1458437732
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfZHJhZ19uX2Ryb3AucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX2RyYWdfbl9kcm9wLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;submit-form",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "submit form",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 41018732
+            },
+            "line": 67,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is no element \".gotDataA\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 14085832
+            },
+            "line": 68,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I submit the form \".send\"",
+            "result": {
+              "status": "passed",
+              "duration": 428940049
+            },
+            "line": 69,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".gotDataA\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 79723434
+            },
+            "line": 70,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 40504
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1526877372
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfc3VibWl0X2Zvcm0ucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX3N1Ym1pdF9mb3JtLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;wait-for-element",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "wait for element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 47967318
+            },
+            "line": 73,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is no element \".lateElem\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 20052900
+            },
+            "line": 74,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \".lateElem\" for 5000ms to be visible",
+            "result": {
+              "status": "passed",
+              "duration": 2072154760
+            },
+            "line": 75,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 42140
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1539333486
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfd2FpdF9mb3JfZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfd2FpdF9mb3JfZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;wait-for-element-using-default-wait-time",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "wait for element using default wait time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 40857675
+            },
+            "line": 78,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is no element \".lateElem\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 12654784
+            },
+            "line": 79,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \".lateElem\" to be visible",
+            "result": {
+              "status": "passed",
+              "duration": 2084670527
+            },
+            "line": 80,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 41518
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1483408339
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfd2FpdF9mb3JfZWxlbWVudF91c2luZ19kZWZhdWx0X3dhaXRfdGltZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfd2FpdF9mb3JfZWxlbWVudF91c2luZ19kZWZhdWx0X3dhaXRfdGltZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;pause",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "pause",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 40404167
+            },
+            "line": 83,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is no element \".lateElem\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 13349565
+            },
+            "line": 84,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I pause for 3000ms",
+            "result": {
+              "status": "passed",
+              "duration": 3004693157
+            },
+            "line": 85,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".lateElem\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 80458890
+            },
+            "line": 86,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 39887
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1475806145
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfcGF1c2UucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX3BhdXNlLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;query-title",
+        "keyword": "Scenario",
+        "line": 88,
+        "name": "query title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 44231465
+            },
+            "line": 89,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the title is \"WebdriverJS Testpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 9137475
+            },
+            "line": 90,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the title is not \"Other title\"",
+            "result": {
+              "status": "passed",
+              "duration": 6435835
+            },
+            "line": 91,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the title is \"WebdriverJS Testpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 5765995
+            },
+            "line": 92,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the title is not \"Other title\"",
+            "result": {
+              "status": "passed",
+              "duration": 7017185
+            },
+            "line": 93,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 44987
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1488899427
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfcXVlcnlfdGl0bGUucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX3F1ZXJ5X3RpdGxlLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-visibility",
+        "keyword": "Scenario",
+        "line": 95,
+        "name": "check visibility",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 39310898
+            },
+            "line": 96,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 76895385
+            },
+            "line": 97,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 95909774
+            },
+            "line": 98,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".btn1\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 72983335
+            },
+            "line": 99,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 72749993
+            },
+            "line": 100,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 63311
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1501952972
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfdmlzaWJpbGl0eS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfdmlzaWJpbGl0eS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;compare-texts",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "compare texts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 42100363
+            },
+            "line": 103,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains the same text as element \"#secondPageLink\"",
+            "result": {
+              "status": "passed",
+              "duration": 75578491
+            },
+            "line": 104,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains not the same text as element \"#githubRepo\"",
+            "result": {
+              "status": "passed",
+              "duration": 61608007
+            },
+            "line": 105,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#secondPageLink\" contains the same text as element \"#secondPageLink\"",
+            "result": {
+              "status": "passed",
+              "duration": 48809655
+            },
+            "line": 106,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#secondPageLink\" not contains the same text as element \"#githubRepo\"",
+            "result": {
+              "status": "passed",
+              "duration": 40431699
+            },
+            "line": 107,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 52861
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1481034318
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY29tcGFyZV90ZXh0cy5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY29tcGFyZV90ZXh0cy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-text-content",
+        "keyword": "Scenario",
+        "line": 109,
+        "name": "check text content",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 43941766
+            },
+            "line": 110,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains the text \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 51448712
+            },
+            "line": 111,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" not contains the text \"andere linktext\"",
+            "result": {
+              "status": "passed",
+              "duration": 54531703
+            },
+            "line": 112,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#secondPageLink\" contains the text \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 65708986
+            },
+            "line": 113,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#secondPageLink\" not contains the text \"anderer linktext\"",
+            "result": {
+              "status": "passed",
+              "duration": 67766561
+            },
+            "line": 114,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 77931
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1525123254
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfdGV4dF9jb250ZW50LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9jaGVja190ZXh0X2NvbnRlbnQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-input-content",
+        "keyword": "Scenario",
+        "line": 116,
+        "name": "check input content",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 41619950
+            },
+            "line": 117,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" contains the text \"a\"",
+            "result": {
+              "status": "passed",
+              "duration": 75899265
+            },
+            "line": 118,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" not contains the text \"aa\"",
+            "result": {
+              "status": "passed",
+              "duration": 77605494
+            },
+            "line": 119,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"//html/body/section/form/input[1]\" contains the text \"a\"",
+            "result": {
+              "status": "passed",
+              "duration": 75277256
+            },
+            "line": 120,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"//html/body/section/form/input[1]\" not contains the text \"aa\"",
+            "result": {
+              "status": "passed",
+              "duration": 86043975
+            },
+            "line": 121,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 112786
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1467161583
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfaW5wdXRfY29udGVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfaW5wdXRfY29udGVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-attribut",
+        "keyword": "Scenario",
+        "line": 123,
+        "name": "check attribut",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 41056031
+            },
+            "line": 124,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the attribute \"data-foundby\" from element \"#newWindow\" is \"partial link text\"",
+            "result": {
+              "status": "passed",
+              "duration": 23944180
+            },
+            "line": 125,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the attribute \"data-foundby\" from element \"#newWindow\" is not \"something else\"",
+            "result": {
+              "status": "passed",
+              "duration": 22445365
+            },
+            "line": 126,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the attribute \"data-foundby\" from element \"#newWindow\" is \"partial link text\"",
+            "result": {
+              "status": "passed",
+              "duration": 21446787
+            },
+            "line": 127,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the attribute \"data-foundby\" from element \"#newWindow\" is not \"something else\"",
+            "result": {
+              "status": "passed",
+              "duration": 19621351
+            },
+            "line": 128,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 64101
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1487868627
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfYXR0cmlidXQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX2NoZWNrX2F0dHJpYnV0LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-css-attribut",
+        "keyword": "Scenario",
+        "line": 130,
+        "name": "check css attribut",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 42914535
+            },
+            "line": 131,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the css attribute \"background-color\" from element \".red\" is \"rgba(255,0,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 25790506
+            },
+            "line": 132,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the css attribute \"background-color\" from element \".red\" is not \"rgba(0,255,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 26622617
+            },
+            "line": 133,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"background-color\" from element \".red\" is \"rgba(255,0,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 19142322
+            },
+            "line": 134,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the css attribute \"background-color\" from element \".red\" is not \"rgba(0,255,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 24762441
+            },
+            "line": 135,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 61485
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1460126641
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfY3NzX2F0dHJpYnV0LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9jaGVja19jc3NfYXR0cmlidXQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-width-and-height",
+        "keyword": "Scenario",
+        "line": 137,
+        "name": "check width and height",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 47189293
+            },
+            "line": 138,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is 102px broad",
+            "result": {
+              "status": "passed",
+              "duration": 20134321
+            },
+            "line": 139,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is 102px tall",
+            "result": {
+              "status": "passed",
+              "duration": 24475316
+            },
+            "line": 140,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not 103px broad",
+            "result": {
+              "status": "passed",
+              "duration": 24906217
+            },
+            "line": 141,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not 103px tall",
+            "result": {
+              "status": "passed",
+              "duration": 25271377
+            },
+            "line": 142,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".red\" is 102px broad",
+            "result": {
+              "status": "passed",
+              "duration": 24311046
+            },
+            "line": 143,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is 102px tall",
+            "result": {
+              "status": "passed",
+              "duration": 23013343
+            },
+            "line": 144,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is not 103px broad",
+            "result": {
+              "status": "passed",
+              "duration": 21418278
+            },
+            "line": 145,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is not 103px tall",
+            "result": {
+              "status": "passed",
+              "duration": 19672178
+            },
+            "line": 146,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50274
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1482981405
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfd2lkdGhfYW5kX2hlaWdodC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfd2lkdGhfYW5kX2hlaWdodC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-offset",
+        "keyword": "Scenario",
+        "line": 150,
+        "name": "check offset",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 41267881
+            },
+            "line": 151,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is positioned at 15px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 20816440
+            },
+            "line": 152,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:114"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is positioned at 242px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 20373275
+            },
+            "line": 153,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:114"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not positioned at 16px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 26979488
+            },
+            "line": 154,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:114"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not positioned at 243px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 26410413
+            },
+            "line": 155,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:114"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".red\" is positioned at 15px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 22165667
+            },
+            "line": 156,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is positioned at 242px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 25853787
+            },
+            "line": 157,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is not positioned at 16px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 22023428
+            },
+            "line": 158,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".red\" is not positioned at 243px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 26791433
+            },
+            "line": 159,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66623
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1488523801
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfb2Zmc2V0LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9jaGVja19vZmZzZXQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 149
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;check-selected",
+        "keyword": "Scenario",
+        "line": 161,
+        "name": "check selected",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 42748285
+            },
+            "line": 162,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the checkbox \".checkbox_notselected\" is not checked",
+            "result": {
+              "status": "passed",
+              "duration": 24867961
+            },
+            "line": 163,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \".checkbox_notselected\"",
+            "result": {
+              "status": "passed",
+              "duration": 183861118
+            },
+            "line": 164,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that checkbox \".checkbox_notselected\" is checked",
+            "result": {
+              "status": "passed",
+              "duration": 20637885
+            },
+            "line": 165,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:117"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 34718
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1458310456
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfY2hlY2tfc2VsZWN0ZWQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX2NoZWNrX3NlbGVjdGVkLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;set-/-read-cookie",
+        "keyword": "Scenario",
+        "line": 169,
+        "name": "set / read cookie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 38306707
+            },
+            "line": 170,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the cookie \"test\" does not exist",
+            "result": {
+              "status": "passed",
+              "duration": 7793432
+            },
+            "line": 171,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set a cookie \"test\" with the content \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 7869099
+            },
+            "line": 172,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test\" exists",
+            "result": {
+              "status": "passed",
+              "duration": 6643133
+            },
+            "line": 173,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that cookie \"test\" contains \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 7145133
+            },
+            "line": 174,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that cookie \"test\" not contains \"test1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 6163354
+            },
+            "line": 175,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 40250
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1514734153
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfc2V0X19yZWFkX2Nvb2tpZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfc2V0X19yZWFkX2Nvb2tpZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 168
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test;delete-cookie",
+        "keyword": "Scenario",
+        "line": 179,
+        "name": "delete cookie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 44197671
+            },
+            "line": 180,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the cookie \"test\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 6902906
+            },
+            "line": 181,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:104"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete the cookie \"test\"",
+            "result": {
+              "status": "passed",
+              "duration": 8763325
+            },
+            "line": 182,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test\" not exists",
+            "result": {
+              "status": "passed",
+              "duration": 5198347
+            },
+            "line": 183,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 32623
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1468494488
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfZGVsZXRlX2Nvb2tpZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfZGVsZXRlX2Nvb2tpZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 178
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-snippets-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Sample Snippets test",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/sampleSnippets.feature"
+  }
+]

@@ -3,7 +3,7 @@ Feature: Test the existens and content of cookies
     I want to be able to test the existence and/or the content of cookies
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         And   I pause for 500ms
 
     Scenario: The cookie "test" should exist

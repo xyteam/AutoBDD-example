@@ -3,7 +3,7 @@ Feature: Test the selected state of a checkbox
     I want to be able to test the selected state of a checkbox
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: The checkbox should not be selected by default
         Then  I expect that checkbox "#checkbox" is not checked

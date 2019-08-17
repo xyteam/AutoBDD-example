@@ -1,0 +1,575 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the existence and/or the content of cookies",
+    "elements": [
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-exist",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "The cookie \"test\" should exist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 64837467
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 501937529
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test\" exists",
+            "result": {
+              "status": "failed",
+              "duration": 9916453,
+              "error_message": "ExpectationFailed: Expected null not to equal null, 'Expected cookie \"test\" to exists but it does not'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toEqual (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkCookieExists.js:20:28)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 105999
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1524980422
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9leGlzdC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9leGlzdC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test2\"-should-not-exist",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "The cookie \"test2\" should not exist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 36385030
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 502410241
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the cookie \"test\" contains the value \"yumyum\"",
+            "result": {
+              "status": "failed",
+              "duration": 16505814,
+              "error_message": "TypeError: Cannot read property 'name' of null\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkCookieContent.js:15:19)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test2\" not exists",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59880
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1494391561
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0Ml9zaG91bGRfbm90X2V4aXN0LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IkZhaWxlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QyX3Nob3VsZF9ub3RfZXhpc3QucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-contain-the-value-\"yumyum\"",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The cookie \"test\" should contain the value \"yumyum\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34851101
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 504795865
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the cookie \"test\" contains not the value \"out of date\"",
+            "result": {
+              "status": "failed",
+              "duration": 11107421,
+              "error_message": "TypeError: Cannot read property 'name' of null\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkCookieContent.js:15:19)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test\" contains \"yumyum\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 44672
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1470317070
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0ucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-not-contain-the-value-\"out-of-date\"",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "The cookie \"test\" should not contain the value \"out of date\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 36459375
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 501487778
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test\" not contains \"out of date\"",
+            "result": {
+              "status": "failed",
+              "duration": 7958544,
+              "error_message": "TypeError: Cannot read property 'name' of null\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkCookieContent.js:15:19)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 44211
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1448652932
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9ub3RfY29udGFpbl90aGVfdmFsdWVfb3V0X29mX2RhdGUucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfbm90X2NvbnRhaW5fdGhlX3ZhbHVlX291dF9vZl9kYXRlLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test3\"-should-be-created",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "The cookie \"test3\" should be created",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34304684
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 501410552
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set a cookie \"test3\" with the content \"more cookies\"",
+            "result": {
+              "status": "failed",
+              "duration": 19607665,
+              "error_message": "Error: unable to set cookie\n    at new RuntimeError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:143:12)\n    at Request._callback (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/RequestHandler.js:318:39)\n    at Request.self.callback (/home/xywang68/Projects/AutoBDD/node_modules/request/request.js:185:22)\n    at Request.emit (events.js:198:13)\n    at Request.EventEmitter.emit (domain.js:448:20)\n    at Request.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/request/request.js:1161:10)\n    at Request.emit (events.js:198:13)\n    at Request.EventEmitter.emit (domain.js:448:20)\n    at IncomingMessage.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/request/request.js:1083:12)\n    at Object.onceWrapper (events.js:286:20)\n    at IncomingMessage.emit (events.js:203:15)\n    at IncomingMessage.EventEmitter.emit (domain.js:448:20)\n    at endReadableNT (_stream_readable.js:1145:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)"
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test3\" exists",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that cookie \"test3\" contains \"more cookies\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 91532
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1497261723
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfY3JlYXRlZC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfY3JlYXRlZC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test3\"-should-be-deletable",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The cookie \"test3\" should be deletable",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 31508019
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 500913403
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test3\" exists",
+            "result": {
+              "status": "failed",
+              "duration": 13040869,
+              "error_message": "ExpectationFailed: Expected null not to equal null, 'Expected cookie \"test3\" to exists but it does not'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toEqual (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkCookieExists.js:20:28)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete the cookie \"test3\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that cookie \"test3\" not exists",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 60966
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1454079191
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfZGVsZXRhYmxlLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IkZhaWxlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9kZWxldGFibGUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 33
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-existens-and-content-of-cookies",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test the existens and content of cookies",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/cookie.feature"
+  }
+]

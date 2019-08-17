@@ -3,7 +3,7 @@ Feature: Test the attributes of a given element
     I want to be able to test the attributes of a given element
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: The attribute "role" of a element should be "note"
         Then  I expect that the attribute "role" from element "#attributeComparison" is "note"

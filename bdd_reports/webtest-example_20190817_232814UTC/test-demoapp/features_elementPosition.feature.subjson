@@ -1,0 +1,491 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a element has a certain position",
+    "elements": [
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-at-xx-pixels-on-the-x-axis",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "The element #square100x100 is at XX pixels on the X axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 385431442
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 117071088
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 73659491
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 41735649
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 57834782
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is positioned at 28.5px on the x axis",
+            "result": {
+              "status": "failed",
+              "duration": 50162505,
+              "error_message": "ExpectationFailed: Expected 32.5 to equal 28.5.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toEqual (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.module.exports (/home/xywang68/Projects/AutoBDD/framework/functions/check/checkOffset.js:29:26)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 122210
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2032988495
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1hfYXhpcy5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfI3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-at-xx-pixels-on-the-y-axis",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The element #square100x100 is at XX pixels on the Y axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 122393822
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 114592001
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 35812017
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 39060869
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 47840667
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is positioned at 1084px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 31809247
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80813
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1710452516
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1lfYXhpcy5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfI3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pending",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-not-at-yy-pixels-on-the-x-axis",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "The element #square100x100 is not at YY pixels on the X axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 110166470
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 111623689
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 24639195
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 20556791
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 27278950
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is not positioned at 101px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 22036789
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50168
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1506570369
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50XyNzcXVhcmUxMDB4MTAwX2lzX25vdF9hdF9ZWV9waXhlbHNfb25fdGhlX1hfYXhpcy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-not-at-yy-pixels-on-the-y-axis",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "The element #square100x100 is not at YY pixels on the y axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 89481698
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 112924981
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:119"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 30667168
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 51009246
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 42688333
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is not positioned at 99px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 26405195
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 81090
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1708499674
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50XyNzcXVhcmUxMDB4MTAwX2lzX25vdF9hdF9ZWV9waXhlbHNfb25fdGhlX3lfYXhpcy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-position-of-a-given-element",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test the position of a given element",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementPosition.feature"
+  }
+]

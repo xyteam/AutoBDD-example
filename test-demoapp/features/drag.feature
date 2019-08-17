@@ -3,7 +3,7 @@ Feature: Test draggable elements
     I want to be able to test a given draggable element
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         And   I have a screen that is 1024 by 768 pixels
         And   I scroll to element "head"
         And   I expect that element "#draggable" is visible

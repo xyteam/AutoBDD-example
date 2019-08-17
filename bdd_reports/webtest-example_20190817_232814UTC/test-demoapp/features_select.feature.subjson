@@ -1,0 +1,1038 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a certain value is selected for a certain\n    select element",
+    "elements": [
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-second-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test if we can select the second option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 326716083
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 35560056
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 1st option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 96849258
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 54168679
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 126684
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1568960640
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-third-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test if we can select the third option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109871448
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 30797274
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 2nd option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 61563376
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 25107294
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 74728
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1435000819
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV90aGlyZF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV90aGlyZF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-fourth-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Test if we can select the fourth option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 82522372
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 39402863
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 3th option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 56526408
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 22542647
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 86290
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1381759742
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-first-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Test if we can select the first option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 62534814
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 1st option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 52650531
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(1)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 32086532
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 0th option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 53445594
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(1)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23751869
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 68363
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1335008934
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9maXJzdF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9maXJzdF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-name",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Test if we can select a option by its name",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 61128119
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 25776161
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the name \"secondOption\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 65272884
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23134630
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 63745
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1401739141
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-value",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Test if we can select a option by its value",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 72082535
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 26562521
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the value \"third\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 61865791
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23144771
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 63475
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1358175741
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-visible-text",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Test if we can select a option by its visible text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 73972109
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 31725994
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the text \"Option #4\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 58615815
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23244757
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80077
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1419626419
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-value-using-xpath-selectors-only",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Test if we can select a option by its value using XPath selectors only",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 61269296
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 26746694
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the value \"second\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 51012160
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 20718446
+            },
+            "line": 48,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 45233
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1349123671
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZV91c2luZ19YUGF0aF9zZWxlY3RvcnNfb25seS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZV91c2luZ19YUGF0aF9zZWxlY3RvcnNfb25seS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-index-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Test if we can select a option by its index using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 60119492
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 22704499
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 3rd option for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 47769407
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:115"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 21630573
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57011
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1384338670
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-visible-text-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Test if we can select a option by its visible text using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 72338096
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 25506833
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the text \"Option #3\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 57707967
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 21811218
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 68565
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1317333549
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHRfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3Zpc2libGVfdGV4dF91c2luZ19YUGF0aF9zZWxlY3RvcnMucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-name-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Test if we can select a option by its name using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 66466808
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 35398664
+            },
+            "line": 61,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the name \"secondOption\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 57339821
+            },
+            "line": 62,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 21636553
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 48207
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1378912912
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lX3VzaW5nX1hQYXRoX3NlbGVjdG9ycy5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lX3VzaW5nX1hQYXRoX3NlbGVjdG9ycy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-select-elements",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test select elements",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/select.feature"
+  }
+]

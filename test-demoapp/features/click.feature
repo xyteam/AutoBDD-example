@@ -3,7 +3,7 @@ Feature: Test how clicks are handled on a certain element
     I want to be able to test how (double) clicks are handled by certain elements
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Single click on a link should navigate to another page
         When  I click on the link "Navigate to example.com"

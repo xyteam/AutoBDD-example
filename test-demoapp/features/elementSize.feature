@@ -3,7 +3,7 @@ Feature: Test the width and height of a given element
     I want to be able to test if a element has a certain width and/or height
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: The element #square100x100 whould have a width of 100px
         Then  I expect that element "#square100x100" is 100px broad

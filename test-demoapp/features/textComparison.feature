@@ -4,7 +4,7 @@ Feature: Test text contents of elements
     another element
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Elements containing different text
         Then  I expect that element "#textComparison1" not contains the same text as element "#textComparison2"

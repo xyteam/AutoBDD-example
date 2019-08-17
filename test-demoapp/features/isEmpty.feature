@@ -3,7 +3,7 @@ Feature: Test input fields on a page
     I want to be able to test input fields on a certain page
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
         Then  I expect that element "#testInput" is empty
 
     Scenario: Set the content of a input field

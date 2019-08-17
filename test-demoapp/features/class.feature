@@ -5,7 +5,7 @@ Feature: Test if a given element has a certain CSS class
     I want to be able to test if a element has a certain CSS class
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Element #classTest should have the class "class1"
         Then  I expect that element "#classTest" has the class "class1"

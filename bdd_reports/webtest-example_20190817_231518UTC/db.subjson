@@ -1,0 +1,534 @@
+{
+    "checkbox-Test the selected state of a checkbox": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The checkbox should not be selected by default", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/checkbox.feature", 
+            "feature": "checkbox-Test the selected state of a checkbox", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_checkbox.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "elementPosition-Test the position of a given element": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The element #square100x100 is at XX pixels on the X axis", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementPosition.feature", 
+            "feature": "elementPosition-Test the position of a given element", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_elementPosition.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "title-Test the page title": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if the demo app has the title \"DEMO APP\"", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/title.feature", 
+            "feature": "title-Test the page title", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_title.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "isExisting-Github test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "open URL", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/isExisting.feature", 
+            "feature": "isExisting-Github test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_isExisting.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "githubSearch-Github test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "open URL", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/githubSearch.feature", 
+            "feature": "githubSearch-Github test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_githubSearch.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "test_init-test init": {
+        "1": {
+            "status": "runned", 
+            "scenario": "download drivers", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-init/features/test_init.feature", 
+            "feature": "test_init-test init", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-init/features_test_init.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "JavaTest_Login-Login": {
+        "1": {
+            "status": "runned", 
+            "scenario": "I login with valid credential", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-java/features/JavaTest_Login.feature", 
+            "feature": "JavaTest_Login-Login", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-java/features_JavaTest_Login.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "dropdown_list-dropdown list": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Click Drop-Down List - by webelement", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/features/dropdown_list.feature", 
+            "feature": "dropdown_list-dropdown list", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-webpage/features_dropdown_list.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "window-Test if new windows/tabs are being opened": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if a new window/tab is not being opened", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/window.feature", 
+            "feature": "window-Test if new windows/tabs are being opened", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_window.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "postman_collection-postman collection": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Run postman collection test - in newman commandline", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-postman/features/postman_collection.feature", 
+            "feature": "postman_collection-postman collection", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-postman/features_postman_collection.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "focus-Test the focus state of a given element": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The element #textinput should not have the focus by default", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/focus.feature", 
+            "feature": "focus-Test the focus state of a given element", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_focus.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "click-Test how clicks are handled on a certain element": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Single click on a link should navigate to another page", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/click.feature", 
+            "feature": "click-Test how clicks are handled on a certain element", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_click.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "pending-Pending scenario": {
+        "1": {
+            "status": "runned", 
+            "scenario": "do somethimg", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/pending.feature", 
+            "feature": "pending-Pending scenario", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_pending.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "elementSize-Test the width and height of a given element": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The element #square100x100 whould have a width of 100px", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementSize.feature", 
+            "feature": "elementSize-Test the width and height of a given element", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_elementSize.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "inputfield-Test input fields on a page": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Set the content of a input field", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/inputfield.feature", 
+            "feature": "inputfield-Test input fields on a page", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_inputfield.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "checkTitle-Local server test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Is not Google", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/checkTitle.feature", 
+            "feature": "checkTitle-Local server test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_checkTitle.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "form-Test form submission": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if a message is shown when the form is submitted", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/form.feature", 
+            "feature": "form-Test form submission", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_form.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "urlValidation-Test if the url is a certain value": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The url should not be http://www.google.com/", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/urlValidation.feature", 
+            "feature": "urlValidation-Test if the url is a certain value", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_urlValidation.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "buttonPress-Test button press": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if element responds to button press", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/buttonPress.feature", 
+            "feature": "buttonPress-Test button press", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_buttonPress.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "elementVisibility-Test visibility of elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Invisible elements to be invisible", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementVisibility.feature", 
+            "feature": "elementVisibility-Test visibility of elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_elementVisibility.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "drag-Test draggable elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Drag to dropzone", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/drag.feature", 
+            "feature": "drag-Test draggable elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_drag.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "cookie-Test the existens and content of cookies": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The cookie \"test\" should exist", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/cookie.feature", 
+            "feature": "cookie-Test the existens and content of cookies", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_cookie.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "file_download-file download": {
+        "1": {
+            "status": "runned", 
+            "scenario": "File Open and Download - check PDF file", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-download/features/file_download.feature", 
+            "feature": "file_download-file download", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-download/features_file_download.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "textComparison-Test text contents of elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Elements containing different text", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/textComparison.feature", 
+            "feature": "textComparison-Test text contents of elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_textComparison.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "bestvpn_html5demos_page_drag_and_drop_by_image-bestvpn html5demos page - drag and drop page by image": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test bestvpn html5demos page - drag and drop page by image", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/features/bestvpn_html5demos_page_drag_and_drop_by_image.feature", 
+            "feature": "bestvpn_html5demos_page_drag_and_drop_by_image-bestvpn html5demos page - drag and drop page by image", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-webpage/features_bestvpn_html5demos_page_drag_and_drop_by_image.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "attribute-Test the attributes of a given element": {
+        "1": {
+            "status": "runned", 
+            "scenario": "The attribute \"role\" of a element should be \"note\"", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/attribute.feature", 
+            "feature": "attribute-Test the attributes of a given element", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_attribute.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "demoapp_drag_and_drop-demoapp drag and drop": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Drag to dropzone - by webelement", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/features/demoapp_drag_and_drop.feature", 
+            "feature": "demoapp_drag_and_drop-demoapp drag and drop", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-webpage/features_demoapp_drag_and_drop.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "modals-Test modals": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if alert is opened accepted", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/modals.feature", 
+            "feature": "modals-Test modals", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_modals.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "withinViewport-Viewport test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Header in viewport, footer outside viewport", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/withinViewport.feature", 
+            "feature": "withinViewport-Viewport test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_withinViewport.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "moveTo-Test moveTo elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Move to just the element", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/moveTo.feature", 
+            "feature": "moveTo-Test moveTo elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_moveTo.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "structure-Test the page structure": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if the page has a H1 I expect its at the top of the page", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/structure.feature", 
+            "feature": "structure-Test the page structure", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_structure.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "wait-Test waiting for actions": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if element becomes checked after 2000 ms", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/wait.feature", 
+            "feature": "wait-Test waiting for actions", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_wait.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "githubLogin-Github test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "login with fake credentials", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/githubLogin.feature", 
+            "feature": "githubLogin-Github test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_githubLogin.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "elementExistence-Test existence of elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "None existing element check", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementExistence.feature", 
+            "feature": "elementExistence-Test existence of elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_elementExistence.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "sampleSnippets-Sample Snippets test": {
+        "1": {
+            "status": "runned", 
+            "scenario": "open URL", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/sampleSnippets.feature", 
+            "feature": "sampleSnippets-Sample Snippets test", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_sampleSnippets.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "select-Test select elements": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Test if we can select the second option of a select element", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/select.feature", 
+            "feature": "select-Test select elements", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_select.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "class-Test if a given element has a certain CSS class": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Element #classTest should have the class \"class1\"", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/class.feature", 
+            "feature": "class-Test if a given element has a certain CSS class", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_class.feature.subjson", 
+            "browser": "CH"
+        }
+    }, 
+    "isEmpty-Test input fields on a page": {
+        "1": {
+            "status": "runned", 
+            "scenario": "Set the content of a input field", 
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/isEmpty.feature", 
+            "feature": "isEmpty-Test input fields on a page", 
+            "platform": "Linux", 
+            "HOST": "default", 
+            "SSHPORT": "default", 
+            "line": 0, 
+            "run_feature": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190817_231518UTC/test-demoapp/features_isEmpty.feature.subjson", 
+            "browser": "CH"
+        }
+    }
+}

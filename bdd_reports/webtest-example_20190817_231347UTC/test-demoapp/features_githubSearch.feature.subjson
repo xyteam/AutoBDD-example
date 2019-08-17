@@ -1,0 +1,275 @@
+[
+  {
+    "description": "    As a Developer in Test\n    I want to search for webdriverio repository\n    So that I can use it in my future tests",
+    "elements": [
+      {
+        "id": "github-test;open-url",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "open URL",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://github.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 948230338
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url to contain \"github.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 18582266
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:102"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the title is \"The world’s leading software development platform · GitHub\"",
+            "result": {
+              "status": "passed",
+              "duration": 15951716
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 169752
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1675059941
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfb3Blbl9VUkwucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX29wZW5fVVJMLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "github-test;search-for-webdriverio-repository",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "search for webdriverio repository",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://github.com/search\"",
+            "result": {
+              "status": "passed",
+              "duration": 333584101
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I clear the inputfield \"[placeholder='Search GitHub']\"",
+            "result": {
+              "status": "passed",
+              "duration": 61586418
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"[placeholder='Search GitHub']\" not contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 76451476
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the element \"[placeholder='Search GitHub']\"",
+            "result": {
+              "status": "passed",
+              "duration": 231534017
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add \"webdriverio\" to the inputfield \"[placeholder='Search GitHub']\"",
+            "result": {
+              "status": "passed",
+              "duration": 142237585
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add \" \" to the inputfield \"[placeholder='Search GitHub']\"",
+            "result": {
+              "status": "passed",
+              "duration": 64992368
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add \"selenium\" to the inputfield \"[placeholder='Search GitHub']\"",
+            "result": {
+              "status": "passed",
+              "duration": 74666872
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"[placeholder='Search GitHub']\" contains the text \"webdriverio selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 102604107
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"button=Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 1103481168
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \".repo-list-item:first-child\" contains the text \"webdriverio\"",
+            "result": {
+              "status": "passed",
+              "duration": 109445435
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \".repo-list-item:first-child\" contains the text \"selenium\"",
+            "result": {
+              "status": "passed",
+              "duration": 109173112
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:77"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 78951
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1566726214
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfc2VhcmNoX2Zvcl93ZWJkcml2ZXJpb19yZXBvc2l0b3J5LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9zZWFyY2hfZm9yX3dlYmRyaXZlcmlvX3JlcG9zaXRvcnkucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "github-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Github test",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/githubSearch.feature"
+  }
+]

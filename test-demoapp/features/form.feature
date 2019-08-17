@@ -3,7 +3,7 @@ Feature: Test form submission
     I want to be able to test form submission
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Test if a message is shown when the form is submitted
         Given the element "#formSubmitTest .message" is not visible

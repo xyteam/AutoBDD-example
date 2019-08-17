@@ -1,0 +1,231 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to try out dropdown list automation:\n    1. click page elements\n    2. click page images",
+    "elements": [
+      {
+        "id": "dropdown-list;click-drop-down-list---by-webelement",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Click Drop-Down List - by webelement",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the url \"http://localhost:8082\"",
+            "result": {
+              "status": "passed",
+              "duration": 157173428
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the page title to contain \"demo app\"",
+            "result": {
+              "status": "failed",
+              "duration": 19985788,
+              "error_message": "ExpectationFailed: Expected 'localhost' to contain 'demo app'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toContain (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.<anonymous> (/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_page_title_to_contain_X.js:3:46)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_page_title_to_contain_X.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"footer\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"Option #1\" option on the page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_X_on_the_page.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"Option #1\" option on the page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_click_the_X_X_on_the_page.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"Option #2\" option on the page",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_X_on_the_page.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 188327
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1830444638
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9GYWlsZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfQ2xpY2tfRHJvcERvd25fTGlzdF9fYnlfd2ViZWxlbWVudC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfQ2xpY2tfRHJvcERvd25fTGlzdF9fYnlfd2ViZWxlbWVudC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "dropdown-list;click-drop-down-list---by-image",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Click Drop-Down List - by image",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://localhost:8082\"",
+            "result": {
+              "status": "passed",
+              "duration": 78941917
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to element \"footer\"",
+            "result": {
+              "status": "failed",
+              "duration": 43779508,
+              "error_message": "Error: An element could not be located on the page using the given search parameters.\n    at new RuntimeError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:143:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/scroll.js:99:23)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:95"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"First_option\" image on the screen",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"First_option\" image on the screen",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_click_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"First_option_Opened\" image on the screen",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 86620
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1791765499
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9GYWlsZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfQ2xpY2tfRHJvcERvd25fTGlzdF9fYnlfaW1hZ2UucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iRmFpbGVkX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX0NsaWNrX0Ryb3BEb3duX0xpc3RfX2J5X2ltYWdlLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dropdown-list",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "dropdown list",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-webpage/features/dropdown_list.feature"
+  }
+]

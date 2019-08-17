@@ -3,7 +3,7 @@ Feature: Test the page title
     I want to be able to test if a page has a certain title
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Test if the demo app has the title "DEMO APP"
         Given the title is "DEMO APP"

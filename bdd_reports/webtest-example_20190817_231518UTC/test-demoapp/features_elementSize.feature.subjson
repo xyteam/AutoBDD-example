@@ -1,0 +1,281 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a element has a certain width and/or height",
+    "elements": [
+      {
+        "id": "test-the-width-and-height-of-a-given-element;the-element-#square100x100-whould-have-a-width-of-100px",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "The element #square100x100 whould have a width of 100px",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 73603833
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "failed",
+              "duration": 21012029,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#square100x100\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getElementSize.js:25:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 109815
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1619106600
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF93aG91bGRfaGF2ZV9hX3dpZHRoX29mXzEwMHB4LnBuZyJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IkZhaWxlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF8jc3F1YXJlMTAweDEwMF93aG91bGRfaGF2ZV9hX3dpZHRoX29mXzEwMHB4LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-width-and-height-of-a-given-element;the-element-#square100x100-whould-have-a-height-of-100px",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "The element #square100x100 whould have a height of 100px",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 38017339
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "failed",
+              "duration": 16968094,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#square100x100\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getElementSize.js:25:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53277
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1499379923
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF93aG91bGRfaGF2ZV9hX2hlaWdodF9vZl8xMDBweC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfI3NxdWFyZTEwMHgxMDBfd2hvdWxkX2hhdmVfYV9oZWlnaHRfb2ZfMTAwcHgucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-width-and-height-of-a-given-element;the-element-#square100x100-whould-not-have-a-width-of-101px",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "The element #square100x100 whould not have a width of 101px",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 37357296
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is not 101px broad",
+            "result": {
+              "status": "failed",
+              "duration": 14079044,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#square100x100\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getElementSize.js:25:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 49668
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1465309073
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF93aG91bGRfbm90X2hhdmVfYV93aWR0aF9vZl8xMDFweC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfI3NxdWFyZTEwMHgxMDBfd2hvdWxkX25vdF9oYXZlX2Ffd2lkdGhfb2ZfMTAxcHgucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-width-and-height-of-a-given-element;the-element-#square100x100-whould-not-have-a-height-of-99px",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The element #square100x100 whould not have a height of 99px",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 34318564
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#square100x100\" is not 99px tall",
+            "result": {
+              "status": "failed",
+              "duration": 13097667,
+              "error_message": "Error: An element could not be located on the page using the given search parameters (\"#square100x100\").\n    at new CommandError (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/utils/ErrorHandler.js:137:12)\n    at Object.<anonymous> (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/commands/getElementSize.js:25:19)\n    at Object.exec (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/helpers/safeExecute.js:28:24)\n    at Object.resolve (/home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:190:29)\n    at /home/xywang68/Projects/AutoBDD/node_modules/webdriverio/build/lib/webdriverio.js:539:32\n    at _fulfilled (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:854:54)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:883:30\n    at Promise.promise.promiseDispatch (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:816:13)\n    at /home/xywang68/Projects/AutoBDD/node_modules/q/q.js:624:44\n    at runSingle (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:137:13)\n    at flush (/home/xywang68/Projects/AutoBDD/node_modules/q/q.js:125:13)\n    at process._tickCallback (internal/process/next_tick.js:61:11)"
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:142"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 45694
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1463804373
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9GYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfJTIzc3F1YXJlMTAweDEwMF93aG91bGRfbm90X2hhdmVfYV9oZWlnaHRfb2ZfOTlweC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfI3NxdWFyZTEwMHgxMDBfd2hvdWxkX25vdF9oYXZlX2FfaGVpZ2h0X29mXzk5cHgucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-width-and-height-of-a-given-element",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test the width and height of a given element",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/elementSize.feature"
+  }
+]

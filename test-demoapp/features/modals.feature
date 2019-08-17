@@ -4,7 +4,7 @@ Feature: Test modals
     I want to be able to test the opening, closing and content of modal windows
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: Test if alert is opened accepted
         Given a alertbox is not opened

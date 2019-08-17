@@ -1,0 +1,409 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the attributes of a given element",
+    "elements": [
+      {
+        "id": "test-the-attributes-of-a-given-element;the-attribute-\"role\"-of-a-element-should-be-\"note\"",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "The attribute \"role\" of a element should be \"note\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 317903676
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the attribute \"role\" from element \"#attributeComparison\" is \"note\"",
+            "result": {
+              "status": "passed",
+              "duration": 58111643
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 193753
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1925531055
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2F0dHJpYnV0ZV9yb2xlX29mX2FfZWxlbWVudF9zaG91bGRfYmVfbm90ZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2F0dHJpYnV0ZV9yb2xlX29mX2FfZWxlbWVudF9zaG91bGRfYmVfbm90ZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-attributes-of-a-given-element;the-attribute-\"role\"-of-a-element-should-not-be-\"main\"",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "The attribute \"role\" of a element should not be \"main\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 110061613
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the attribute \"role\" from element \"#attributeComparison\" is not \"main\"",
+            "result": {
+              "status": "passed",
+              "duration": 34013198
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 78880
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1473324212
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2F0dHJpYnV0ZV9yb2xlX29mX2FfZWxlbWVudF9zaG91bGRfbm90X2JlX21haW4ucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9hdHRyaWJ1dGVfcm9sZV9vZl9hX2VsZW1lbnRfc2hvdWxkX25vdF9iZV9tYWluLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-attributes-of-a-given-element;the-css-attribute-\"color\"-of-a-element-should-be-\"red\"",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "The CSS attribute \"color\" of a element should be \"red\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 499200743
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"color\" from element \"#cssAttributeComparison\" is \"rgba(255,0,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 37678667
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57692
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1488688950
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX0NTU19hdHRyaWJ1dGVfY29sb3Jfb2ZfYV9lbGVtZW50X3Nob3VsZF9iZV9yZWQucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9DU1NfYXR0cmlidXRlX2NvbG9yX29mX2FfZWxlbWVudF9zaG91bGRfYmVfcmVkLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-attributes-of-a-given-element;the-css-attribute-\"color\"-of-a-element-should-not-be-\"blue\"",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The CSS attribute \"color\" of a element should not be \"blue\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 84723012
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"color\" from element \"#cssAttributeComparison\" is not \" rgba(0,255,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 40728171
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83454
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1471364729
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX0NTU19hdHRyaWJ1dGVfY29sb3Jfb2ZfYV9lbGVtZW50X3Nob3VsZF9ub3RfYmVfYmx1ZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX0NTU19hdHRyaWJ1dGVfY29sb3Jfb2ZfYV9lbGVtZW50X3Nob3VsZF9ub3RfYmVfYmx1ZS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-attributes-of-a-given-element;the-(missing)-css-attribute-\"border\"-of-a-element-should-not-be-\"0\"",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "The (missing) CSS attribute \"border\" of a element should not be \"0\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 86328242
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"border\" from element \"#cssAttributeComparison\" is not \"0\"",
+            "result": {
+              "status": "passed",
+              "duration": 41023318
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 78281
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1445190492
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX21pc3NpbmdfQ1NTX2F0dHJpYnV0ZV9ib3JkZXJfb2ZfYV9lbGVtZW50X3Nob3VsZF9ub3RfYmVfMC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX21pc3NpbmdfQ1NTX2F0dHJpYnV0ZV9ib3JkZXJfb2ZfYV9lbGVtZW50X3Nob3VsZF9ub3RfYmVfMC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-attributes-of-a-given-element;the-css-attribute-\"font-weight\"-of-a-element-should-be-\"700\"",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "The CSS attribute \"font-weight\" of a element should be \"700\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 83716334
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"font-weight\" from element \"#cssAttributeComparison\" is \"700\"",
+            "result": {
+              "status": "passed",
+              "duration": 42521739
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:107"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 76805
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1455281829
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX0NTU19hdHRyaWJ1dGVfZm9udHdlaWdodF9vZl9hX2VsZW1lbnRfc2hvdWxkX2JlXzcwMC5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX0NTU19hdHRyaWJ1dGVfZm9udHdlaWdodF9vZl9hX2VsZW1lbnRfc2hvdWxkX2JlXzcwMC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-attributes-of-a-given-element",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test the attributes of a given element",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/attribute.feature"
+  }
+]

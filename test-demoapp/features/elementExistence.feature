@@ -3,7 +3,7 @@ Feature: Test existence of elements
     I want to be able to test the existence of a element
 
     Background:
-        Given I open the site "/"
+        Given I open the path "/"
 
     Scenario: None existing element check
         Then  I expect that element "#noneExisting" does not exist
