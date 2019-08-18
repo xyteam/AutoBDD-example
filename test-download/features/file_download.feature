@@ -7,6 +7,7 @@ Feature: file download
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
     When  I download the PDF file by clicking "PDF_download_icon"
+    And   I open the download file "pdf-test.pdf"
     Then  the downloaded PDF file should contain "PDF Test File"
 
   Scenario: File Download - check XLS file
