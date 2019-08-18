@@ -1,0 +1,274 @@
+[
+    {
+        "elements": [
+            {
+                "name": "Run postman collection test - in newman commandline", 
+                "keyword": "Scenario", 
+                "tags": [], 
+                "steps": [
+                    {
+                        "name": "I have a postman environment file \"Restful-Booker.postman_environment\"", 
+                        "keyword": "Given ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 541640
+                        }, 
+                        "line": 7, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Given/Given_I_have_a_postman_environment_file_X.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "I have a postman collection file \"Restful-Booker.postman_collection\"", 
+                        "keyword": "And ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 210100
+                        }, 
+                        "line": 8, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Given/Given_I_have_a_postman_collection_file_X.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "I run the postman collection in newman commandline", 
+                        "keyword": "When ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 3247788779
+                        }, 
+                        "line": 11, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_run_the_postman_collection_in_newman_commandline.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "the postman test should not have failure", 
+                        "keyword": "Then ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 1032969748
+                        }, 
+                        "line": 12, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_the_postman_test_should_not_have_failure.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+                        }, 
+                        "arguments": [], 
+                        "keyword": "After ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 148173
+                        }
+                    }, 
+                    {
+                        "embeddings": [
+                            {
+                                "data": "PGltZyBzcmM9InRlc3QtcG9zdG1hbi9QYXNzZWRfTGludXhfQ0hfdGVzdHBvc3RtYW5fUnVuX3Bvc3RtYW5fY29sbGVjdGlvbl90ZXN0X19pbl9uZXdtYW5fY29tbWFuZGxpbmUucG5nInN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3Rwb3N0bWFuX1J1bl9wb3N0bWFuX2NvbGxlY3Rpb25fdGVzdF9faW5fbmV3bWFuX2NvbW1hbmRsaW5lLnBuZyI+", 
+                                "mime_type": "text/html"
+                            }
+                        ], 
+                        "keyword": "After ", 
+                        "arguments": [], 
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-postman/support/hooks.js:33"
+                        }, 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 2221056675
+                        }
+                    }
+                ], 
+                "line": 10, 
+                "type": "scenario", 
+                "id": "postman-collection;run-postman-collection-test---in-newman-commandline"
+            }
+        ], 
+        "name": "postman collection", 
+        "keyword": "Feature", 
+        "tags": [], 
+        "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-postman/features/postman_collection.feature", 
+        "line": 1, 
+        "id": "postman-collection", 
+        "description": "  As a QA Engineer\n  I want to use postman to run my collectioin test"
+    }, 
+    {
+        "elements": [
+            {
+                "name": "File Open and Download - check PDF file", 
+                "keyword": "Scenario", 
+                "tags": [], 
+                "steps": [
+                    {
+                        "name": "I open the url \"http://www.orimi.com/pdf-test.pdf\"", 
+                        "keyword": "When ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 701094907
+                        }, 
+                        "line": 7, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "I should see the \"Yukon_Logo\" image on the screen", 
+                        "keyword": "Then ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 1032906320
+                        }, 
+                        "line": 8, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "I download the PDF file by clicking \"PDF_download_icon\"", 
+                        "keyword": "When ", 
+                        "result": {
+                            "status": "failed", 
+                            "duration": 7323548047, 
+                            "error_message": "ExpectationFailed: Expected '[not found]' not to contain 'not found'.\n    at Expectation.addExpectationResult (/home/xywang68/Projects/AutoBDD/node_modules/xolvio-jasmine-expect/index.js:44:13)\n    at Expectation.toContain (/home/xywang68/Projects/AutoBDD/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2369:12)\n    at World.<anonymous> (/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_download_the_X_file_by_clicking_the_X.js:25:30)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+                        }, 
+                        "line": 9, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_download_the_X_file_by_clicking_the_X.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "the downloaded PDF file should contain \"PDF Test File\"", 
+                        "keyword": "Then ", 
+                        "result": {
+                            "status": "skipped"
+                        }, 
+                        "line": 10, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_the_downloaded_PDF_file_should_contain_X.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+                        }, 
+                        "arguments": [], 
+                        "keyword": "After ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 164639
+                        }
+                    }, 
+                    {
+                        "embeddings": [
+                            {
+                                "data": "PGltZyBzcmM9InRlc3QtZG93bmxvYWQvRmFpbGVkX0xpbnV4X0NIX3Rlc3Rkb3dubG9hZF9GaWxlX09wZW5fYW5kX0Rvd25sb2FkX19jaGVja19QREZfZmlsZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJGYWlsZWRfTGludXhfQ0hfdGVzdGRvd25sb2FkX0ZpbGVfT3Blbl9hbmRfRG93bmxvYWRfX2NoZWNrX1BERl9maWxlLnBuZyI+", 
+                                "mime_type": "text/html"
+                            }
+                        ], 
+                        "keyword": "After ", 
+                        "arguments": [], 
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-download/support/hooks.js:33"
+                        }, 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 1435349959
+                        }
+                    }
+                ], 
+                "line": 6, 
+                "type": "scenario", 
+                "id": "file-download;file-open-and-download---check-pdf-file"
+            }, 
+            {
+                "name": "File Download - check XLS file", 
+                "keyword": "Scenario", 
+                "tags": [], 
+                "steps": [
+                    {
+                        "name": "I download the XLS file by going to URL \"https://www.sample-videos.com/xls/Sample-Spreadsheet-10-rows.xls\"", 
+                        "keyword": "When ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 2365011829
+                        }, 
+                        "line": 13, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_download_the_X_file_by_going_to_URL_X.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "name": "the downloaded XLS file should contain 10 rows", 
+                        "keyword": "Then ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 23589730
+                        }, 
+                        "line": 14, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_the_downloaded_XLS_file_should_contain_X_rows.js:2"
+                        }, 
+                        "arguments": []
+                    }, 
+                    {
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+                        }, 
+                        "arguments": [], 
+                        "keyword": "After ", 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 53854
+                        }
+                    }, 
+                    {
+                        "embeddings": [
+                            {
+                                "data": "PGltZyBzcmM9InRlc3QtZG93bmxvYWQvUGFzc2VkX0xpbnV4X0NIX3Rlc3Rkb3dubG9hZF9GaWxlX0Rvd25sb2FkX19jaGVja19YTFNfZmlsZS5wbmcic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRvd25sb2FkX0ZpbGVfRG93bmxvYWRfX2NoZWNrX1hMU19maWxlLnBuZyI+", 
+                                "mime_type": "text/html"
+                            }
+                        ], 
+                        "keyword": "After ", 
+                        "arguments": [], 
+                        "hidden": true, 
+                        "match": {
+                            "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-download/support/hooks.js:33"
+                        }, 
+                        "result": {
+                            "status": "passed", 
+                            "duration": 1411631752
+                        }
+                    }
+                ], 
+                "line": 12, 
+                "type": "scenario", 
+                "id": "file-download;file-download---check-xls-file"
+            }
+        ], 
+        "name": "file download", 
+        "keyword": "Feature", 
+        "tags": [], 
+        "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-download/features/file_download.feature", 
+        "line": 1, 
+        "id": "file-download", 
+        "description": "  As a QA Engineer\n  I want to open browser to download a few files and investigate file contents"
+    }
+]
