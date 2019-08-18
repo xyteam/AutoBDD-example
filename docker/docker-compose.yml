@@ -21,7 +21,7 @@ services:
       PASSWORD: ${PASSWORD}
       VNC_PASSWORD: ${VNC_PASSWORD}
       RESOLUTION: 1920x1200
-    entrypoint: "/autobdd-dev.startup.sh"
+    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/webtest-example/docker/autobdd-dev.startup.sh"]
 
   test-run:
     image: "xyteam/autobdd-run:1.0.3"

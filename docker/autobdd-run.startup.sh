@@ -9,7 +9,7 @@ if [ "$USER" != "root" ]; then
     echo "  set default password to \"ubuntu\""
     PASSWORD=ubuntu
   fi
-  HOME=/home/$USER
+  export HOME=/home/$USER
   echo "$USER:$PASSWORD" | chpasswd
   unset PASSWORD
 fi
@@ -27,8 +27,8 @@ END_bash_profile
 # run test by taking autorun.py parameters
 sudo -E su $USER -m -c " \
   cd $HOME/Projects/AutoBDD && \
-  . .autoPathrc.sh && \
-  cd test-projects/webtest-example && \
-  npm install && npm start && cd - && \
-  ./framework/scripts/autorunner.py --project webtest-example $@"
+  source .autoPathrc.sh && \
+  cd $HOME/Projects/AutoBDD/test-projects/webtest-example && \
+  npm install && npm start && \
+  $HOME/Projects/AutoBDD/framework/scripts/autorunner.py --project webtest-example $@"
 
