@@ -1,0 +1,993 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the text inside a element against the text inside\n    another element",
+    "elements": [
+      {
+        "id": "test-text-contents-of-elements;elements-containing-different-text",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Elements containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 375675421
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" not contains the same text as element \"#textComparison2\"",
+            "result": {
+              "status": "passed",
+              "duration": 126776733
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 194272
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1707142256
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX2RpZmZlcmVudF90ZXh0Lm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX2RpZmZlcmVudF90ZXh0LnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Elements containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 127063233
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison3\"",
+            "result": {
+              "status": "passed",
+              "duration": 99513436
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 88410
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1597281192
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RoZV9zYW1lX3RleHQubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRzX2NvbnRhaW5pbmdfdGhlX3NhbWVfdGV4dC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-no-text",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Elements containing no text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 96125294
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison4\" contains the same text as element \"#textComparison5\"",
+            "result": {
+              "status": "passed",
+              "duration": 108352978
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 79198
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1562129136
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX25vX3RleHQubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRzX2NvbnRhaW5pbmdfbm9fdGV4dC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-and-elements",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Elements containing text and elements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 104444948
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison6\"",
+            "result": {
+              "status": "passed",
+              "duration": 103333421
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 90409
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1615729555
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfYW5kX2VsZW1lbnRzLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfYW5kX2VsZW1lbnRzLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-inside-a-child-element",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Elements containing text inside a child element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 99229124
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison7\"",
+            "result": {
+              "status": "passed",
+              "duration": 88224713
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 90112
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1775339601
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfaW5zaWRlX2FfY2hpbGRfZWxlbWVudC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudHNfY29udGFpbmluZ190ZXh0X2luc2lkZV9hX2NoaWxkX2VsZW1lbnQucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-with-encoded-strings",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Elements containing text with encoded strings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 166448790
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison8\" contains the same text as element \"#textComparison9\"",
+            "result": {
+              "status": "passed",
+              "duration": 103918110
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 74492
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1610073540
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfd2l0aF9lbmNvZGVkX3N0cmluZ3MubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRzX2NvbnRhaW5pbmdfdGV4dF93aXRoX2VuY29kZWRfc3RyaW5ncy5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-different-text",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Element containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 166118791
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textDoesNotContainCucumber\" not contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 79134886
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 62893
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1886318979
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X2NvbnRhaW5pbmdfZGlmZmVyZW50X3RleHQubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfY29udGFpbmluZ19kaWZmZXJlbnRfdGV4dC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Element containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 136945347
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textDoesContainCucumber\" contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 95642259
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83437
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1544965302
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X2NvbnRhaW5pbmdfdGhlX3NhbWVfdGV4dC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9jb250YWluaW5nX3RoZV9zYW1lX3RleHQucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;input-containing-different-text",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Input containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 142936960
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#valueDoesNotContainCucumber\" not contains the text \"This input contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 144880812
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 82773
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1624618458
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnB1dF9jb250YWluaW5nX2RpZmZlcmVudF90ZXh0Lm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnB1dF9jb250YWluaW5nX2RpZmZlcmVudF90ZXh0LnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;input-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Input containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 97823497
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#valueDoesContainCucumber\" contains the text \"This input contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 73309657
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 92192
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 311084523,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-contains-text",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Button contains text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 74757353
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" contains the text \"Check\"",
+            "result": {
+              "status": "passed",
+              "duration": 56032744
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 87639
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1530600157
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9CdXR0b25fY29udGFpbnNfdGV4dC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfQnV0dG9uX2NvbnRhaW5zX3RleHQucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-not-contains-the-text",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Button not contains the text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 78520444
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" not contains the text \"Not checked\"",
+            "result": {
+              "status": "passed",
+              "duration": 69227716
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 68018
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 360694374,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071022UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-different-text",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Element containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 72828346
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"button[id='waitForCheckedBtn']\" not contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 124226466
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 181878
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1597070526
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X2NvbnRhaW5pbmdfZGlmZmVyZW50X3RleHQubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfY29udGFpbmluZ19kaWZmZXJlbnRfdGV4dC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-contains-any-text",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Button contains any text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 71192128
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 36399625
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 70152
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1715842911
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9CdXR0b25fY29udGFpbnNfYW55X3RleHQubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0J1dHRvbl9jb250YWluc19hbnlfdGV4dC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-is-not-empty",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Button is not empty",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 88634136
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" is not empty",
+            "result": {
+              "status": "passed",
+              "duration": 55991057
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 145631
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1588614883
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9CdXR0b25faXNfbm90X2VtcHR5Lm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9CdXR0b25faXNfbm90X2VtcHR5LnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-text-contents-of-elements",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test text contents of elements",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/textComparison.feature"
+  }
+]

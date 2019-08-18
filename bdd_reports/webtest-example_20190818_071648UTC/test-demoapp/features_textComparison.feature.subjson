@@ -1,0 +1,943 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the text inside a element against the text inside\n    another element",
+    "elements": [
+      {
+        "id": "test-text-contents-of-elements;elements-containing-different-text",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Elements containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 292390064
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" not contains the same text as element \"#textComparison2\"",
+            "result": {
+              "status": "passed",
+              "duration": 91988993
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 131968
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1943482432
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX2RpZmZlcmVudF90ZXh0Lm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX2RpZmZlcmVudF90ZXh0LnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Elements containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 96832845
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison3\"",
+            "result": {
+              "status": "passed",
+              "duration": 64217861
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 63340
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 305451501,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_the_same_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Elements_containing_the_same_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_the_same_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-no-text",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Elements containing no text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 68392577
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison4\" contains the same text as element \"#textComparison5\"",
+            "result": {
+              "status": "passed",
+              "duration": 79129770
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54111
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 404856990,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_no_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Elements_containing_no_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_no_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-and-elements",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Elements containing text and elements",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 86141009
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison6\"",
+            "result": {
+              "status": "passed",
+              "duration": 91594034
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 92433
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1569135299
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfYW5kX2VsZW1lbnRzLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50c19jb250YWluaW5nX3RleHRfYW5kX2VsZW1lbnRzLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-inside-a-child-element",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Elements containing text inside a child element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 69516998
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison1\" contains the same text as element \"#textComparison7\"",
+            "result": {
+              "status": "passed",
+              "duration": 65754564
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 67658
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 346794552,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_text_inside_a_child_element.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Elements_containing_text_inside_a_child_element.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_text_inside_a_child_element.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;elements-containing-text-with-encoded-strings",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Elements containing text with encoded strings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 75312009
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textComparison8\" contains the same text as element \"#textComparison9\"",
+            "result": {
+              "status": "passed",
+              "duration": 60313831
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 50162
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 311079176,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_text_with_encoded_strings.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Elements_containing_text_with_encoded_strings.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Elements_containing_text_with_encoded_strings.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-different-text",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Element containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 66334713
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textDoesNotContainCucumber\" not contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 57363346
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 89653
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 405816400,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Element_containing_different_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Element_containing_different_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Element_containing_different_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Element containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 114011013
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#textDoesContainCucumber\" contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 75204306
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 74395
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1609498238
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X2NvbnRhaW5pbmdfdGhlX3NhbWVfdGV4dC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9jb250YWluaW5nX3RoZV9zYW1lX3RleHQucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;input-containing-different-text",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Input containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 64371481
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#valueDoesNotContainCucumber\" not contains the text \"This input contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 77101256
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 60589
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 308478904,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_different_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Input_containing_different_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_different_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;input-containing-the-same-text",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Input containing the same text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 64104264
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#valueDoesContainCucumber\" contains the text \"This input contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 77401921
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 64778
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 303836734,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Input_containing_the_same_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-contains-text",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Button contains text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 61068061
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" contains the text \"Check\"",
+            "result": {
+              "status": "passed",
+              "duration": 49789597
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 52849
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 311794464,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_contains_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Button_contains_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_contains_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-not-contains-the-text",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Button not contains the text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 60474305
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" not contains the text \"Not checked\"",
+            "result": {
+              "status": "passed",
+              "duration": 57003268
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 128964
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 300367829,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_not_contains_the_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;element-containing-different-text",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Element containing different text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 58258337
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"button[id='waitForCheckedBtn']\" not contains the text \"This element contains cucumber\"",
+            "result": {
+              "status": "passed",
+              "duration": 68606395
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 89841
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 306131916,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Element_containing_different_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Element_containing_different_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Element_containing_different_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-contains-any-text",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Button contains any text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 63934457
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 33242362
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 48563
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 327458149,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_contains_any_text.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Button_contains_any_text.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_contains_any_text.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-text-contents-of-elements;button-is-not-empty",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Button is not empty",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 69434099
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that button \"button[id='waitForCheckedBtn']\" is not empty",
+            "result": {
+              "status": "passed",
+              "duration": 30697271
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:94"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 44482
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 307575695,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_is_not_empty.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Button_is_not_empty.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Button_is_not_empty.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-text-contents-of-elements",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test text contents of elements",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/textComparison.feature"
+  }
+]

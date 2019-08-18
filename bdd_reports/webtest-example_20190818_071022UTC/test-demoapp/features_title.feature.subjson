@@ -1,0 +1,184 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a page has a certain title",
+    "elements": [
+      {
+        "id": "test-the-page-title;test-if-the-demo-app-has-the-title-\"demo-app\"",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test if the demo app has the title \"DEMO APP\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 852678198
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the title is \"DEMO APP\"",
+            "result": {
+              "status": "passed",
+              "duration": 23982899
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"h1\" contains the same text as element \".subtitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 150613004
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 214936
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2529375741
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-page-title;test-if-the-demo-app-does-not-have-the-title-\"google\"",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test if the demo app does not have the title \"Google\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 141042700
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the title is not \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 29947455
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page url is not \"https://www.google.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 21956232
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"h1\" not contains the text \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 117530721
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 132463
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1660488156
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9kb2VzX25vdF9oYXZlX3RoZV90aXRsZV9Hb29nbGUubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-page-title",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test the page title",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/title.feature"
+  }
+]

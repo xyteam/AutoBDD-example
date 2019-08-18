@@ -1,0 +1,328 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a certain action is performed when a certain\n    button is pressed",
+    "elements": [
+      {
+        "id": "test-button-press;test-if-element-responds-to-button-press",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test if element responds to button press",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 290640933
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Dropzone\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 5129672173
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_click_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#testKeyResponse\" not contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 62098851
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press \"a\" key",
+            "result": {
+              "status": "passed",
+              "duration": 51063709
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_press_X_key.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#testKeyResponse\" contains the text \"65\"",
+            "result": {
+              "status": "passed",
+              "duration": 67836741
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 126026
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1737659552
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-button-press;test-if-element-responds-to-button-press",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test if element responds to button press",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 100725177
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Dropzone\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 4941289467
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_click_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#testKeyResponse\" not contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 56801157
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press \"b\" key",
+            "result": {
+              "status": "passed",
+              "duration": 50333705
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_press_X_key.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#testKeyResponse\" not contains the text \"65\"",
+            "result": {
+              "status": "passed",
+              "duration": 50082405
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54483
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1754353595
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-button-press;test-if-element-responds-to-button-press",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test if element responds to button press",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 137749500
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"Dropzone\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 5298858192
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_click_the_X_image_on_the_screen.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#testKeyResponse\" not contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 59443121
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press \"escape\" key",
+            "result": {
+              "status": "passed",
+              "duration": 50336172
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_press_X_key.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#testKeyResponse\" contains the text \"27\"",
+            "result": {
+              "status": "passed",
+              "duration": 47049038
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53042
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1662252169
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfcmVzcG9uZHNfdG9fYnV0dG9uX3ByZXNzLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-button-press",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test button press",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/buttonPress.feature"
+  }
+]

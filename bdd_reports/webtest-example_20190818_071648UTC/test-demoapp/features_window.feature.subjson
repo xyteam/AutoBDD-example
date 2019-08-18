@@ -1,0 +1,730 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a element opens a new window/tab",
+    "elements": [
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-new-window/tab-is-not-being-opened",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test if a new window/tab is not being opened",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 9897056
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 295294558
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page url is \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 20631565
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 10167040
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 197923
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1854458655
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-default-link-does-not-open-a-new-window/tab",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test if a default link does not open a new window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 9461480
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 117893066
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkSameWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 295620347
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 6846786
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 53728
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1439903907
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-link-with-target=\"_blank\"-does-open-a-new-window/tab",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test if a link with target=\"_blank\" does open a new window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 7892005
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 94644151
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 196564954
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 8254538
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56683
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1388443796
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbGlua193aXRoX3RhcmdldCUzRF9ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbGlua193aXRoX3RhcmdldD1fYmxhbmtfZG9lc19vcGVuX2FfbmV3X3dpbmRvd3RhYi5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-window/tab-from-\"google.com\"-has-the-correct-url",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test if a window/tab from \"google.com\" has the correct url",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 50992032
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 63618432
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 183448292
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url \"http://example.com/\" is opened in a new window",
+            "result": {
+              "status": "passed",
+              "duration": 65083128
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:169"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 52266
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1367264291
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2Ffd2luZG93dGFiX2Zyb21fZ29vZ2xlY29tX2hhc190aGVfY29ycmVjdF91cmwubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-all-opened-windows/tabs-are-now-closed",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Test all opened windows/tabs are now closed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 7623340
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 78353611
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page url is \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 8634290
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:89"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 5881390
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 88775
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 305245053,
+              "error_message": "Error: Command failed: mv /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Test_all_opened_windowstabs_are_now_closed.mp4 /home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Passed_Linux_CH_testdemoapp_Test_all_opened_windowstabs_are_now_closed.mp4\nmv: cannot stat '/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/bdd_reports/webtest-example_20190818_071648UTC/test-demoapp/Recording_Linux_CH_testdemoapp_Test_all_opened_windowstabs_are_now_closed.mp4': No such file or directory\n\n    at checkExecSyncError (child_process.js:629:11)\n    at execSync (child_process.js:666:13)\n    at Object.renamePassedFailed (/home/xywang68/Projects/AutoBDD/framework/libs/framework_libs.js:233:9)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/framework/support/hooks.js:82:22)\n    at Object.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/project/support/hooks.js:36:40)\n    at World.AfterScenarioResult (/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:34:36)\n    at /home/xywang68/Projects/AutoBDD/node_modules/meteor-promise/fiber_pool.js:43:40"
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-we-can-close-the-last-opened-window/tab",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Test if we can close the last opened window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 7794566
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 70256487
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 193315206
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 7775528
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 53975374
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:100"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 7070279
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 87470
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1519513841
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-we-can-focus-the-last-opened-window/tab",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Test if we can focus the last opened window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 6707223
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:124"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 67824376
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 203090174
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 8299495
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:164"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I focus the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 14500061
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is \"http://example.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 14558781
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 47248364
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:100"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the url is \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 7230871
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:99"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66216
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1380532348
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLm1wNCJzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scyBwb3N0ZXI9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-if-new-windows/tabs-are-being-opened",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test if new windows/tabs are being opened",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/window.feature"
+  }
+]

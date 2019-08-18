@@ -1,0 +1,413 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test how (double) clicks are handled by certain elements",
+    "elements": [
+      {
+        "id": "test-how-clicks-are-handled-on-a-certain-element;single-click-on-a-link-should-navigate-to-another-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Single click on a link should navigate to another page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 329113377
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the link \"Navigate to example.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 606830736
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url to contain \"https://example.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 13853953
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:109"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 213063
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1942160949
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9TaW5nbGVfY2xpY2tfb25fYV9saW5rX3Nob3VsZF9uYXZpZ2F0ZV90b19hbm90aGVyX3BhZ2UubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1NpbmdsZV9jbGlja19vbl9hX2xpbmtfc2hvdWxkX25hdmlnYXRlX3RvX2Fub3RoZXJfcGFnZS5wbmciLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-how-clicks-are-handled-on-a-certain-element;single-click-on-the-button-#togglemessage-should-display-an-message",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Single click on the button #toggleMessage should display an message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 194681733
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the button \"#toggleMessage\"",
+            "result": {
+              "status": "passed",
+              "duration": 316691055
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#message1\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 118347093
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#message2\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 123627988
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 94342
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1542566694
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9TaW5nbGVfY2xpY2tfb25fdGhlX2J1dHRvbl8lMjN0b2dnbGVNZXNzYWdlX3Nob3VsZF9kaXNwbGF5X2FuX21lc3NhZ2UubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1NpbmdsZV9jbGlja19vbl90aGVfYnV0dG9uXyN0b2dnbGVNZXNzYWdlX3Nob3VsZF9kaXNwbGF5X2FuX21lc3NhZ2UucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Isolate",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-how-clicks-are-handled-on-a-certain-element;double-click-on-the-button-#togglemessage-should-display-another-message",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Double click on the button #toggleMessage should display another message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 128714917
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I doubleclick on the button \"#toggleMessage\"",
+            "result": {
+              "status": "passed",
+              "duration": 419957504
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#message1\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 81358689
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that element \"#message2\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 75639460
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 57949
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1450331301
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9Eb3VibGVfY2xpY2tfb25fdGhlX2J1dHRvbl8lMjN0b2dnbGVNZXNzYWdlX3Nob3VsZF9kaXNwbGF5X2Fub3RoZXJfbWVzc2FnZS5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRG91YmxlX2NsaWNrX29uX3RoZV9idXR0b25fI3RvZ2dsZU1lc3NhZ2Vfc2hvdWxkX2Rpc3BsYXlfYW5vdGhlcl9tZXNzYWdlLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-how-clicks-are-handled-on-a-certain-element;single-click-on-the-element-#togglebackground-should-make-the-elemnt-red",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Single click on the element #toggleBackground should make the elemnt red",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 142656501
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#toggleBackground\"",
+            "result": {
+              "status": "passed",
+              "duration": 372084325
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 78283
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1494397570
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9TaW5nbGVfY2xpY2tfb25fdGhlX2VsZW1lbnRfJTIzdG9nZ2xlQmFja2dyb3VuZF9zaG91bGRfbWFrZV90aGVfZWxlbW50X3JlZC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfU2luZ2xlX2NsaWNrX29uX3RoZV9lbGVtZW50XyN0b2dnbGVCYWNrZ3JvdW5kX3Nob3VsZF9tYWtlX3RoZV9lbGVtbnRfcmVkLnBuZyIvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "test-how-clicks-are-handled-on-a-certain-element;double-click-on-the-element-#togglebackground-should-make-the-elemnt-blue",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Double click on the element #toggleBackground should make the elemnt blue",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 130467871
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I doubleclick on the element \"#toggleBackground\"",
+            "result": {
+              "status": "passed",
+              "duration": 383381881
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 80412
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1576362241
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9Eb3VibGVfY2xpY2tfb25fdGhlX2VsZW1lbnRfJTIzdG9nZ2xlQmFja2dyb3VuZF9zaG91bGRfbWFrZV90aGVfZWxlbW50X2JsdWUubXA0InN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzIHBvc3Rlcj0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RvdWJsZV9jbGlja19vbl90aGVfZWxlbWVudF8jdG9nZ2xlQmFja2dyb3VuZF9zaG91bGRfbWFrZV90aGVfZWxlbW50X2JsdWUucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-how-clicks-are-handled-on-a-certain-element",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test how clicks are handled on a certain element",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/click.feature"
+  }
+]

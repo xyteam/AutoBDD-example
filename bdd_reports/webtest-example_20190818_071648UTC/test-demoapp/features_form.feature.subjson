@@ -1,0 +1,105 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test form submission",
+    "elements": [
+      {
+        "id": "test-form-submission;test-if-a-message-is-shown-when-the-form-is-submitted",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test if a message is shown when the form is submitted",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 286106385
+            },
+            "line": 6,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#formSubmitTest .message\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 101036494
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I submit the form \"#formSubmitTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 31505949
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that element \"#formSubmitTest .message\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 77415103
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 177278
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1497741625
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbWVzc2FnZV9pc19zaG93bl93aGVuX3RoZV9mb3JtX2lzX3N1Ym1pdHRlZC5tcDQic3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMgcG9zdGVyPSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX21lc3NhZ2VfaXNfc2hvd25fd2hlbl90aGVfZm9ybV9pc19zdWJtaXR0ZWQucG5nIi8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/support/hooks.js:33"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-form-submission",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test form submission",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/webtest-example/test-demoapp/features/form.feature"
+  }
+]
