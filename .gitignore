@@ -7,5 +7,6 @@
 **/.screenshots/
 **/node_modules/
 tmp/*
+bdd_reports/*
 reports/*
 .vscode/*
