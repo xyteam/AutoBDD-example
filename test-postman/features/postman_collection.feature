@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: postman collection
 
   As a QA Engineer

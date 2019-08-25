@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: bestvpn html5demos page - drag and drop page by image
 
   As a QA Engineer

@@ -3,6 +3,7 @@ Feature: file download
   As a QA Engineer
   I want to open browser to download a few files and investigate file contents
 
+  @SmokeTest
   Scenario: File Open and Download - check PDF file
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
