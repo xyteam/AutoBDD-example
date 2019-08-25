@@ -28,7 +28,8 @@ END_bash_profile
 sudo -E su $USER -m -c " \
   cd $HOME/Projects/AutoBDD && \
   source .autoPathrc.sh && \
-  cd $HOME/Projects/AutoBDD/test-projects/webtest-example && \
+  cd $HOME/Projects/AutoBDD/test-projects/${BDD_PROJECT} && \
   npm install && npm start && \
-  $HOME/Projects/AutoBDD/framework/scripts/autorunner.py --project webtest-example $@"
-
+  $HOME/Projects/AutoBDD/framework/scripts/autorunner.py --project ${BDD_PROJECT} $@ \
+  "
+  

@@ -54,7 +54,7 @@ export DISPLAY=:1
 npm config set script-shell /bin/bash
 cd \\$HOME/Projects/AutoBDD
 source .autoPathrc.sh
-cd \\$HOME/Projects/AutoBDD/test-projects/webtest-example
+cd \\$HOME/Projects/AutoBDD/test-projects/\\${BDD_PROJECT}
 END_bash_profile
 
 # start supervisord
