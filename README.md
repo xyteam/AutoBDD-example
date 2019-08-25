@@ -1,3 +1,15 @@
+### TLDR:
+
+```
+mkdir -p ~/Projects; cd ~/Projects; \
+git clone https://github.com/xyteam/webtest-example.git; \
+cd webtest-example; \
+export BDD_PROJECT=$(basename ${PWD}); \
+cd docker; \
+docker-compose run --rm test-run "--tags @SmokeTest --movie=1"
+```
+Open the HTML BDD test report in ~/Projects/webtest-example/bdd_reports/
+
 ## webtest-example
 
 **webtest-example** is a BDD style (Cucumber/Gherkin) WEB/E2E test project. It takes full advantage of the open-source **AutoBDD** framework:
@@ -217,3 +229,6 @@ You will (and should) see the following files the project/ folder and each test-
 * In the VNC GUI console use mouse to clip the relavent portion, once you release the mouse the image file will be saved automatically.
 
 * Re-run the same test to verify the test image can indeed pass the test. Re-clip test image as needed.
+
+### Special Mentions
+  * Demo-App application and Precanned Cucumber-JS Steps are taken from **[webdriverio/cucumber-boilerplate](https://github.com/webdriverio/cucumber-boilerplate)**
