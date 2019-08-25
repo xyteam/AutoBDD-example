@@ -30,11 +30,11 @@ The only prerequisite to run this project is a docker supporting host. Tested on
 
 The project will pull the two open-source docker images respectively and automatically.
 
-* **xyteam/autobdd-run**: For running test in headless mode.
+* **xyteam/autobdd-run**: For running BDD test in headless mode.
 
-* **xyteam/autobdd-dev**: For developing and visualized debugging through ssh and vnc.
+* **xyteam/autobdd-dev**: For visualizing, developing and debugging BDD test through ssh and vnc.
 
-In order to pull the docker image the first time, you may need register a free account with docker hub and run docker login:
+In order to pull the docker image the first time, you may need to register a free account with docker hub and run docker login:
 ```
 docker login
 ```
