@@ -128,17 +128,17 @@ cd docker; \
 docker-compose up -d test-dev
 ```
 
-Step 3: Access container GUI console at docker-host vnc port5901
+Step 3: Access container GUI console at docker-host vnc port 5901
 
 Step 4: Access container bash through ssh port 2222: ssh -o "StrictHostKeyChecking=no" $(whoami)@docker-host -p 2222
 
 where in step 3 and 4 the docker-host can be:
 
-* docker-host IP or FDQN if docker-host is a remote cloud computer
+* docker-host IP or FDQN if the docker-host is a remote or cloud computer
 
-* localhost or 127.0.0.1 if docker-host is your local Linux or MacOS
+* localhost or 127.0.0.1 if the docker-host is your local Linux or MacOS
 
-* "docker-machine ip" output if your docker provider is Windows with docker-tools
+* "docker-machine ip" output if the docker provider is a Windows with docker-tools
 
 Step 5: Run test:
 ```
