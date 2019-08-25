@@ -168,7 +168,7 @@ Step 5: rename/remove *.feature files inside the features folder of each test-xx
 
 Step 6: git init and check-in this project to your git repo
 
-That's basically it.
+That's basically it. You can starting writing feature files and test scenarios.
 
 ### Additional tchnical information (for advanced users)
 
