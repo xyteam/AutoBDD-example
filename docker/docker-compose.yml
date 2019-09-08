@@ -3,7 +3,7 @@
 version: '3.5'
 services:
   test-dev:
-    image: "xyteam/autobdd-dev:1.0.3"
+    image: "xyteam/autobdd-dev:1.0.4"
     container_name: ${BDD_PROJECT}-dev
     shm_size: 1536M
     user: root
@@ -25,7 +25,7 @@ services:
     entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-dev.startup.sh"]
 
   test-run:
-    image: "xyteam/autobdd-run:1.0.3"
+    image: "xyteam/autobdd-run:1.0.4"
     container_name: ${BDD_PROJECT}-run
     shm_size: 1536M
     user: root

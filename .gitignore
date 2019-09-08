@@ -4,6 +4,8 @@
 **/Recording_*.mp4
 **/Passed_*.png
 **/Failed_*.png
+**/Passed_*.jpg
+**/Failed_*.jpg
 **/.screenshots/
 **/node_modules/
 tmp/*
