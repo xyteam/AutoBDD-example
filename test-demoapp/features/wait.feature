@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test waiting for actions
     As a developer
     I want to be able to test if delayed actions are being performed

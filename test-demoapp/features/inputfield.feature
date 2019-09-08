@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test input fields on a page
     As a developer
     I want to be able to test input fields on a certain page

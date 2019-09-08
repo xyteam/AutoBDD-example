@@ -1,3 +1,5 @@
+@test-webpage
+@SmokeTest
 Feature: demoapp drag and drop
 
   As a QA Engineer

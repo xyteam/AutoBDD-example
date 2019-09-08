@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test if new windows/tabs are being opened
     As a developer
     I want to be able to test if a element opens a new window/tab

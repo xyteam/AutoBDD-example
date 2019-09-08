@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test visibility of elements
     As a developer
     I want to be able to test the visibillity of a element

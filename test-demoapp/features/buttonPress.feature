@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test button press
     As a developer
     I want to be able to test if a certain action is performed when a certain

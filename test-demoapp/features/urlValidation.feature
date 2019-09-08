@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test if the url is a certain value
     As a developer
     I want to be able to test if the url is a certain value

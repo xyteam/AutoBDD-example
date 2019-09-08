@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test the position of a given element
     As a developer
     I want to be able to test if a element has a certain position

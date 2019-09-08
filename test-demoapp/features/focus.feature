@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test the focus state of a given element
     As a developer
     I want to be able to test if a element has a certain focus state

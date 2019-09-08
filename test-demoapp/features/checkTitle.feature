@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Local server test
     As a developer
     I want the demo app have the correct title

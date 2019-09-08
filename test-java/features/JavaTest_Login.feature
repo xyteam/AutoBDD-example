@@ -1,3 +1,4 @@
+@test-java
 Feature: Login
     As a user I should able to login into my app
 

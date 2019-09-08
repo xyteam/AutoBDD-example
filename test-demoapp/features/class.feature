@@ -1,5 +1,6 @@
 # I expect that element "$string" (has|does not have) the class "$string"
 
+@test-demoapp
 Feature: Test if a given element has a certain CSS class
     As a developer
     I want to be able to test if a element has a certain CSS class

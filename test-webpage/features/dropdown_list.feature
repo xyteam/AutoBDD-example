@@ -1,3 +1,4 @@
+@test-webpage
 Feature: dropdown list
 
   As a QA Engineer

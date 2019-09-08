@@ -1,3 +1,4 @@
+@test-download
 Feature: file download
 
   As a QA Engineer

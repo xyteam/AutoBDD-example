@@ -1,3 +1,4 @@
+@test-postman
 @SmokeTest
 Feature: postman collection
 

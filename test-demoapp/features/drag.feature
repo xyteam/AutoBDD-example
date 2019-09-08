@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test draggable elements
     As a developer
     I want to be able to test a given draggable element

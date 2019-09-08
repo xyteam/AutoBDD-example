@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test text contents of elements
     As a developer
     I want to be able to test the text inside a element against the text inside

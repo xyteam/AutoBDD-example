@@ -1,3 +1,4 @@
+@test-demoapp
 Feature: Test existence of elements
     As a developer
     I want to be able to test the existence of a element
