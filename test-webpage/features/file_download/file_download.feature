@@ -13,7 +13,7 @@ Feature: file download
     Then  the downloaded PDF file should contain "PDF Test File"
 
   Scenario: File Download - check XLS file
-    When  I download the XLS file by going to URL "https://www.sample-videos.com/xls/Sample-Spreadsheet-10-rows.xls"
-    Then  the downloaded XLS file should contain 10 rows
-
-
+    When  I download the XLS file by going to URL "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"
+    Then  the downloaded XLS file should contain 10 rows and 8 columns
+    And   the downloaded XLS file at row 0 should contain "First Name"
+    And   the downloaded XLS file at row 1 should contain "United States"

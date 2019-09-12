@@ -1,4 +1,3 @@
-@test-init
 Feature: test init
 
   As a QA Engineer

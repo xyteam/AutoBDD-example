@@ -7,7 +7,6 @@ if (process.env.FrameworkPath) {
 }
 
 const projectHooks = {
-  // modify or add global hooks here
   BeforeFeature: function(feature) {
     if (frameworkHooks) frameworkHooks.BeforeFeature(feature);
   },
@@ -34,7 +33,7 @@ const projectHooks = {
 
   AfterScenarioResult: function(scenario) {
     if (frameworkHooks) frameworkHooks.AfterScenarioResult(scenario);
-  }
+  },
 }
 
 module.exports = projectHooks;
