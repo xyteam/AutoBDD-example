@@ -8,6 +8,7 @@
 **/Failed_*.jpg
 **/.screenshots/
 **/node_modules/
+package-locl.json
 tmp/*
 bdd_reports/*
 reports/*
