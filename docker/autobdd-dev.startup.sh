@@ -63,7 +63,6 @@ npm config set script-shell /bin/bash
 cd \\$HOME/Projects/AutoBDD
 source .autoPathrc.sh
 cd \\$HOME/Projects/AutoBDD/test-projects/\\${BDD_PROJECT}
-npm run pip-install
 END_bash_profile
 
 # start supervisord
