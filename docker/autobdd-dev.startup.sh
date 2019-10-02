@@ -24,7 +24,11 @@ USER=${USER:-root}
 HOME=/root
 if [ "$USER" != "root" ]; then
     echo "* enable custom user: $USER"
-    useradd --create-home --shell /bin/bash --user-group --groups adm,sudo $USER
+    if [ "$HOSTOS" == "Linux" ]; then
+        useradd --uid $USERID --gid $GROUPID --create-home --shell /bin/bash --groups adm,sudo $USER
+    else
+        useradd --create-home --shell /bin/bash --user-group --groups adm,sudo $USER
+    fi
     if [ -z "$PASSWORD" ]; then
         echo "  set default password to \"ubuntu\""
         PASSWORD=ubuntu
@@ -45,7 +49,11 @@ mkdir -p /run/sshd
 mkdir -p $HOME/.config/pcmanfm/LXDE/
 ln -sf /usr/local/share/doro-lxde-wallpapers/desktop-items-0.conf $HOME/.config/pcmanfm/LXDE/
 cd /root && tar cf - ./Projects | (cd $HOME && tar xf -)
-chown -R $USER:$USER $HOME
+if [ "$HOSTOS" == "Linux" ]; then
+  chown -R $USERID:$GROUPID $HOME
+else
+  chown -R $USER:$USER $HOME
+fi
 
 # set bash_profile
 cat /root/.bashrc >> $HOME/.bash_profile && chown $USER:$USER $HOME/.bash_profile
@@ -55,8 +63,8 @@ npm config set script-shell /bin/bash
 cd \\$HOME/Projects/AutoBDD
 source .autoPathrc.sh
 cd \\$HOME/Projects/AutoBDD/test-projects/\\${BDD_PROJECT}
+npm run pip-install
 END_bash_profile
 
 # start supervisord
-exec /bin/tini -- /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
-
+exec /bin/tini -- /usr/local/bin/supervisord -n -c /etc/supervisor/conf.d/supervisord.conf
