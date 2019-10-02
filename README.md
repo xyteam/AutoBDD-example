@@ -3,10 +3,9 @@
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/webtest-example.git; \
-cd webtest-example; \
-export BDD_PROJECT=$(basename ${PWD}); \
-cd docker; \
-docker-compose run --rm test-run "--tags @SmokeTest --movie=1"
+cd webtest-example/docker; \
+cd ~/Projects/webtest-example/docker
+docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
 Open the HTML BDD test report in ~/Projects/webtest-example/bdd_reports/
 
@@ -22,47 +21,39 @@ It uses pre-canned Cucumber/Gherkin statements and automated:
 
 * screen and keyboard/mouse actions
 
-You can turn this project into your own test project and start your own automation.
+You can turn this example project into your own test project and start automation immediately.
 
 ### Prerequisite
 
 The only prerequisite to run this project is a docker supporting host. Tested on Linux, MacOS, Windows.
 
-The project will pull the two open-source docker images respectively and automatically.
+The test project will download the two AutoBDD docker images automatically.
 
-* **xyteam/autobdd-run**: For running BDD test in headless mode.
+* **xyteam/autobdd-run**: For running BDD test in CI mode.
 
-* **xyteam/autobdd-dev**: For visualizing, developing and debugging BDD test through ssh and vnc.
-
-In order to pull the docker image the first time, you may need to register a free account with docker hub and run docker login:
-```
-docker login
-```
-
-With docker-compose you can run this project with a very short docker-compose command shown below.
-
-If you do not have docker-compose, you can still run this project by reverse engineering the docker-compose.yml into docker commands. You can shell script it or create a Makefile for it.
+* **xyteam/autobdd-dev**: For developing and debugging your test project with shell and GUI.
 
 ### To run test
 
 To run test you only need a docker supporting headless host somewhere on the network.
 
-Step 1: Checkout webtest-example project:
+Step 1: Checkout the webtest-example project:
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/webtest-example.git;
 ```
 Step 2: Run test:
 ```
-cd webtest-example; \
-export BDD_PROJECT=$(basename ${PWD}); \
-cd docker; \
-docker-compose run --rm test-run
+cd webtest-example/docker; \
+# to display command help
+docker-compose run --rm test-run "--help"
+# to run test cases with @Demo tag
+docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
 Options can be appended with quotes to the run command above.
 ```
 "--help"
-"--modulelist test-download test-postman --tags @SmokeTest --movie 1 --reportbase /some/folder --reportpath someName"
+"--modulelist test-download test-postman --movie 1 --reportbase /some/folder --reportpath someName --argstring '--tags @Demo,@SmokeTest --tags ~@wip'"
 ```
 
 Step 3: Review test report
@@ -81,7 +72,7 @@ Inside each sub-folder:
 
 * The .RUN files are the run logs for each test scenarios (test case).
 
-* The .PNG files are the final screenshot for the test scenario.
+* The .JPG files are the final screenshot for the test scenario.
 
 * The .MP4 files are the movie for the test scenario (run with --movie=1 option)
 
@@ -122,9 +113,7 @@ Step 1: Check out test project (same as above)
 
 Step 2: Bring up test-dev docker container:
 ```
-cd webtest-example; \
-export BDD_PROJECT=$(basename ${PWD}); \
-cd docker; \
+cd webtest-example/docker; \
 docker-compose up -d test-dev
 ```
 
@@ -157,14 +146,6 @@ SCREENSHOT=1 myWebPassword=abc123 chimpy
 ```
 
 Step 6: Update test or write new test
-
-The project folder defined in ${BDD_PROJECT} environment variable is mounted into the docker container. One can write and update test through:
-
-* local ~/Projects/${BDD_PROJECT},
-
-or
-
-* inside docker container test-dev under ~/Projects/AutoBDD/test-projects/${BDD_PROJECT}
 
 ### To turn this project into your own:
 
