@@ -31,7 +31,7 @@ Feature: Sample Snippets test
     Scenario: double click on a button
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   the element ".btn1_dblclicked" is not visible
-        When  I doubleclick on the element ".btn1"
+        When  I double click on the element ".btn1"
         Then  I expect that element ".btn1_dblclicked" is visible
 
     Scenario: click on element
