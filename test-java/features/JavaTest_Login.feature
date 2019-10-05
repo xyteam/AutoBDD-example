@@ -1,6 +1,6 @@
 @test-java
-Feature: Login
-    As a user I should able to login into my app
+Feature: Java Selenium Test Login
+    This feature is to test AutoBDD can encapsulate java selenium test scenarios
 
   Background: Java cucumber project information
     Given I have a java cucumber project "javatest-example"
