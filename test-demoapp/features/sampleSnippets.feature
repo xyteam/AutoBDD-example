@@ -42,15 +42,15 @@ Feature: Sample Snippets test
 
     Scenario: add value to an input element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element "//html/body/section/form/input[1]" not contains the text "abc"
+        And   the element "//html/body/section/form/input[1]" not contains the value "abc"
         When  I add "bc" to the inputfield "//html/body/section/form/input[1]"
-        Then  I expect that element "//html/body/section/form/input[1]" contains the text "abc"
+        Then  I expect that element "//html/body/section/form/input[1]" contains the value "abc"
 
     Scenario: set value to an input element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element "//html/body/section/form/input[1]" not contains the text "bc"
+        And   the element "//html/body/section/form/input[1]" not contains the value "bc"
         When  I set "bc" to the inputfield "//html/body/section/form/input[1]"
-        Then  I expect that element "//html/body/section/form/input[1]" contains the text "bc"
+        Then  I expect that element "//html/body/section/form/input[1]" contains the value "bc"
 
     Scenario: clear value of input element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
@@ -60,9 +60,9 @@ Feature: Sample Snippets test
 
     Scenario: drag n drop
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element ".searchinput" not contains the text "Dropped!"
+        And   the element ".searchinput" not contains the value "Dropped!"
         When  I drag element "#overlay" to element ".red"
-        Then  I expect that element ".searchinput" contains the text "Dropped!"
+        Then  I expect that element ".searchinput" contains the value "Dropped!"
 
     Scenario: submit form
         Given I open the url "http://webdriverjs.christian-bromann.com/"
@@ -116,10 +116,10 @@ Feature: Sample Snippets test
 
     Scenario: check input content
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element "//html/body/section/form/input[1]" contains the text "a"
-        And   the element "//html/body/section/form/input[1]" not contains the text "aa"
-        Then  I expect that element "//html/body/section/form/input[1]" contains the text "a"
-        And   I expect that element "//html/body/section/form/input[1]" not contains the text "aa"
+        And   the element "//html/body/section/form/input[1]" contains the value "a"
+        And   the element "//html/body/section/form/input[1]" not contains the value "aa"
+        Then  I expect that element "//html/body/section/form/input[1]" contains the value "a"
+        And   I expect that element "//html/body/section/form/input[1]" not contains the value "aa"
 
     Scenario: check attribut
         Given I open the url "http://webdriverjs.christian-bromann.com/"
