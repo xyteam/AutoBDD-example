@@ -102,7 +102,7 @@ Feature: Test waiting for actions
     Scenario: Test if element to not contain a value
         When  I click on the element "#waitForContainsValueBtn"
         And   I pause for 1000ms
-        Then  I expect that element "#waitForContainsValueElement" contains any text
+        Then  I expect that element "#waitForContainsValueElement" contains any value
         When  I click on the element "#waitForContainsValueBtn"
         Then  I wait on element "#waitForContainsValueElement" for 2000ms to not contain a value
 
