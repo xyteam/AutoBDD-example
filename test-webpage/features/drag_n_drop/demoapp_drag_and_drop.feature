@@ -19,6 +19,7 @@ Feature: demoapp drag and drop
     Then  I should see the "Drag_me" image on the screen
     And   I should see the "Dropzone" image on the screen
     When  I drag "Drag_me" and drop to "Dropzone"
+    Then  I should still see the "Drag_me" image on the screen
     Then  I should not see the "Dropzone" image on the screen
   
 
