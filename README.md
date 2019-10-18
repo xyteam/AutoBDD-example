@@ -2,16 +2,16 @@
 
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
-git clone https://github.com/xyteam/webtest-example.git; \
-cd webtest-example/docker; \
-cd ~/Projects/webtest-example/docker
+git clone https://github.com/xyteam/AutoBDD-example.git; \
+cd AutoBDD-example/docker; \
+cd ~/Projects/AutoBDD-example/docker
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
-Open the HTML BDD test report in ~/Projects/webtest-example/bdd_reports/
+Open the HTML BDD test report in ~/Projects/AutoBDD-example/bdd_reports/
 
-## webtest-example
+## AutoBDD-example
 
-**webtest-example** is a BDD style (Cucumber/Gherkin) WEB/E2E test project. It takes full advantage of the open-source **AutoBDD** framework:
+**AutoBDD-example** is a BDD style (Cucumber/Gherkin) WEB/E2E test project. It takes full advantage of the open-source **AutoBDD** framework:
 
 **[xyteam/AutoBDD](https://github.com/xyteam/AutoBDD)**
 
@@ -37,14 +37,14 @@ The test project will download the two AutoBDD docker images automatically.
 
 To run test you only need a docker supporting headless host somewhere on the network.
 
-Step 1: Checkout the webtest-example project:
+Step 1: Checkout the AutoBDD-example project:
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
-git clone https://github.com/xyteam/webtest-example.git;
+git clone https://github.com/xyteam/AutoBDD-example.git;
 ```
 Step 2: Run test:
 ```
-cd webtest-example/docker; \
+cd AutoBDD-example/docker; \
 # to display command help
 docker-compose run --rm test-run "--help"
 # to run test cases with @Demo tag
@@ -113,7 +113,7 @@ Step 1: Check out test project (same as above)
 
 Step 2: Bring up test-dev docker container:
 ```
-cd webtest-example/docker; \
+cd AutoBDD-example/docker; \
 docker-compose up -d test-dev
 ```
 
