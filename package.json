@@ -1,5 +1,5 @@
 {
-  "name": "AutoBDD-example",
+  "name": "autobdd-example",
   "version": "1.0.0",
   "description": "BDD Automation",
   "main": "demo-app/index.html",
@@ -13,11 +13,9 @@
     "stop": "forever stopall",
     "test-init": "cd ./test-init && chimpy",
     "test-webpage": "cd ./test-webpage && chimpy",
-    "test-download": "cd ./test-download && chimpy",
     "test-postman": "cd ./test-postman && chimpy",
-    "test-java": "cd ./test-java && chimpy",
     "test-demoapp": "cd ./test-demoapp && chimpy",
-    "test": "npm run test-webpage; npm run test-download; npm run test-postman; npm run test-java; npm run test-demoapp"
+    "test": "npm run test-webpage; npm run test-postman; npm run test-demoapp"
   },
   "repository": {
     "type": "git",
