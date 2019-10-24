@@ -48,7 +48,7 @@ Feature: Test text contents of elements
         Then I expect that element "button[id='waitForCheckedBtn']" not contains the text "This element contains cucumber"
 
     Scenario: Button contains any text
-        Then I expect that button "button[id='waitForCheckedBtn']" contains any text
+        Then I expect that element "button[id='waitForCheckedBtn']" contains any text
 
     Scenario: Button is not empty
-        Then I expect that button "button[id='waitForCheckedBtn']" text is not empty
+        Then I expect that element "button[id='waitForCheckedBtn']" text is not empty

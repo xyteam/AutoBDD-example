@@ -16,4 +16,4 @@ Feature: Test existence of elements
         Then  I expect that element "input" does appear exactly "8" times
 
     Scenario: Existing element inside parent element count check
-        Then  I expect that element "div" does appear inside parent element "//div[@style]" exactly "2" times
+        Then  I expect that element "div" inside parent element "//div[@style]" does appear exactly "2" times
