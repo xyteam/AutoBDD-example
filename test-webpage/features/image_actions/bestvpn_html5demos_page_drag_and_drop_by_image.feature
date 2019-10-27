@@ -42,8 +42,6 @@ Feature: bestvpn html5demos page - drag and drop page by image
     And   I expect the element ".btn-wrap" inside the parent element ".menu" contains the text "Free Trial"
     And   I expect element "a=Start Free Trial" becomes visible
     And   I expect element "button=Submit" becomes visible
-    And   I pause for 3000ms
     Then  I should see the "dialogRobot" image on the screen
     When  I click the "dialogRobot" image on the screen
-    And   I pause for 3000ms
     Then  I should see the "robotDialogWindow" image on the screen
