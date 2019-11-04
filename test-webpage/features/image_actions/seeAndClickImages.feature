@@ -19,4 +19,5 @@ Feature: See and Click images
     And   I expect element "button=Submit" becomes visible
     Then  I should see the "dialogRobot" image on the screen
     When  I click the "dialogRobot" image on the screen
+    And   I pause for 1000ms
     Then  I should see the "robotDialogWindow" image on the screen
