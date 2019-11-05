@@ -8,10 +8,10 @@ Feature: demoapp drag and drop
   Scenario: Drag to dropzone - by webelement
     When  I open the url "http://localhost:8082"
     And   I scroll to element "head"
-    Then  I expect that element "#draggable" is visible
-    And   I expect that element "#droppable" is visible
+    Then  I expect that the element "#draggable" is visible
+    And   I expect that the element "#droppable" is visible
     When  I drag element "#draggable" to element "#droppable"
-    Then  I expect that element "#droppable" contains the text "Dropped!"
+    Then  I expect that the element "#droppable" contains the text "Dropped!"
 
   Scenario: Drag to dropzone - by image
     When  I open the url "http://localhost:8082"

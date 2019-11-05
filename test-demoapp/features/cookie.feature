@@ -8,18 +8,18 @@ Feature: Test the existens and content of cookies
         And   I pause for 500ms
 
     Scenario: The cookie "test" should exist
-        Then  I expect that cookie "test" exists
+        Then  I expect that the cookie "test" exists
 
     Scenario: The cookie "test2" should not exist
         Given the cookie "test" contains the value "yumyum"
-        Then  I expect that cookie "test2" not exists
+        Then  I expect that the cookie "test2" not exists
 
     Scenario: The cookie "test" should contain the value "yumyum"
         Given the cookie "test" contains not the value "out of date"
-        Then  I expect that cookie "test" contains "yumyum"
+        Then  I expect that the cookie "test" contains "yumyum"
 
     Scenario: The cookie "test" should not contain the value "out of date"
-        Then  I expect that cookie "test" not contains "out of date"
+        Then  I expect that the cookie "test" not contains "out of date"
 
     #
     # Currently this test is failing in PhantomJS due to an Ghostdriver issue
@@ -28,11 +28,11 @@ Feature: Test the existens and content of cookies
     @Pending
     Scenario: The cookie "test3" should be created
         When  I set a cookie "test3" with the content "more cookies"
-        Then  I expect that cookie "test3" exists
-        And   I expect that cookie "test3" contains "more cookies"
+        Then  I expect that the cookie "test3" exists
+        And   I expect that the cookie "test3" contains "more cookies"
 
     @Pending
     Scenario: The cookie "test3" should be deletable
-        Then  I expect that cookie "test3" exists
+        Then  I expect that the cookie "test3" exists
         When  I delete the cookie "test3"
-        Then  I expect that cookie "test3" not exists
+        Then  I expect that the cookie "test3" not exists

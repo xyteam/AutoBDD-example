@@ -9,4 +9,4 @@ Feature: Test form submission
     Scenario: Test if a message is shown when the form is submitted
         Given the element "#formSubmitTest .message" is not visible
         When  I submit the form "#formSubmitTest"
-        Then  I expect that element "#formSubmitTest .message" is visible
+        Then  I expect that the element "#formSubmitTest .message" is visible

@@ -13,13 +13,13 @@ Feature: Test how clicks are handled on a certain element
     @Isolate
     Scenario: Single click on the button #toggleMessage should display an message
         When  I click on the element "#toggleMessage"
-        Then  I expect that element "#message1" is visible
-        And   I expect that element "#message2" is not visible
+        Then  I expect that the element "#message1" is visible
+        And   I expect that the element "#message2" is not visible
 
     Scenario: Double click on the button #toggleMessage should display another message
         When  I double click on the button "#toggleMessage"
-        Then  I expect that element "#message1" is not visible
-        And   I expect that element "#message2" is visible
+        Then  I expect that the element "#message1" is not visible
+        And   I expect that the element "#message2" is visible
 
     Scenario: Single click on the element #toggleBackground should make the elemnt red
         When  I click on the element "#toggleBackground"

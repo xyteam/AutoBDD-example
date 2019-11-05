@@ -30,7 +30,7 @@ Feature: Test modals
         And   I expect that a alertbox contains the text "I am a confirm box!"
         When  I dismiss the confirmbox
         Then  I expect that a confirmbox is not opened
-        And   I expect that element "#confirmResult" contains the text "false"
+        And   I expect that the element "#confirmResult" contains the text "false"
 
     Scenario: Test if confirm is accepted
         Given a confirmbox is not opened
@@ -39,7 +39,7 @@ Feature: Test modals
         Then  I expect that a confirmbox is opened
         When  I accept the confirmbox
         Then  I expect that a confirmbox is not opened
-        And   I expect that element "#confirmResult" contains the text "true"
+        And   I expect that the element "#confirmResult" contains the text "true"
 
     Scenario: Test if prompt is opened & dismissed
         Given a prompt is not opened
@@ -49,7 +49,7 @@ Feature: Test modals
         And   I expect that a alertbox contains the text "I am a prompt!"
         When  I dismiss the prompt
         Then  I expect that a prompt is not opened
-        And   I expect that element "#promptResult" contains the text "null"
+        And   I expect that the element "#promptResult" contains the text "null"
 
     Scenario: Test if prompt is accepted
         Given a prompt is not opened
@@ -58,7 +58,7 @@ Feature: Test modals
         Then  I expect that a prompt is opened
         When  I accept the prompt
         Then  I expect that a prompt is not opened
-        And   I expect that element "#promptResult" not contains any text
+        And   I expect that the element "#promptResult" not contains any text
 
     Scenario: Test if prompt has text entered
         Given a prompt is not opened
@@ -68,4 +68,4 @@ Feature: Test modals
         When  I enter "test 1 2 3" into the prompt
         And   I accept the prompt
         Then  I expect that a prompt is not opened
-        And   I expect that element "#promptResult" contains the text "test 1 2 3"
+        And   I expect that the element "#promptResult" contains the text "test 1 2 3"

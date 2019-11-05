@@ -7,10 +7,10 @@ Feature: Test existence of elements
         Given I open the path "/"
 
     Scenario: None existing element check
-        Then  I expect that element "#noneExisting" does not exist
+        Then  I expect that the element "#noneExisting" does not exist
 
     Scenario: Existing element check
-        Then  I expect that element "#exisiting" does exist
+        Then  I expect that the element "#exisiting" does exist
 
     Scenario: Existing element count check
         Then  I expect the element "input" does appear exactly "8" times

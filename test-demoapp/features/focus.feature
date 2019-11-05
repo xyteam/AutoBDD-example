@@ -7,8 +7,8 @@ Feature: Test the focus state of a given element
         Given I open the path "/"
 
     Scenario: The element #textinput should not have the focus by default
-        Then  I expect that element "#textinput" is not focused
+        Then  I expect that the element "#textinput" is not focused
 
     Scenario: The element #textinput should have the focus when selected
         When  I click on the element "#textinput"
-        Then  I expect that element "#textinput" is focused
+        Then  I expect that the element "#textinput" is focused
