@@ -14,7 +14,7 @@ Open the HTML BDD test report in ~/Projects/AutoBDD-example/bdd_reports/
 
 **[xyteam/AutoBDD](https://github.com/xyteam/AutoBDD)**
 
-It uses pre-canned Cucumber/Gherkin statements and automated:
+Using pre-canned Cucumber/Gherkin statements and you can automate
 
 * web browser actions
 
