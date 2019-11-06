@@ -3,7 +3,6 @@
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/AutoBDD-example.git; \
-cd AutoBDD-example/docker; \
 cd ~/Projects/AutoBDD-example/docker
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
