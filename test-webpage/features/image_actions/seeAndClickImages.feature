@@ -9,6 +9,7 @@ Feature: See and Click images
     When  I open the url "https://www.varmour.com/"
     Then  I expect the title is "vArmour | Application Security Policy Management"
     Then  I should see the "vArmour_logo" image on the screen
+    And   I expect that the image "vArmour_logo:0.98" does appear exactly "1" time
     And   I expect that the element "a=Start Free Trial" becomes visible
     And   I expect the 1st element "li" inside the parent element ".menu" contains the text "Product"
     And   I expect the 2nd element "li" inside the parent element ".menu" contains the text "Blog"
@@ -18,6 +19,7 @@ Feature: See and Click images
     And   I expect that the element "a=Start Free Trial" becomes visible
     And   I expect that the element "button=Submit" becomes visible
     Then  I should see the "dialogRobot" image on the screen
+    And   I expect that the image "dialogRobot:0.97" does appear exactly "1" time
     When  I click the "dialogRobot" image on the screen
     And   I pause for 1000ms
     Then  I should see the "robotDialogWindow" image on the screen
