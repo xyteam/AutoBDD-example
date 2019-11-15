@@ -13,7 +13,7 @@ Feature: Test existence of elements
         Then  I expect that the element "#exisiting" does exist
 
     Scenario: Existing element count check
-        Then  I expect the element "input" does exist exactly "8" times
+        Then  I expect the element "input" does exist exactly 8 times
 
     Scenario: Existing element inside parent element count check
-        Then  I expect the element "div" inside the parent element "//div[@style]" does exist exactly "2" times
+        Then  I expect the element "div" inside the parent element "//div[@style]" does exist exactly 2 times
