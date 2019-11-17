@@ -7,6 +7,7 @@ Feature: See and Click images
   
   Scenario: Test vArmour web site
     When  I open the url "https://www.varmour.com/"
+    And   I pause for 1000ms
     Then  I expect the title is "vArmour | Application Security Policy Management"
     Then  I should see the "vArmour_logo" image on the screen
     And   I expect that the image "vArmour_logo:0.98" does appear exactly 1 time
