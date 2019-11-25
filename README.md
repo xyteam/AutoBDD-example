@@ -32,7 +32,7 @@ The test project will download the two AutoBDD docker images automatically, and 
 
 * **xyteam/autobdd-dev**: For developing and debugging your test project with shell and GUI.
 
-### To run test
+### To run example test in 3 simple steps:
 
 To run test you only need a docker supporting headless host somewhere on the network.
 
@@ -57,7 +57,7 @@ Step 3: Review test report
 
 A folder named **bdd_reports** will be created under the test project. Inside this folder you will find a datetime stamped test-run report folder for each test-run. Report folder can be exposed by a http-server, and can be archived into a zip file and download for local browser viewing.
 
-Inside the report folder:
+### additional notes on the report folder:
 
 * The HTML file cucumber-report.json.html can be opened by a web browser directly.
 
@@ -73,9 +73,10 @@ Inside each sub-folder:
 
 * The .MP4 files are the movie for the test scenario (run with --movie=1 option)
 
-Step 4: Import test results to TestRail
+### To run import test results into TestRail:
+Yes, this framework integrates with TestRail seamlessly.
 
-This optional step demostrates the possibility to import the cucumber-report JSON file to other reporting tools.
+Teh below step demostrates the possibility to import the cucumber-report JSON file to other reporting tools.
 
 To add testcases only:
 ```
