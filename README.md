@@ -36,12 +36,12 @@ The test project will download the two AutoBDD docker images automatically, and 
 
 To run test you only need a docker supporting headless host somewhere on the network.
 
-Step 1: Checkout the AutoBDD-example project:
+#### Step 1: Checkout the AutoBDD-example project:
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/AutoBDD-example.git;
 ```
-Step 2: Run test:
+#### Step 2: Run test:
 ```
 cd AutoBDD-example/docker; \
 # to run test cases with @Demo tag
@@ -53,11 +53,11 @@ Options can be appended with quotes to the run command above.
 "--modulelist test-download test-postman --movie 1 --reportbase /some/folder --reportpath someName --argstring '--tags @Demo,@SmokeTest --tags ~@wip'"
 ```
 
-Step 3: Review test report
+#### Step 3: Review test report
 
 A folder named **bdd_reports** will be created under the test project. Inside this folder you will find a datetime stamped test-run report folder for each test-run. Report folder can be exposed by a http-server, and can be archived into a zip file and download for local browser viewing.
 
-### additional notes on the report folder:
+### Additional notes on the report folder:
 
 * The HTML file cucumber-report.json.html can be opened by a web browser directly.
 
