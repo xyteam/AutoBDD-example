@@ -20,13 +20,13 @@ Using pre-canned Cucumber/Gherkin statements and you can automate
 
 * screen and keyboard/mouse actions
 
-You can turn this example project into your own test project and start automation immediately.
+You can turn this example project into your own test project and start automating immediately.
 
 ### Prerequisite
 
 The only prerequisite to run this project is a docker supporting host. Tested on Linux, MacOS, Windows.
 
-The test project will download the two AutoBDD docker images automatically.
+The test project will download the two AutoBDD docker images automatically, and all framework related tasks are taken cared by these two docker images. All you need to do is to work on your test cases.
 
 * **xyteam/autobdd-run**: For running BDD test in CI mode.
 
@@ -44,8 +44,6 @@ git clone https://github.com/xyteam/AutoBDD-example.git;
 Step 2: Run test:
 ```
 cd AutoBDD-example/docker; \
-# to display command help
-docker-compose run --rm test-run "--help"
 # to run test cases with @Demo tag
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
