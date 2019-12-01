@@ -20,32 +20,30 @@ Using pre-canned Cucumber/Gherkin statements and you can automate
 
 * screen and keyboard/mouse actions
 
-You can turn this example project into your own test project and start automation immediately.
+You can turn this example project into your own test project and start automating immediately.
 
 ### Prerequisite
 
 The only prerequisite to run this project is a docker supporting host. Tested on Linux, MacOS, Windows.
 
-The test project will download the two AutoBDD docker images automatically.
+The test project will download the two AutoBDD docker images automatically, and all framework related tasks are taken cared by these two docker images. All you need to do is to work on your test cases.
 
 * **xyteam/autobdd-run**: For running BDD test in CI mode.
 
 * **xyteam/autobdd-dev**: For developing and debugging your test project with shell and GUI.
 
-### To run test
+### To run example test in 3 simple steps:
 
 To run test you only need a docker supporting headless host somewhere on the network.
 
-Step 1: Checkout the AutoBDD-example project:
+#### Step 1: Checkout the AutoBDD-example project:
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/AutoBDD-example.git;
 ```
-Step 2: Run test:
+#### Step 2: Run test:
 ```
 cd AutoBDD-example/docker; \
-# to display command help
-docker-compose run --rm test-run "--help"
 # to run test cases with @Demo tag
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
@@ -55,11 +53,11 @@ Options can be appended with quotes to the run command above.
 "--modulelist test-download test-postman --movie 1 --reportbase /some/folder --reportpath someName --argstring '--tags @Demo,@SmokeTest --tags ~@wip'"
 ```
 
-Step 3: Review test report
+#### Step 3: Review test report
 
 A folder named **bdd_reports** will be created under the test project. Inside this folder you will find a datetime stamped test-run report folder for each test-run. Report folder can be exposed by a http-server, and can be archived into a zip file and download for local browser viewing.
 
-Inside the report folder:
+### Additional notes on the report folder:
 
 * The HTML file cucumber-report.json.html can be opened by a web browser directly.
 
@@ -75,9 +73,10 @@ Inside each sub-folder:
 
 * The .MP4 files are the movie for the test scenario (run with --movie=1 option)
 
-Step 4: Import test results to TestRail
+### To run import test results into TestRail:
+Yes, this framework integrates with TestRail seamlessly.
 
-This optional step demostrates the possibility to import the cucumber-report JSON file to other reporting tools.
+Teh below step demostrates the possibility to import the cucumber-report JSON file to other reporting tools.
 
 To add testcases only:
 ```
