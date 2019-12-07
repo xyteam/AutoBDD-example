@@ -6,7 +6,7 @@ Feature: Test draggable elements
     Background:
         Given I open the path "/"
         And   I have a screen that is 1024 by 768 pixels
-        And   I scroll to element "head"
+        And   I scroll to the element "head"
         And   I expect that the element "#draggable" is visible
         And   I expect that the element "#droppable" is visible
         # Then  I expect that the element "#draggable" is positioned at 30.5px on the x axis

@@ -7,7 +7,7 @@ Feature: Test moveTo elements
     Background:
         Given I open the path "/"
         And   I have a screen that is 1024 by 768 pixels
-        When  I scroll to element "#moveTo"
+        When  I scroll to the element "#moveTo"
 
     Scenario: Move to just the element
         When  I move to element "#moveTo"

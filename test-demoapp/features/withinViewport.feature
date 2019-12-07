@@ -8,7 +8,7 @@ Feature: Viewport test
         Given I open the url "/"
         And   I have a screen that is 1024 by 768 pixels
         And   I pause for 1000ms
-        When  I scroll to element "h1"
+        When  I scroll to the element "h1"
         Then  I expect that the element "h1" is within the viewport
         And   I expect that the element "footer" is not within the viewport
 
@@ -16,6 +16,6 @@ Feature: Viewport test
         Given I open the url "/"
         And   I have a screen that is 1024 by 768 pixels
         And   I pause for 1000ms
-        When  I scroll to element "footer"
+        When  I scroll to the element "footer"
         Then  I expect that the element "footer" is within the viewport
         And   I expect that the element "h1" is not within the viewport

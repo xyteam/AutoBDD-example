@@ -8,7 +8,7 @@ Feature: Test the page structure
 
     Scenario: Test if the page has a H1 I expect its at the top of the page
         Given  there is an element "h1" on the page
-        When   I scroll to element "h1"
+        When   I scroll to the element "h1"
         Then   I expect that the element "h1" is visible
 
     Scenario: Test if the page has only one H1 element
