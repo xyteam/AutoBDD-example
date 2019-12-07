@@ -18,8 +18,9 @@ Feature: See and Click images
     And   I expect the 4th element "li" inside the parent element ".menu" contains the text "More"
     And   I expect the element ".btn-wrap" inside the parent element ".menu" contains the text "Free Trial"
     And   I expect that the element "a=Start Free Trial" becomes visible
-    And   I expect that the element "button=Submit" becomes visible
-    Then  I should see the "dialogRobot" image on the screen
+    When  I scroll to the element "footer"
+    Then  I expect that the element "button=Submit" becomes visible
+    And   I should see the "dialogRobot" image on the screen
     And   I expect that the image "dialogRobot:0.97" does appear exactly 1 time
     When  I click the "dialogRobot" image on the screen
     And   I pause for 1000ms
