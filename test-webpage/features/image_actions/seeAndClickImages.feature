@@ -21,7 +21,7 @@ Feature: See and Click images
     When  I scroll to the element "footer"
     Then  I expect that the element "button=Submit" becomes visible
     And   I should see the "dialogRobot" image on the screen
-    And   I expect that the image "dialogRobot:0.97" does appear exactly 1 time
+    And   I expect that the image "dialogRobot:0.8" does appear exactly 1 time
     When  I click the "dialogRobot" image on the screen
     And   I pause for 1000ms
     Then  I should see the "robotDialogWindow" image on the screen
