@@ -25,4 +25,4 @@ Feature: See and Click images
     When  I click the "dialogRobot" image on the screen
     And   I pause for 1000ms
     Then  I should see the "robotDialogWindow" image on the screen
-    And   I expect that the "robotDialogWindow" image text does match "vArmour Bot .* want to see how .* platform helps CISOs\?"
+    And   I expect that the "robotDialogWindow" image text does match "VAR:robotDialogWindowTextRegex"
