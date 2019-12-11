@@ -39,7 +39,7 @@ sudo -E su $USER -m -c " \
   cd $HOME/Projects/AutoBDD && \
   source .autoPathrc.sh && \
   cd $HOME/Projects/AutoBDD/test-projects/${BDD_PROJECT} && \
-  npm install --no-bin-links && npm start && \
+  npm install && npm start && \
   $HOME/Projects/AutoBDD/framework/scripts/autorunner.py --project ${BDD_PROJECT} $@ \
   "
   
