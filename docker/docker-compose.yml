@@ -36,4 +36,7 @@ services:
     environment:
       USER: ${USER}
       BDD_PROJECT: ${BDD_PROJECT}
+      HOSTOS: ${HOSTOS}
+      USERID: ${USERID}
+      GROUPID: ${GROUPID}
     entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-run.startup.sh"]
