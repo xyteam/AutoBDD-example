@@ -4,8 +4,8 @@
   "description": "BDD Automation",
   "main": "demo-app/index.html",
   "dependencies": {
-    "http-server": "~0.11.0",
-    "forever": "^1.0.0"
+    "forever": "^1.0.0",
+    "http-server": "^0.11.1"
   },
   "scripts": {
     "demo-app": "forever start -s ./node_modules/.bin/http-server ./demo-app -s -p 8082",
