@@ -22,7 +22,7 @@ Feature: See and Click images
     Then  I expect that the element "button=Submit" becomes visible
     And   I should see the "dialogRobot" image on the screen
     And   I expect that the image "dialogRobot:0.8:1" does appear exactly 1 time
-    When  I click the "dialogRobot" image on the screen
+    When  I click on the "dialogRobot" image on the screen
     And   I pause for 1000ms
     Then  I should see the "robotDialogWindow" image on the screen
     And   I expect that the "robotDialogWindow" image does match the text "VAR:robotDialogWindowTextRegex"
