@@ -2,7 +2,7 @@
 # 
 version: '3.5'
 services:
-  autobdd-dev:
+  example-dev:
     image: "xyteam/autobdd-dev:${AutoBDD_Ver}"
     container_name: ${BDD_PROJECT}-dev
     shm_size: 1536M
@@ -20,10 +20,10 @@ services:
       USER: ${USER}
       PASSWORD: ${PASSWORD}
       VNC_PASSWORD: ${VNC_PASSWORD}
-      RESOLUTION: 1920x1200
+      RESOLUTION: 1920x1200x24
     entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-dev.startup.sh"]
 
-  autobdd-run:
+  example-run:
     image: "xyteam/autobdd-run:${AutoBDD_Ver}"
     container_name: ${BDD_PROJECT}-run
     shm_size: 1536M
