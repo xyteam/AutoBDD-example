@@ -7,8 +7,8 @@ Feature: See and Click images
   
   Scenario: Test vArmour web site
     When  I open the url "https://www.varmour.com/"
+    And   I wait every 5 seconds for 1 minute on the "screen" area to display the regex "v.*m.*r"
     And   I wait every 5 seconds for 1 minute on the "screen" area to display the text "vArmour"
-    Then  I expect the title is "vArmour | Application Security Policy Management"
     And   I should see the "vArmour_logo" image on the screen
     And   I expect that the image "vArmour_logo" does appear exactly 1 time
     And   I expect that the element "a=Start Free Trial" becomes visible
