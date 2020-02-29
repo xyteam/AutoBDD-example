@@ -10,16 +10,16 @@ Feature: Test button press
 
     Scenario: Test if element responds to button press
         Given the element "#testKeyResponse" not contains any text
-        When  I press "a" key
+        When  I press the "a" key to the screen
         Then  I expect that the element "#testKeyResponse" contains the text "65"
 
     Scenario: Test if element responds to button press
         Given the element "#testKeyResponse" not contains any text
-        When  I press "b" key
+        When  I press the "b" key to the screen
         Then  I expect that the element "#testKeyResponse" not contains the text "65"
 
     # Escape key
     Scenario: Test if element responds to button press
         Given the element "#testKeyResponse" not contains any text
-        When  I press "escape" key
+        When  I press the "escape" key to the screen
         Then  I expect that the element "#testKeyResponse" contains the text "27"
