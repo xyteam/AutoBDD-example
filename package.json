@@ -15,7 +15,7 @@
     "test-webpage": "cd ./test-webpage && chimpy",
     "test-postman": "cd ./test-postman && chimpy",
     "test-demoapp": "cd ./test-demoapp && chimpy",
-    "test": "npm run test-webpage; npm run test-postman; npm run test-demoapp"
+    "test": "npm start; npm run test-webpage; npm run test-postman; npm run test-demoapp"
   },
   "repository": {
     "type": "git",
