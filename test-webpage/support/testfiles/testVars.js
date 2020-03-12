@@ -1,5 +1,5 @@
 const All = {
-    robotDialogWindowTextRegex: 'how can .* help you\\?'
+    robotDialogWindowTextRegex: 'vArmour Bot'
   };
   
   const CH = {

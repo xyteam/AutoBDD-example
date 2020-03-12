@@ -29,5 +29,5 @@ Feature: See and Click images
     And   I expect that the image "dialogRobot:0.8:1" does appear exactly 1 time
     When  I click on the "dialogRobot" image on the screen
     And   I pause for 500ms
-    Then  I should see the "robotDialogWindow" image on the screen
-    And   I expect that the "robotDialogWindow" image does match the text "VAR:robotDialogWindowTextRegex"
+    Then  I should see the "robotDialogWindow:0.5" image on the screen
+    And   I expect that the "robotDialogWindow:0.5" image does match the text "VAR:robotDialogWindowTextRegex"
