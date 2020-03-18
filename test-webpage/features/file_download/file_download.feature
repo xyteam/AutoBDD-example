@@ -9,7 +9,7 @@ Feature: Open file
     Given I delete all download files with the name "pdf-test.*"
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
-    When  I download the PDF file by clicking "PDF_download_icon"
+    When  I download the PDF file by clicking "PDF_download_icon:0.6"
     And   I wait on download file "pdf-test.pdf" for 5000ms to exist
     And   I open the download file "pdf-test.pdf"
     Then  I expect the downloaded file "pdf-test.pdf" contains exactly 18 lines

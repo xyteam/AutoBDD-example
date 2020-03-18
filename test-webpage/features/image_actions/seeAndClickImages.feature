@@ -19,9 +19,9 @@ Feature: See and Click images
 
   Scenario: Test screen image and text
     When  I open the url "https://www.varmour.com/"
-    And   I wait every 5 seconds for 1 minute on the "Screen" area to display the regex "v.*m.*r"
-    Then  I expect that the "Screen" area does contain the regex "Monitor"
-    Then  I expect that the "Screen" area does contain the text "Visualize applications and discover relationships"
+    And   I wait every 5 seconds for 1 minute on the screen area to display the regex "v.*m.*r"
+    Then  I expect that the "Screen-100" image does contain the regex "Monitor"
+    Then  I expect that the screen area does contain the text "Visualize applications and discover relationships"
     And   I should see the "vArmour_logo" image on the screen
     And   I expect that the image "vArmour_logo" does appear exactly 1 time
     And   I expect that the "vArmour_logo" image does match the regex "v.*m.*r"
@@ -29,5 +29,5 @@ Feature: See and Click images
     And   I expect that the image "dialogRobot:0.8:1" does appear exactly 1 time
     When  I click on the "dialogRobot" image on the screen
     And   I pause for 500ms
-    Then  I should see the "robotDialogWindow:0.5" image on the screen
-    And   I expect that the "robotDialogWindow:0.5" image does match the text "VAR:robotDialogWindowTextRegex"
+    Then  I should see the "robotDialogWindow:0.5:Bot" image on the screen
+    And   I expect that the "robotDialogWindow:0.5:Bot" image does match the text "VAR:robotDialogWindowTextRegex"
