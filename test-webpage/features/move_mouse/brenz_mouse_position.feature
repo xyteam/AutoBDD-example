@@ -7,19 +7,19 @@ Feature: brenz.net mouse tracker page
   
   Scenario: brenz.net mouse tracker page
     Given I open the url "http://www.brenz.net/snippets/xy.asp"
-    When  I park mouse at "center"
-    Then  I expect mouse at "center"
-    When  I park mouse at "180,100"
-    Then  I expect mouse at "180,100"
-    When  I park mouse at "upperLeft"
-    Then  I expect mouse at "upperLeft"
-    When  I park mouse at "upperRight"
-    Then  I expect mouse at "upperRight"
-    When  I park mouse at "lowerLeft"
-    Then  I expect mouse at "lowerLeft"
-    When  I park mouse at "lowerRight"
-    Then  I expect mouse at "lowerRight"
-    When  I park mouse at "1800,1000"
-    Then  I expect mouse at "1800,1000"
-    When  I park mouse at "center"
-    Then  I expect mouse at "center"
+    When  I park mouse at the center position of the screen
+    Then  I expect mouse at the center position of the screen
+    When  I wave mouse at the 180,100 position of the screen
+    Then  I expect mouse at the 180,100 position of the screen
+    When  I park mouse at the upperLeft position of the screen
+    Then  I expect mouse at the upperLeft position of the screen
+    When  I park mouse at the upperRight position of the screen
+    Then  I expect mouse at the upperRight position of the screen
+    When  I park mouse at the lowerLeft position of the screen
+    Then  I expect mouse at the lowerLeft position of the screen
+    When  I park mouse at the lowerRight position of the screen
+    Then  I expect mouse at the lowerRight position of the screen
+    When  I shake mouse at the 1800,1000 position of the screen
+    Then  I expect mouse at the 1800,1000 position of the screen
+    When  I circle mouse at the center position of the screen
+    Then  I expect mouse at the center position of the screen
