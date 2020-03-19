@@ -9,8 +9,8 @@ Feature: Open file
     Given I delete all download files with the name "pdf-test.*"
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
-    When  I wave mouse at the center position of the screen
-    And   I hover mouse at the topLeft position of the screen
+    And   I park mouse at the center position of the screen
+    And   I hover mouse at the 0,100 position of the screen
     And   I doubleClick on the "PDF_download_icon" image on the screen
     And   I pause for 1000ms
     And   I doubleClick on the "FileSave_button:0.5:Save" image on the screen
