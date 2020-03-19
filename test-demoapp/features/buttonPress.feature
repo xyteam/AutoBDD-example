@@ -6,7 +6,7 @@ Feature: Test button press
 
     Background:
         Given I open the path "/"
-        And   I click on the "Dropzone" image on the screen
+        And   I click mouse at the center position of the screen
 
     Scenario: Test if element responds to button press
         Given the element "#testKeyResponse" not contains any text
