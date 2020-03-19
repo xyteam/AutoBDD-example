@@ -10,8 +10,9 @@ Feature: Open file
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
     When  I wave mouse at the center position of the screen
-    And   I click on the "PDF_download_icon:0.6" image on the screen
-    And   I click on the "FileSave_button:0.6:save" image on the screen
+    And   I hover mouse at the topLeft position of the screen
+    And   I click on the "PDF_download_icon" image on the screen
+    And   I click on the "FileSave_button:0.8:Save" image on the screen
     And   I wait on download file "pdf-test.pdf" for 5000ms to exist
     And   I open the download file "pdf-test.pdf"
     Then  I expect the downloaded file "pdf-test.pdf" contains exactly 18 lines
