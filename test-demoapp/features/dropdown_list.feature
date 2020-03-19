@@ -34,5 +34,5 @@ Feature: dropdown list
     Given I open the url "http://localhost:8082"
     When  I scroll to the element "footer"
     Then  I should see the "First_option" image on the screen
-    When  I doubleClick on the "First_option" image on the screen
+    When  I click on the "First_option" image on the screen
     Then  I should see the "First_option_Opened" image on the screen
