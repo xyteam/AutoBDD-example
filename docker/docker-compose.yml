@@ -26,7 +26,7 @@ services:
   example-run:
     image: "xyteam/autobdd-run:${AutoBDD_Ver}"
     container_name: ${BDD_PROJECT}-run
-    shm_size: 1536M
+    shm_size: 2048M
     user: root
     privileged: true
     volumes:
