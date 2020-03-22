@@ -13,7 +13,7 @@ Feature: Open file
     And   I hover mouse at the 0,100 position of the screen
     And   I click on the "PDF_download_icon" image on the screen
     And   I pause for 1000ms
-    And   I doubleClick on the "FileSave_button:0.5:Save" image on the screen
+    And   I hoverClick on the "FileSave_button:0.5:Save" image on the screen
     And   I wait on download file "pdf-test.pdf" for 5000ms to exist
     And   I open the download file "pdf-test.pdf"
     Then  I expect the downloaded file "pdf-test.pdf" contains exactly 18 lines
@@ -27,6 +27,8 @@ Feature: Open file
     Given I delete all download files with the name "file_example_XLS_10*"
     When  I open the url "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"
     And   I wait on download file "file_example_XLS_10.xls" for 5000ms to exist
+    And   I announce message: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
+    And   I announce message at browser: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     Then  I expect the downloaded file "file_example_XLS_10.xls" contains 10 rows
     And   I expect the downloaded file "file_example_XLS_10.xls" contains 10 rows and 8 columns
     And   I expect the downloaded file "file_example_XLS_10.xls" at row 0 contains the text "0,First Name,Last Name,Gender,Country,Age,Date,Id"
