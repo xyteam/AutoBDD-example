@@ -9,9 +9,10 @@ Feature: See and Click images
     When  I open the url "https://www.varmour.com/"
     And   I expect that the element "a=Start Free Trial" becomes visible
     And   I expect the 1st element "li" inside the parent element ".menu" contains the text "Product"
-    And   I expect the 2nd element "li" inside the parent element ".menu" contains the text "'Virtual Events"
-    And   I expect the 3rd element "li" inside the parent element ".menu" contains the text "Contact Us"
-    And   I expect the 4th element "li" inside the parent element ".menu" contains the text "More"
+    And   I expect the 2nd element "li" inside the parent element ".menu" contains the text "Virtual Events"
+    And   I expect the 3rd element "li" inside the parent element ".menu" contains the text "Blog"
+    And   I expect the 4th element "li" inside the parent element ".menu" contains the text "Contact Us"
+    And   I expect the 5th element "li" inside the parent element ".menu" contains the text "More"
     And   I expect the element ".btn-wrap" inside the parent element ".menu" contains the text "Free Trial"
     And   I expect that the element "a=Start Free Trial" becomes visible
     When  I scroll to the element "footer"
