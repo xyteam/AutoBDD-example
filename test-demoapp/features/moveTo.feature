@@ -12,7 +12,6 @@ Feature: Test moveTo elements
     Scenario: Move to just the element
         When  I move to element "#moveTo"
         Then  I expect that the element "#moveTo" has the class "moveToClass"
-
         When  I move to element "body"
         Then  I expect that the element "#moveTo" does not have the class "moveToClass"
 
