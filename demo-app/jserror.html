@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <title>jserror test page</title>
+</head>
+<body>
+    <p>this page will load error JS script</p>
+    <script src="inc/jserror_ReferenceError.js"></script>
+    <script>
+        window.onerror = function (message, url, line, column, error) {
+            console.log(message, url, line, column, error);
+        }
+        foo(); // call function declared in app.js
+    </script>
+</body>
+</html>
