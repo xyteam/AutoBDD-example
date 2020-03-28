@@ -5,7 +5,7 @@ Feature: Open file
   I want to open browser to download a few files and investigate file contents
 
   @SmokeTest
-  Scenario: Download, open and check file - PDF file
+  Scenario: Open url, check content, download file and check downloaded content - PDF file
     Given I delete all download files with the name "pdf-test.*"
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
     Then  I should see the "Yukon_Logo" image on the screen
@@ -34,7 +34,7 @@ Feature: Open file
     And   I expect the downloaded file "file_example_XLS_10.xls" at row 0 contains the text "0,First Name,Last Name,Gender,Country,Age,Date,Id"
     And   I expect the downloaded file "file_example_XLS_10.xls" at row 1 and column 4 equals the text "United States"
 
-  Scenario: Open file - PNG file
+  Scenario: Browse directory and open file - PNG file
     Given I open the file "ENV:PROJECTRUNPATH"
     And   I click the element "a=test-webpage/"
     And   I click the element "a=support/"
