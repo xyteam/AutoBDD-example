@@ -4,8 +4,7 @@
 **/Recording_*.mp4
 **/Passed_*.png
 **/Failed_*.png
-**/Passed_*.jpg
-**/Failed_*.jpg
+**/Step_*.png
 **/.screenshots/
 **/node_modules/
 package-lock.json
