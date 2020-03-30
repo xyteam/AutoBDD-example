@@ -1,14 +1,23 @@
-**/*.run
-**/Passed_*.mp4
-**/Failed_*.mp4
-**/Recording_*.mp4
-**/Passed_*.png
-**/Failed_*.png
-**/Step_*.png
-**/.screenshots/
-**/node_modules/
+# files to ignore
+*.run
+*.pyc
+Passed_*.mp4
+Failed_*.mp4
+Recording_*.mp4
+Passed_*.png
+Failed_*.png
+Step_*.png
+npm-debug.log
+hs_err_pid*.log
 package-lock.json
-tmp/*
-bdd_reports/*
-reports/*
-.vscode/*
+.project
+nohup.out
+
+# dirs to ignore
+node_modules/
+tmp/
+.DS_Store
+.screenshots/
+.vscode/
+.settings/
+bdd_reports/
