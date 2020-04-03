@@ -30,10 +30,6 @@ const projectHooks = {
   AfterFeature: function(feature) {
     if (frameworkHooks) frameworkHooks.AfterFeature(feature);
   },
-
-  AfterScenarioResult: function(scenario) {
-    if (frameworkHooks) frameworkHooks.AfterScenarioResult(scenario);
-  },
 }
 
 module.exports = projectHooks;
