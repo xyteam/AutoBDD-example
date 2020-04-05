@@ -6,7 +6,7 @@ Feature: demoapp drag and drop
   I want to test the demoapp drag and drop feature by webelement and by image
 
   Scenario: Drag to dropzone - by webelement
-    When  I open the url "http://localhost:8082"
+    When  I open the url "/"
     And   I scroll to the element "head"
     Then  I expect that the element "#draggable" is visible
     And   I expect that the element "#droppable" is visible
@@ -14,7 +14,7 @@ Feature: demoapp drag and drop
     Then  I expect that the element "#droppable" contains the text "Dropped!"
 
   Scenario: Drag to dropzone - by image
-    When  I open the url "http://localhost:8082"
+    When  I open the url "/"
     And   I scroll to the element "head"
     Then  I should see the "Drag_me" image on the screen
     And   I expect that the "Drag_me" image does contain the text "Drag me!"

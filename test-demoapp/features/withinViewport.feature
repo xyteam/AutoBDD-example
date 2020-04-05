@@ -1,8 +1,7 @@
 @test-demoapp
 Feature: Viewport test
     As a Developer in Test
-    I want to visit the Google result page for the term "test"
-    And make sure I have the logo within the viewport and make sure the footer is not
+    I want to test the scrolling and view port relationship.
 
     Scenario: Header in viewport, footer outside viewport
         Given I open the url "/"

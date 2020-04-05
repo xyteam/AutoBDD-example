@@ -1,5 +1,5 @@
 @test-download
-Feature: Open file
+Feature: File download and validation
 
   As a QA Engineer
   I want to open browser to download a few files and investigate file contents

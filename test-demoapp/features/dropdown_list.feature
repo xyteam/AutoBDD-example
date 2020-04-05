@@ -7,7 +7,7 @@ Feature: dropdown list
     2. click page images
 
   Scenario: Click Drop-Down List - by webelement
-    When  I open the url "http://localhost:8082"
+    When  I open the url "/"
     Then  I should see the page title to contain "demo app"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
@@ -15,7 +15,7 @@ Feature: dropdown list
     Then  I should see the "Option #2" option on the page
 
   Scenario: Click Drop-Down List - by tryClick
-    When  I open the url "http://localhost:8082"
+    When  I open the url "/"
     Then  I should see the page title to contain "demo app"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
@@ -23,7 +23,7 @@ Feature: dropdown list
     Then  I should see the "Option #4" option on the page
 
   Scenario: Click Drop-Down List - by deepClick
-    When  I open the url "http://localhost:8082"
+    When  I open the url "/"
     Then  I should see the page title to contain "demo app"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
@@ -31,7 +31,7 @@ Feature: dropdown list
     Then  I should see the "Option #4" option on the page
 
   Scenario: Click Drop-Down List - by image
-    Given I open the url "http://localhost:8082"
+    Given I open the url "/"
     When  I scroll to the element "footer"
     Then  I should see the "First_option" image on the screen
     When  I click on the "First_option" image on the screen

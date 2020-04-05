@@ -1,6 +1,6 @@
 @test-webpage
 @Demo
-Feature: bestvpn html5demos page - drag and drop page by image
+Feature: bestvpn site - drag and drop image
 
   As a QA Engineer
   I want to test bestvpn html5demos page - drag and drop page by image
