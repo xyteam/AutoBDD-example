@@ -2,7 +2,7 @@
 # 
 version: '3.5'
 services:
-  example-dev:
+  autobdd-example-dev:
     image: "xyteam/autobdd-dev:${AutoBDD_Ver}"
     container_name: ${BDD_PROJECT}-dev
     shm_size: 1536M
@@ -23,7 +23,7 @@ services:
       RESOLUTION: 1920x1200x24
     entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-dev.startup.sh"]
 
-  example-run:
+  autobdd-example-run:
     image: "xyteam/autobdd-run:${AutoBDD_Ver}"
     container_name: ${BDD_PROJECT}-run
     shm_size: 2048M
