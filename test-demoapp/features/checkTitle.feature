@@ -7,7 +7,7 @@ Feature: Local server test
         Given I open the path "/"
 
     Scenario: Is not Google
-        Then I expect that the page title does not equal the text "Google
+        Then I expect that the page title does not equal the text "Google"
 
     Scenario: Is correct
-        Then I expect that the page title does equal the text "DEMO APP
+        Then I expect that the page title does equal the text "DEMO APP"

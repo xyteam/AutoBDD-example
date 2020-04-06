@@ -20,7 +20,7 @@ Feature: Sample Snippets test part 1
         Given the page title does not equal the text "two
         And   I open the url "http://webdriverjs.christian-bromann.com/"
         When  I click on the link "two"
-        Then  I expect that the page title does equal the text "two
+        Then  I expect that the page title does equal the text "two"
 
     Scenario: click on button
         Given I open the url "http://webdriverjs.christian-bromann.com/"
