@@ -5,10 +5,10 @@ Feature: Sample Snippets test part 2
 
     Scenario: query title
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the title is "WebdriverJS Testpage"
-        And   the title is not "Other title"
-        Then  I expect that the title is "WebdriverJS Testpage"
-        And   I expect that the title is not "Other title"
+        And   the page title does equal the text "WebdriverJS Testpage
+        And   the page title does not equal the text "Other title
+        Then  I expect that the page title does equal the text "WebdriverJS Testpage
+        And   I expect that the page title does not equal the text "Other title
 
     Scenario: check visibility
         Given I open the url "http://webdriverjs.christian-bromann.com/"
