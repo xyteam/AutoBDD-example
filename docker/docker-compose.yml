@@ -21,7 +21,7 @@ services:
       PASSWORD: ${PASSWORD}
       VNC_PASSWORD: ${VNC_PASSWORD}
       RESOLUTION: 1920x1200x24
-    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-dev.startup.sh"]
+    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-example-dev.startup.sh"]
 
   autobdd-example-run:
     image: "xyteam/autobdd-run:${AutoBDD_Ver}"
@@ -40,4 +40,4 @@ services:
       USERID: ${USERID}
       GROUPID: ${GROUPID}
       DemoAppHost: ${DemoAppHost}
-    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-run.startup.sh"]
+    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-example-run.startup.sh"]
