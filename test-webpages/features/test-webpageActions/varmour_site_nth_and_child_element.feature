@@ -22,9 +22,7 @@ Feature: vArmour site nth and child element validation and action
     Then  I expect that the element "a=Start Free Trial" becomes visible
     And   I expect the 4th element "li" inside the parent element ".menu" contains the text "Contact Us"
     When  I click the 4th element "li" inside the parent element ".menu"
+    And   I focus the last opened tab
     Then  I should see the "vArmour_ContactUs:0.8:Contact" image on the screen
+    # And   I close the last opened tab
   
-  Scenario: Test scroll to bottom of the page
-    Then  I expect that the element "button=Submit" is not visible
-    When  I scroll to the element "footer"
-    Then  I expect that the element "button=Submit" becomes visible
