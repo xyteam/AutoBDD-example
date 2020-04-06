@@ -17,7 +17,7 @@ Feature: Sample Snippets test part 1
         And   I expect the full URL to not be "http://google.com"
 
     Scenario: click on link
-        Given the page title does not equal the text "two
+        Given the page title does not equal the text "two"
         And   I open the url "http://webdriverjs.christian-bromann.com/"
         When  I click on the link "two"
         Then  I expect that the page title does equal the text "two"
