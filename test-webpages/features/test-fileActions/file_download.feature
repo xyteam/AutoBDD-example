@@ -36,7 +36,7 @@ Feature: File download and validation
 
   Scenario: Browse directory and open file - PNG file
     Given I open the file "ENV:PROJECTRUNPATH"
-    And   I click the element "a=test-webpage/"
+    And   I click the element "a=test-webpages/"
     And   I click the element "a=support/"
     And   I click the element "a=testimages/"
     And   I click the element "a=Yukon_Logo.png"

@@ -19,10 +19,10 @@ Feature: vArmour site nth and child element validation and action
     And   I expect that the element "a=Start Free Trial" becomes visible
 
   Scenario: Test nth web element action
-    Then   I expect that the element "a=Start Free Trial" becomes visible
+    Then  I expect that the element "a=Start Free Trial" becomes visible
     And   I expect the 4th element "li" inside the parent element ".menu" contains the text "Contact Us"
-    When  I click on the 4th element "li" inside the parent element ".menu"
-    Then  I expect the url to contain "contact-us"
+    When  I click the 4th element "li" inside the parent element ".menu"
+    Then  I should see the "vArmour_ContactUs:0.8:Contact" image on the screen
   
   Scenario: Test scroll to bottom of the page
     Then  I expect that the element "button=Submit" is not visible

@@ -8,7 +8,7 @@ Feature: Test how clicks are handled on a certain element
 
     Scenario: Single click on a link should navigate to another page
         When  I click on the link "Navigate to example.com"
-        Then  I expect the url to contain "https://example.com"
+        Then  I expect the full URL to contain "https://example.com"
 
     @Isolate
     Scenario: Single click on the button #toggleMessage should display an message
