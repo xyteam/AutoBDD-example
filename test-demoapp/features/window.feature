@@ -14,7 +14,7 @@ Feature: Test if new windows/tabs are being opened
         When  I click on the element "#linkSameWindow"
         Then  I expect a new window has not been opened
 
-    Scenario: Test if a link with target="_blank" does open a new window/tab
+    Scenario: Test if a link with target "_blank" does open a new window/tab
         When  I click on the element "#linkNewWindow"
         Then  I expect a new window has been opened
 
