@@ -9,7 +9,7 @@ Feature: vArmour site nth iframe validation and action
     Given  I open the url "https://www.varmour.com/"
     And    I wait on element ".menu" for 1000ms to be visible
     And    I switch to the parent iframe
-    And   I wait on element "a=Start Free Trial" for 5000ms to be visible
+    And    I wait on element "a=Start Free Trial" for 5000ms to be visible
     And    I pause for 3000ms
   
   Scenario: Test the nth iframe element visibility and click action
