@@ -11,12 +11,13 @@ Feature: vArmour site screen text and see and click image
   Scenario: Test screen area text
     And   I wait every 5 seconds for 1 minute on the screen area to display the regex "pssst"
     Then  I expect that the "last-seen" screen area does contain the text "Pssst..."
-    And   I expect that the "Screen-100" image does contain the regex "Product"
+    And   I expect that the "Screen-100" image does contain the text "Product"
 
   Scenario: Test image wait and text
     Then  I should see the "vArmour_logo" image on the screen
     And   I expect that the "last-seen" image does appear exactly 1 time
     And   I expect that the "last-seen" image does match the regex "v.*m.*r"
+    And   I expect that the "last-seen" image does mimic the text "varmour"
 
   Scenario: Test find image with text
     And   I pause for 3000ms
