@@ -12,8 +12,8 @@ Feature: File download and validation
     And   I park mouse at the center position of the screen
     And   I hover mouse at the 0,100 position of the screen
     And   I click on the "PDF_download_icon" image on the screen
-    And   I pause for 1000ms
-    And   I click on the "FileSave_button:0.5:Save" image on the screen
+    And   I pause for 5000ms
+    And   I doubleClick on the "FileSave_button:0.5:Save" image on the screen
     And   I wait on download file "pdf-test.pdf" for 5000ms to exist
     And   I open the download file "pdf-test.pdf"
     Then  I expect the downloaded file "pdf-test.pdf" contains exactly 18 lines
