@@ -20,7 +20,7 @@ Feature: Test waiting for actions part 1
     Scenario: Test if element becomes unchecked
         When  I click on the element "#waitForCheckedBtn"
         And   I pause for 1000ms
-        Then  I expect that the checkbox "#waitForCheckedElement" is checked
+        Then  I expect that the element "#waitForCheckedElement" is checked
         When  I click on the element "#waitForCheckedBtn"
         Then  I wait on element "#waitForCheckedElement" for 1000ms to not be checked
 

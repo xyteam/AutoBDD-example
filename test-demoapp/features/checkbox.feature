@@ -7,15 +7,15 @@ Feature: Test the selected state of a checkbox
         Given I open the path "/"
 
     Scenario: The checkbox should not be selected by default
-        Then  I expect that the checkbox "#checkbox" is not checked
+        Then  I expect that the element "#checkbox" is not checked
 
     Scenario: The checkbox should be checked when clicked
         Given the checkbox "#checkbox" is not checked
         When  I click on the element "#checkbox"
-        Then  I expect that the checkbox "#checkbox" is checked
+        Then  I expect that the element "#checkbox" is checked
 
     Scenario: The checkbox should deselect when clicked twice
         Given the checkbox "#checkbox" is not checked
         When  I click on the element "#checkbox"
         And   I click on the element "#checkbox"
-        Then  I expect that the checkbox "#checkbox" is not checked
+        Then  I expect that the element "#checkbox" is not checked
