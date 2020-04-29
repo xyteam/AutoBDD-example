@@ -10,7 +10,7 @@ Feature: vArmour site screen text and see and click image
 
   Scenario: Test screen area text
     And   I wait every 5 seconds for 1 minute on the screen area to display the regex "pssst"
-    Then  I expect that the "last-seen" screen area does contain the text "Pssst..."
+    Then  I expect that the "last-seen" screen area does contain the text "Pssst"
     And   I expect that the "Screen-100" image does contain the text "Product"
 
   Scenario: Test image wait and text
