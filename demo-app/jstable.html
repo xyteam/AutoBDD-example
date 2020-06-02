@@ -1,0 +1,370 @@
+<html lang="en">
+  <head><base href="https://raw.githubusercontent.com/Archakov06/jQuery.tableExport/master/examples/example_1.html">
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/plain; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script type="text/htmlpreview" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script type="text/htmlpreview" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+<style>@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic,cyrillic-ext');
+
+body {
+    font-family: 'Open Sans';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container.home {
+    margin-top: 50px;
+}
+
+.container.home h1 {
+    margin-bottom: 30px;
+}
+
+.container.home table {
+    font-size: 16px;
+}
+
+.top-panel {
+    margin-bottom: 30px;
+}
+
+#firm_copy_table {
+    display: none;
+}
+</style></head>
+<body>
+
+  <div class="container home">
+
+      <h1 class="expected">Export Table: Example with <span class="rows">6 rows</span> and <span class="columns">5 columns</span></h1>
+
+  	<div class="top-panel">
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown">Export to <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a onclick="exportAll('csv');" href="javascript://">CSV</a></li>
+          <li><a onclick="exportAll('txt');" href="javascript://">TXT</a></li>
+          <li><a onclick="exportAll('xls');" href="javascript://">XLS</a></li>
+          <li><a onclick="exportAll('sql');" href="javascript://">SQL</a></li>
+          <li><a onclick="exportAll('json');" href="javascript://">JSON</a></li>
+        </ul>
+      </div>
+  	</div>
+
+  	<div class="table-responsive">
+      <table id="firm_table" class="table table-striped table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>E-Mail</th>
+            <th>Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Delpha</td>
+            <td>siliciophite</td>
+            <td>circumflex@masterwork.net</td>
+            <td>997300858</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Paula</td>
+            <td>Ausiello</td>
+            <td>bemirrorment@moy.edu</td>
+            <td>779213455</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Gaynell</td>
+            <td>Salguero</td>
+            <td>smoothpate@podalgia.edu</td>
+            <td>999908414</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Otelia</td>
+            <td>Nitta</td>
+            <td>hispanophile@auditorship.edu</td>
+            <td>947377435</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Darren</td>
+            <td>Maltez</td>
+            <td>toxotidae@tut.net</td>
+            <td>902590424</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Larraine</td>
+            <td>Zelasco</td>
+            <td>lanciers@unpleasantish.co.uk</td>
+            <td>668639791</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+  <script type="text/htmlpreview" src="../dist/tableExport.js"></script>
+  <script type="text/htmlpreview" src="main.js"></script>
+
+
+
+<script>(function($) {
+  $.fn.tableExport = function(options) {
+    var options = $.extend(
+      {
+        filename: 'table',
+        format: 'csv',
+        cols: '',
+        excludeCols: '',
+        head_delimiter: ',',
+        column_delimiter: ',',
+        quote: true,
+        onBefore: function(t) {},
+        onAfter: function(t) {},
+      },
+      options
+    );
+
+    var $this = $(this);
+
+    var cols = options.cols ? options.cols.split(',') : [];
+    var excludeCols = options.excludeCols ? options.excludeCols.split(',') : [];
+
+    var result = '';
+
+    var data_type = {
+      csv: 'text/csv',
+      txt: 'text/plain',
+      xls: 'application/vnd.ms-excel',
+      json: 'application/json',
+    };
+
+    if (
+      typeof options.onBefore != 'function' ||
+      typeof options.onAfter != 'function' ||
+      !options.format ||
+      !options.head_delimiter ||
+      !options.column_delimiter ||
+      !options.filename
+    ) {
+      console.error('One of the parameters is incorrect.');
+      return false;
+    }
+
+    function getHeaders() {
+      var th = $this.find('thead th');
+      var arr = [];
+
+      th.each(function(i, e) {
+        if (cols.length) {
+          cols.forEach(function(c) {
+            if (c == i + 1) {
+              arr.push(e.innerText);
+            }
+          });
+        } else {
+          if (excludeCols.indexOf((i + 1).toString()) == -1) {
+            arr.push(e.innerText);
+          }
+        }
+      });
+
+      return arr;
+    }
+
+    function getItems() {
+      var tr = $this.find('tbody tr');
+      var arr = [];
+
+      tr.each(function(i, e) {
+        var s = [];
+
+        if (cols.length) {
+          cols.forEach(function(c) {
+            s.push(
+              $(e)
+                .find('td:nth-child(' + c + ')')
+                .text()
+            );
+          });
+          arr.push(s);
+        } else {
+          var td = $(e).find('td');
+          td.each(function(i, t) {
+            if (excludeCols.indexOf((i + 1).toString()) == -1) {
+              s.push(t.innerText);
+            }
+          });
+          arr.push(s);
+        }
+      });
+
+      return arr;
+    }
+
+    function download(data, filename, format) {
+      var a = document.createElement('a');
+      var blob = new Blob(['\ufeff', data], { type: data_type[format] });
+      a.href = URL.createObjectURL(blob);
+
+      var now = new Date();
+      var time_arr = [
+        'DD:' + now.getDate(),
+        'MM:' + (now.getMonth() + 1),
+        'YY:' + now.getFullYear(),
+        'hh:' + now.getHours(),
+        'mm:' + now.getMinutes(),
+        'ss:' + now.getSeconds(),
+      ];
+
+      time_arr.forEach(function(item) {
+        var key = item.split(':')[0];
+        var val = item.split(':')[1];
+        var regexp = new RegExp('%' + key + '%', 'g');
+        filename = filename.replace(regexp, val);
+      });
+
+      a.download = filename + '.' + format;
+      a.click();
+
+      if (!navigator.userAgent.toLowerCase().match(/firefox/)) {
+        a.remove();
+      }
+    }
+
+    options.onBefore($this);
+
+    switch (options.format) {
+      case 'csv':
+        var headers = getHeaders();
+        var items = getItems();
+
+        if (options.quote === true) {
+          var quote = options.quote === true ? "\"" : null;
+          
+          headers.forEach(function (item, i) {
+            headers[i] = quote + item + quote;
+          });
+
+          items.forEach(function (item, i) {
+            item.forEach(function (cell, j){
+              item[j] = quote + cell + quote;
+            });            
+          });
+        }
+
+        result += headers.join(options.head_delimiter) + '\n';
+
+        items.forEach(function(item, i) {
+          result += item.join(options.column_delimiter) + '\n';
+        });
+
+        break;
+
+      case 'txt':
+        var headers = getHeaders();
+        var items = getItems();
+
+        result += headers.join(options.head_delimiter) + '\n';
+
+        items.forEach(function(item, i) {
+          result += item.join(options.column_delimiter) + '\n';
+        });
+
+        break;
+
+      case 'xls':
+        var headers = getHeaders();
+        var items = getItems();
+        template =
+          '<table><thead>%thead%</thead><tbody>%tbody%</tbody></table>';
+
+        var res = '';
+        headers.forEach(function(item, i) {
+          res += '<th>' + item + '</th>';
+        });
+        template = template.replace('%thead%', res);
+
+        res = '';
+        items.forEach(function(item, i) {
+          res += '<tr>';
+          item.forEach(function(td, i) {
+            res += '<td>' + td + '</td>';
+          });
+          res += '</tr>';
+        });
+        template = template.replace('%tbody%', res);
+
+        result = template;
+        break;
+
+      case 'sql':
+        var headers = getHeaders();
+        var items = getItems();
+
+        items.forEach(function(item, i) {
+          result +=
+            'INSERT INTO table (' +
+            headers.join(',') +
+            ") VALUES ('" +
+            item.join("','") +
+            "');\n";
+        });
+
+        break;
+
+      case 'json':
+        var headers = getHeaders();
+        var items = getItems();
+
+        result = JSON.stringify({ header: headers, items: items });
+
+        break;
+    }
+
+    download(result, options.filename, options.format);
+
+    options.onAfter($this);
+  };
+})(jQuery);
+</script><script>
+function exportTo(type) {
+
+	$('.table').tableExport({
+		filename: 'table_%DD%-%MM%-%YY%',
+		format: type,
+		cols: '2,3,4'
+	});
+
+}
+
+function exportAll(type) {
+
+	$('.table').tableExport({
+		filename: 'table_%DD%-%MM%-%YY%-month(%MM%)',
+		format: type
+	});
+
+}</script></body></html>
