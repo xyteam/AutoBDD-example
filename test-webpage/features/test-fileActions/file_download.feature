@@ -29,14 +29,14 @@ Feature: File download and validation
     And   I wait on download file "file_example_XLS_10.xls" for 5000ms to exist
     And   I announce message: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     And   I announce message at browser: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
-    Then  I expect that the downloaded file "file_example_XLS_10.xls" contains 10 rows
-    And   I expect that the downloaded file "file_example_XLS_10.xls" contains 10 rows and 8 columns
+    Then  I expect that the downloaded file "file_example_XLS_10.xls" contains 10 lines
+    And   I expect that the downloaded file "file_example_XLS_10.xls" contains 9 rows and 8 columns
     And   I expect that the downloaded file "file_example_XLS_10.xls" at row 0 does contain the text "0,First Name,Last Name,Gender,Country,Age,Date,Id"
     And   I expect that the downloaded file "file_example_XLS_10.xls" at row 1 and column 4 does equal the text "United States"
 
   Scenario: Browse directory and open file - PNG file
     Given I open the file "ENV:PROJECTRUNPATH"
-    And   I click the element "a=test-webpages/"
+    And   I click the element "a=test-webpage/"
     And   I click the element "a=testimages/"
     And   I click the element "a=Yukon_Logo.png"
     Then  I should see the "Yukon_Logo" image on the screen
