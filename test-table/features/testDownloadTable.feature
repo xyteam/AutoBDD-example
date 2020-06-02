@@ -27,5 +27,5 @@ Feature: test table rows and columns
         When  I click on the element "button=Export to"
         And   I click on the element "li=CSV"
         And   I wait on download file "table_*.csv" for 5000ms to exist
-        Then  I expect that the downloaded file "table_*.csv" contains exactly ENV:expectedRows rows and exactly ENV:expectedColumns columns
+        Then  I expect that the downloaded file "table_*.csv" contains exactly ENV:expectedRows data rows and exactly ENV:expectedColumns columns
 

@@ -30,7 +30,8 @@ Feature: File download and validation
     And   I announce message: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     And   I announce message at browser: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     Then  I expect that the downloaded file "file_example_XLS_10.xls" contains 10 lines
-    And   I expect that the downloaded file "file_example_XLS_10.xls" contains 9 rows and 8 columns
+    And   I expect that the downloaded file "file_example_XLS_10.xls" contains 10 rows and 8 columns
+    And   I expect that the downloaded file "file_example_XLS_10.xls" contains 9 data rows and 7 data columns
     And   I expect that the downloaded file "file_example_XLS_10.xls" at row 0 does contain the text "0,First Name,Last Name,Gender,Country,Age,Date,Id"
     And   I expect that the downloaded file "file_example_XLS_10.xls" at row 1 and column 4 does equal the text "United States"
 
