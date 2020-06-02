@@ -1,9 +1,9 @@
-@test-demoapp
-Feature: Check browser log
+@test-table
+Feature: Test browser log
     As a developer
     I want to be able to test browser error log
 
-    Scenario: Check browser log without error
+    Scenario: Test browser log without error
         When  I open the path "/index.html"
         Then  I expect the browser console log should not contain "any error" words
         And   I expect the last browser console SEVERE level log does not appear
