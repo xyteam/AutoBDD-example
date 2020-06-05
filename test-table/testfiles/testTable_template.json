@@ -1,0 +1,11 @@
+{
+    "required": ["header", "items"],
+    "properties": {
+        "header": {
+            "type": "array"
+        },
+        "items": {
+            "type": "array"
+        }
+    }
+}
