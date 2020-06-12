@@ -9,6 +9,12 @@ Scenario: open URL
     Then  I expect the URL host to be "github.com"
     And   I expect that the page title does equal the text "The world’s leading software development platform · GitHub"
 
+Scenario: check elements existing
+    Given I open the url "https://github.com/webdriverio/cucumber-boilerplate"
+    Then  I expect that the element ".octicon-mark-github" does exist
+    And   I expect that the element ".octicon-mark-github" does exist exactly 2 times
+    And I expect that the element ".some-other-element" does not exist
+
 Scenario: search for webdriverio repository
     Given I open the url "https://github.com/search"
     And   I clear the inputfield "[placeholder='Search GitHub']"
@@ -21,3 +27,12 @@ Scenario: search for webdriverio repository
     When  I click on the element "button=Search"
     Then  I expect that the element ".repo-list-item:first-child" contains the text "webdriverio"
     And   I expect that the element ".repo-list-item:first-child" contains the text "selenium"
+
+Scenario: login with fake credentials
+    Given I open the url "https://github.com/login"
+    And   I clear the inputfield "#login_field"
+    When  I add "marketionist" to the inputfield "#login_field"
+    And   I clear the inputfield "#password"
+    And   I add "1111" to the inputfield "#password"
+    And   I click on the button "//*[@value='Sign in']"
+    Then  I expect that the element "#js-flash-container .flash-error" is visible
