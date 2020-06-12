@@ -7,7 +7,7 @@ Feature: vArmour site tab validation and action
 
   Background: open page
     Given  I open the url "https://www.varmour.com/"
-    And    I wait on element ".menu" for 1000ms to be visible
+    And    I wait on element ".menu" for 1000ms to be displayed
   
   Scenario: Test tab action
     When  I click the element "li=Contact Us" inside the parent element ".menu"

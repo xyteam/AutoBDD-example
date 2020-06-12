@@ -7,9 +7,9 @@ Feature: vArmour site nth iframe validation and action
 
   Background: open page
     Given  I open the url "https://www.varmour.com/"
-    And    I wait on element ".menu" for 1000ms to be visible
+    And    I wait on element ".menu" for 1000ms to be displayed
     And    I switch to the parent iframe
-    And    I wait on element "a=Start Free Trial" for 5000ms to be visible
+    And    I wait on element "a=Start Free Trial" for 5000ms to be displayed
     And    I pause for 3000ms
   
   Scenario: Test the nth iframe element visibility and click action
@@ -17,7 +17,7 @@ Feature: vArmour site nth iframe validation and action
     And   I expect that the element "button#widgetButton" is not visible
     And   I expect that the element "button#widgetCloseButton" is not visible
     And   I switch to the 4th iframe
-    And   I wait on element "button#widgetButton" for 5000ms to be visible
+    And   I wait on element "button#widgetButton" for 5000ms to be displayed
     Then  I expect that the element "html body" contains the text "Pssst… want to see how our platform helps CISOs"
     And   I expect that the element "a=Start Free Trial" is not visible
     When  I click on the element "button"

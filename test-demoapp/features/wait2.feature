@@ -42,7 +42,7 @@ Feature: Test waiting for actions part 2
     Scenario: Test if element becomes visible
         Given the element "#waitForVisibleElement" is not visible
         When  I click on the element "#waitForVisibleBtn"
-        Then  I wait on element "#waitForVisibleElement" for 1000ms to be visible
+        Then  I wait on element "#waitForVisibleElement" for 1000ms to be displayed
 
     Scenario: Test if element to contain a text
         Given the element "#waitForContainsTextElement" not contains any text

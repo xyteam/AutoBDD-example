@@ -7,7 +7,7 @@ Feature: vArmour site nth and child element validation and action
 
   Background: open page
     Given  I open the url "https://www.varmour.com/"
-    And    I wait on element ".menu" for 1000ms to be visible
+    And    I wait on element ".menu" for 1000ms to be displayed
   
   Scenario: Test the nth web element order and text
     Then  I expect that the element "a=Start Free Trial" becomes visible

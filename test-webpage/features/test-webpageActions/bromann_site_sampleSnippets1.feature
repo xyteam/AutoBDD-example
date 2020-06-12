@@ -16,6 +16,12 @@ Feature: Sample Snippets test part 1
         Then  I expect the full URL to be "http://webdriverjs.christian-bromann.com/"
         And   I expect the full URL to not be "http://google.com"
 
+    Scenario: drag n drop
+        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        And   the element ".searchinput" not contains the value "Dropped!"
+        When  I drag element "#overlay" to element ".red"
+        Then  I expect that the element ".searchinput" contains the value "Dropped!"
+
     Scenario: click on link
         Given the page title does not equal the text "two"
         And   I open the url "http://webdriverjs.christian-bromann.com/"
@@ -58,30 +64,24 @@ Feature: Sample Snippets test part 1
         And   I clear the inputfield "//html/body/section/form/input[1]"
         Then  I expect that the element "//html/body/section/form/input[1]" not contains any text
 
-    Scenario: drag n drop
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element ".searchinput" not contains the value "Dropped!"
-        When  I drag element "#overlay" to element ".red"
-        Then  I expect that the element ".searchinput" contains the value "Dropped!"
-
     Scenario: submit form
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".gotDataA" on the page
-        When  I submit the form ".send"
+        When  I click on the element ".send .sendBtn"
         Then  I expect that the element ".gotDataA" is visible
 
     Scenario: wait for element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" for 5000ms to be visible
+        Then  I wait on element ".lateElem" for 5000ms to be displayed
 
     Scenario: wait for element using default wait time
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" to be visible
+        Then  I wait on element ".lateElem" to be displayed
 
     Scenario: pause
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        When  I pause for 3000ms
+        And   I pause for 5000ms
         Then  I expect that the element ".lateElem" is visible
