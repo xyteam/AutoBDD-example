@@ -34,7 +34,7 @@ Feature: Test if new windows/tabs are being opened
     Scenario: Test if we can focus the last opened window/tab
         When  I click on the element "#linkNewWindow"
         Then  I expect a new window has been opened
-        When  I focus the last opened window
+        When  I switch to the last opened window
         Then  I expect the full URL to be "http://example.com/"
         When  I close the last opened window
         Then  I expect the URL path to be "/"
