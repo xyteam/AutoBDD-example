@@ -6,6 +6,7 @@ Feature: Test select elements
 
     Background:
         Given I open the path "/"
+        And   I scroll to the element "#selectElementTest"
 
     Scenario: Test if we can select the second option of a select element
         Then I expect that the element "#selectElementTest option:nth-child(2)" is not selected
