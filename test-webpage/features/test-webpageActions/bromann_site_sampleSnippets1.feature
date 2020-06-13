@@ -43,7 +43,7 @@ Feature: Sample Snippets test part 1
     Scenario: click on element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   the element ".btn1_clicked" is not visible
-        When  I click on the element ".btn1"
+        When  I click the element ".btn1"
         Then  I expect that the element ".btn1_clicked" is visible
 
     Scenario: add value to an input element
@@ -67,7 +67,7 @@ Feature: Sample Snippets test part 1
     Scenario: submit form
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".gotDataA" on the page
-        When  I click on the element ".send .sendBtn"
+        When  I click the element ".send .sendBtn"
         Then  I expect that the element ".gotDataA" is visible
 
     Scenario: wait for element

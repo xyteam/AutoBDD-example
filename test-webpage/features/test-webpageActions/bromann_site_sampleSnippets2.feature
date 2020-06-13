@@ -80,7 +80,7 @@ Feature: Sample Snippets test part 2
     Scenario: check selected
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   the checkbox ".checkbox_notselected" is not checked
-        When  I click on the element ".checkbox_notselected"
+        When  I click the element ".checkbox_notselected"
         Then  I expect that the element ".checkbox_notselected" is checked
 
     # This will fail in PhantoJS due to a security warning

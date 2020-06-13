@@ -9,7 +9,7 @@ Feature: Test waiting for actions part 2
 
     Scenario: Test if element becomes checked after 2000 ms
         Given the checkbox "#waitForCheckedElement" is not checked
-        When  I click on the element "#waitForCheckedBtn"
+        When  I click the element "#waitForCheckedBtn"
         Then  I wait on element "#waitForCheckedElement" for 2000ms to be checked
 
     Scenario: Test if element becomes checked with different mouse clicks
@@ -31,25 +31,25 @@ Feature: Test waiting for actions part 2
 
     Scenario: Test if element becomes enabled
         Given the element "#waitForEnabledElement" is not enabled
-        When  I click on the element "#waitForEnabledBtn"
+        When  I click the element "#waitForEnabledBtn"
         Then  I wait on element "#waitForEnabledElement" for 1000ms to be enabled
 
     Scenario: Test if element becomes selected
         Given the element "#waitForSelectedElement option:nth-child(2)" is not selected
-        When  I click on the element "#waitForSelectedBtn"
+        When  I click the element "#waitForSelectedBtn"
         Then  I wait on element "#waitForSelectedElement option:nth-child(2)" for 1000ms to be selected
 
     Scenario: Test if element becomes visible
         Given the element "#waitForVisibleElement" is not visible
-        When  I click on the element "#waitForVisibleBtn"
+        When  I click the element "#waitForVisibleBtn"
         Then  I wait on element "#waitForVisibleElement" for 1000ms to be displayed
 
     Scenario: Test if element to contain a text
         Given the element "#waitForContainsTextElement" not contains any text
-        When  I click on the element "#waitForContainsTextBtn"
+        When  I click the element "#waitForContainsTextBtn"
         Then  I wait on element "#waitForContainsTextElement" for 1000ms to contain a text
 
     Scenario: Test if element to contain a value
         Given the element "#waitForContainsValueElement" not contains any text
-        When  I click on the element "#waitForContainsValueBtn"
+        When  I click the element "#waitForContainsValueBtn"
         Then  I wait on element "#waitForContainsValueElement" for 1000ms to contain a value
