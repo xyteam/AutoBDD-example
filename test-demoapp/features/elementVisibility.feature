@@ -21,6 +21,7 @@ Feature: Test visibility of elements
     Scenario: Element should become invisible
         Given the element "#makeInvisible" is visible
         When  I click on the element "#btnMakeInvisible"
+        And   I pause for 1000ms
         Then  I expect that the element "#makeInvisible" becomes not visible
 
     Scenario: Element in the viewport

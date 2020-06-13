@@ -8,5 +8,5 @@ Feature: Test form submission
 
     Scenario: Test if a message is shown when the form is submitted
         Given the element "#formSubmitTest .message" is not visible
-        When  I submit the form "#formSubmitTest"
+        When  I click on the element "button=Submit"
         Then  I expect that the element "#formSubmitTest .message" is visible
