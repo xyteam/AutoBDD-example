@@ -8,7 +8,7 @@ Feature: dropdown list
 
   Scenario: Click Drop-Down List - by webelement
     When  I open the url "/"
-    Then  I should see the page title to contain "demo app"
+    Then  I expect that the page title does contain the text "DEMO APP"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
     When  I click the "Option #1" option on the page
@@ -16,7 +16,7 @@ Feature: dropdown list
 
   Scenario: Click Drop-Down List - by tryClick
     When  I open the url "/"
-    Then  I should see the page title to contain "demo app"
+    Then  I expect that the page title does contain the text "DEMO APP"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
     When  I tryClick the 4th element "option" inside the parent element "#selectElementTest" 
@@ -24,7 +24,7 @@ Feature: dropdown list
 
   Scenario: Click Drop-Down List - by deepClick
     When  I open the url "/"
-    Then  I should see the page title to contain "demo app"
+    Then  I expect that the page title does contain the text "DEMO APP"
     When  I scroll to the element "footer"
     Then  I should see the "Option #1" option on the page
     When  I deepClick the 4th element "option" inside the parent element "#selectElementTest" 
@@ -33,6 +33,7 @@ Feature: dropdown list
   Scenario: Click Drop-Down List - by image
     Given I open the url "/"
     When  I scroll to the element "footer"
+    Then  I should not see the "First_option_Opened:0.6:Second" image on the screen
     Then  I should see the "First_option" image on the screen
-    When  I click on the "First_option" image on the screen
-    Then  I should see the "First_option_Opened" image on the screen
+    When  I click on the "last-seen" image on the screen
+    Then  I should see the "First_option_Opened:0.6:Second" image on the screen
