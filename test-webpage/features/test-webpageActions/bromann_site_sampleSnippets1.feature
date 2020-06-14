@@ -73,12 +73,12 @@ Feature: Sample Snippets test part 1
     Scenario: wait for element
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" for 5000ms to be displayed
+        Then  I wait on element ".lateElem" for 5000ms to be visible
 
     Scenario: wait for element using default wait time
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" to be displayed
+        Then  I wait on element ".lateElem" to be visible
 
     Scenario: pause
         Given I open the url "http://webdriverjs.christian-bromann.com/"
