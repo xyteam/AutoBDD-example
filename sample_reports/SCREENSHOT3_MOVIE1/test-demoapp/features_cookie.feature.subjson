@@ -1,0 +1,752 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the existence and/or the content of cookies",
+    "elements": [
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-exist",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "The cookie \"test\" should exist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 486939934
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 502037590
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test\" exists",
+            "result": {
+              "status": "passed",
+              "duration": 12817832
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 189049
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4960214023
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX2V4aXN0Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfZXhpc3QuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX2V4aXN0LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfZXhpc3QuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX2V4aXN0LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfZXhpc3QuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX2V4aXN0LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9leGlzdC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9leGlzdC4zLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test2\"-should-not-exist",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The cookie \"test2\" should not exist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 113680772
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 502020245
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the cookie \"test\" contains the value \"yumyum\"",
+            "result": {
+              "status": "passed",
+              "duration": 12041711
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:113"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test2\" not exists",
+            "result": {
+              "status": "passed",
+              "duration": 14053774
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 117509
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4929112290
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QyX3Nob3VsZF9ub3RfZXhpc3QubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDJfc2hvdWxkX25vdF9leGlzdC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0Ml9zaG91bGRfbm90X2V4aXN0LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QyX3Nob3VsZF9ub3RfZXhpc3QuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-contain-the-value-\"yumyum\"",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The cookie \"test\" should contain the value \"yumyum\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 114761448
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 502010865
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the cookie \"test\" contains not the value \"out of date\"",
+            "result": {
+              "status": "passed",
+              "duration": 9255875
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:113"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test\" contains \"yumyum\"",
+            "result": {
+              "status": "passed",
+              "duration": 9647207
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 182552
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4908134657
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX2NvbnRhaW5fdGhlX3ZhbHVlX3l1bXl1bS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0uMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0uMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0uMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0uNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9jb250YWluX3RoZV92YWx1ZV95dW15dW0uNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfY29udGFpbl90aGVfdmFsdWVfeXVteXVtLjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test\"-should-not-contain-the-value-\"out-of-date\"",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "The cookie \"test\" should not contain the value \"out of date\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 97834879
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 501571120
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test\" not contains \"out of date\"",
+            "result": {
+              "status": "passed",
+              "duration": 11654749
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 84470
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4909851912
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3Rfc2hvdWxkX25vdF9jb250YWluX3RoZV92YWx1ZV9vdXRfb2ZfZGF0ZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfbm90X2NvbnRhaW5fdGhlX3ZhbHVlX291dF9vZl9kYXRlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9ub3RfY29udGFpbl90aGVfdmFsdWVfb3V0X29mX2RhdGUuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfbm90X2NvbnRhaW5fdGhlX3ZhbHVlX291dF9vZl9kYXRlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9ub3RfY29udGFpbl90aGVfdmFsdWVfb3V0X29mX2RhdGUuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfbm90X2NvbnRhaW5fdGhlX3ZhbHVlX291dF9vZl9kYXRlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9ub3RfY29udGFpbl90aGVfdmFsdWVfb3V0X29mX2RhdGUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0X3Nob3VsZF9ub3RfY29udGFpbl90aGVfdmFsdWVfb3V0X29mX2RhdGUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdF9zaG91bGRfbm90X2NvbnRhaW5fdGhlX3ZhbHVlX291dF9vZl9kYXRlLjMucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test3\"-should-be-created",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "The cookie \"test3\" should be created",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 116789213
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 503478369
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set a cookie \"test3\" with the content \"more cookies\"",
+            "result": {
+              "status": "passed",
+              "duration": 12764124
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test3\" exists",
+            "result": {
+              "status": "passed",
+              "duration": 14706423
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the cookie \"test3\" contains \"more cookies\"",
+            "result": {
+              "status": "passed",
+              "duration": 11172318
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 64281
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4922926196
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2NyZWF0ZWQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2NyZWF0ZWQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2NyZWF0ZWQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2NyZWF0ZWQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2NyZWF0ZWQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9jcmVhdGVkLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfY3JlYXRlZC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfY3JlYXRlZC41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-existens-and-content-of-cookies;the-cookie-\"test3\"-should-be-deletable",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "The cookie \"test3\" should be deletable",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109852176
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 503432013
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test3\" exists",
+            "result": {
+              "status": "passed",
+              "duration": 9919326
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete the cookie \"test3\"",
+            "result": {
+              "status": "passed",
+              "duration": 12213925
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:91"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test3\" not exists",
+            "result": {
+              "status": "passed",
+              "duration": 7887607
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 70392
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4909480937
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2Nvb2tpZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfY29va2llLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9kZWxldGFibGUubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9jb29raWVfdGVzdDNfc2hvdWxkX2JlX2RlbGV0YWJsZS41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2Nvb2tpZV90ZXN0M19zaG91bGRfYmVfZGVsZXRhYmxlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfY29va2llX3Rlc3QzX3Nob3VsZF9iZV9kZWxldGFibGUuNS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-existens-and-content-of-cookies",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test the existens and content of cookies",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/cookie.feature"
+  }
+]

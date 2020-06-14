@@ -1,0 +1,391 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to test the demoapp drag and drop feature by webelement and by image",
+    "elements": [
+      {
+        "id": "demoapp-drag-and-drop;drag-to-dropzone---by-webelement",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Drag to dropzone - by webelement",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 345516480
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I scroll to the element \"head\"",
+            "result": {
+              "status": "passed",
+              "duration": 46407521
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#draggable\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 98035183
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#droppable\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 45230390
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I drag element \"#draggable\" to element \"#droppable\"",
+            "result": {
+              "status": "passed",
+              "duration": 537062695
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#droppable\" contains the text \"Dropped!\"",
+            "result": {
+              "status": "passed",
+              "duration": 30903100
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 133510
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4952163652
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2RlbW9hcHBfZHJhZ19hbmRfZHJvcC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZGVtb2FwcF9kcmFnX2FuZF9kcm9wLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X3dlYmVsZW1lbnQuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV93ZWJlbGVtZW50LjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfd2ViZWxlbWVudC42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfd2ViZWxlbWVudC42LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@SmokeTest",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "demoapp-drag-and-drop;drag-to-dropzone---by-image",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Drag to dropzone - by image",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 117992280
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I scroll to the element \"head\"",
+            "result": {
+              "status": "passed",
+              "duration": 34326056
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"Drag_me\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2219692636
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"Drag_me\" image does contain the text \"Drag me!\"",
+            "result": {
+              "status": "passed",
+              "duration": 2029694867
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should see the \"Dropzone\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2327991275
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"Dropzone\" image does contain the text \"Dropzone\"",
+            "result": {
+              "status": "passed",
+              "duration": 2456779832
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I drag \"Drag_me\" and drop to \"Dropzone\"",
+            "result": {
+              "status": "passed",
+              "duration": 11538315198
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_drag_X_and_drop_to_X.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should still see the \"Drag_me\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 1951601681
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not see the \"Dropzone\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 1945989996
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 88440
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4935953230
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2RlbW9hcHBfZHJhZ19hbmRfZHJvcC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZGVtb2FwcF9kcmFnX2FuZF9kcm9wLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9EcmFnX3RvX2Ryb3B6b25lX19ieV9pbWFnZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjgucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuOC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjkucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuOS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRHJhZ190b19kcm9wem9uZV9fYnlfaW1hZ2UuOS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0RyYWdfdG9fZHJvcHpvbmVfX2J5X2ltYWdlLjkucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@SmokeTest",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoapp-drag-and-drop",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "demoapp drag and drop",
+    "tags": [
+      {
+        "name": "@test-webpage",
+        "line": 1
+      },
+      {
+        "name": "@SmokeTest",
+        "line": 2
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/demoapp_drag_and_drop.feature"
+  }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:15758) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-webpage @Demo</b>
+Feature: vArmour site tab validation and action
+
+    As a QA Engineer
+    I want to test see and click images
+
+  <b class=CYN>@test-webpage @Demo</b>
+  Scenario: Test tab action
+https://www.varmour.com/
+  <b class=GRN>✔ Given I open the url "https://www.varmour.com/"</b>
+  <b class=GRN>✔ And I wait on element ".menu" for 1000ms to be visible</b>
+  <b class=GRN>✔ When I click the element "li=Contact Us" inside the parent element ".menu"</b>
+  <b class=GRN>✔ And I focus the last opened tab</b>
+  <b class=GRN>✔ And I pause for 500ms</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_ContactUs.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_ContactUs.png --imageSimilarity=0.8 --maxSim=1 --textHint="Contact" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"vArmour_ContactUs.png","score":0.841393,"text":["Contact Us","Question? Interested in scheduling a","demo from our sales team? Fill out the","form and a vArmour representative will","contact you shortly."],"textScore":100,"location":{"x":311,"y":248},"dimension":{"width":289,"height":190},"center":{"x":456,"y":343},"clicked":null}]
+[ { name: 'vArmour_ContactUs.png',
+    score: 0.841393,
+    text:
+     [ 'Contact Us',
+       'Question? Interested in scheduling a',
+       'demo from our sales team? Fill out the',
+       'form and a vArmour representative will',
+       'contact you shortly.' ],
+    textScore: 100,
+    location: { x: 311, y: 248 },
+    dimension: { width: 289, height: 190 },
+    center: { x: 456, y: 343 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "vArmour_ContactUs:0.8:Contact" image on the screen</b>
+  <b class=GRN>✔ And I close the last opened tab</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_ContactUs.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_ContactUs.png --imageSimilarity=0.8 --maxSim=1 --textHint="Contact" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[]
+[]
+  <b class=GRN>✔ Then I should not see the "vArmour_ContactUs:0.8:Contact" image on the screen</b>
+
+
+1 scenario (<b class=GRN>1 passed</b>)
+8 steps (<b class=GRN>8 passed</b>)
+0m12.622s
+</pre>
+</body>
+</html>

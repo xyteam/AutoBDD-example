@@ -1,0 +1,318 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the existence of a element",
+    "elements": [
+      {
+        "id": "test-existence-of-elements;none-existing-element-check",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "None existing element check",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 413303250
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#noneExisting\" does not exist",
+            "result": {
+              "status": "passed",
+              "duration": 29118023
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 159807
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3010700241
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfTm9uZV9leGlzdGluZ19lbGVtZW50X2NoZWNrLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9Ob25lX2V4aXN0aW5nX2VsZW1lbnRfY2hlY2suMi5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-existence-of-elements;existing-element-check",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Existing element check",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 134446452
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#exisiting\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 29108128
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 89600
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2963132803
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRXhpc3RpbmdfZWxlbWVudF9jaGVjay4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRXhpc3RpbmdfZWxlbWVudF9jaGVjay4yLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-existence-of-elements;existing-element-count-check",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Existing element count check",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 154609527
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the element \"input\" does exist exactly 8 times",
+            "result": {
+              "status": "passed",
+              "duration": 28055439
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 96004
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3023838488
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRXhpc3RpbmdfZWxlbWVudF9jb3VudF9jaGVjay4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRXhpc3RpbmdfZWxlbWVudF9jb3VudF9jaGVjay4yLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-existence-of-elements;existing-element-inside-parent-element-count-check",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Existing element inside parent element count check",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 105143000
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the element \"div\" inside the parent element \"//div[@style]\" does exist exactly 2 times",
+            "result": {
+              "status": "passed",
+              "duration": 39790566
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 60335
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2883686662
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX2VsZW1lbnRFeGlzdGVuY2UuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRXhpc3RpbmdfZWxlbWVudF9pbnNpZGVfcGFyZW50X2VsZW1lbnRfY291bnRfY2hlY2suMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0V4aXN0aW5nX2VsZW1lbnRfaW5zaWRlX3BhcmVudF9lbGVtZW50X2NvdW50X2NoZWNrLjIucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-existence-of-elements",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test existence of elements",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementExistence.feature"
+  }
+]

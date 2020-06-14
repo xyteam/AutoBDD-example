@@ -1,0 +1,181 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to test bestvpn html5demos page - drag and drop page by image",
+    "elements": [
+      {
+        "id": "bestvpn-site---drag-and-drop-image;test-bestvpn-html5demos-page---drag-and-drop-page-by-image",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Test bestvpn html5demos page - drag and drop page by image",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I open the url \"https://bestvpn.org/html5demos/drag/\"",
+            "result": {
+              "status": "passed",
+              "duration": 7310428702
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"target_drop_box\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2390116154
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I should see the \"NordVPN:0.9\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2955720696
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I drag \"NordVPN:0.9\" and drop to \"target_drop_box\"",
+            "result": {
+              "status": "passed",
+              "duration": 10319786113
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_drag_X_and_drop_to_X.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I hover on the \"target_drop_box\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 3016761964
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_X_X_the_X_image_and_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not see the \"NordVPN:0.9\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 1234611272
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 138298
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4923107900
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX2Jlc3R2cG5fc2l0ZV9kcmFnX2FuZF9kcm9wX2ltYWdlcy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC1pbWFnZUFjdGlvbnNfYmVzdHZwbl9zaXRlX2RyYWdfYW5kX2Ryb3BfaW1hZ2VzLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X2Jlc3R2cG5faHRtbDVkZW1vc19wYWdlX19kcmFnX2FuZF9kcm9wX3BhZ2VfYnlfaW1hZ2UubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfYmVzdHZwbl9odG1sNWRlbW9zX3BhZ2VfX2RyYWdfYW5kX2Ryb3BfcGFnZV9ieV9pbWFnZS42LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF9iZXN0dnBuX2h0bWw1ZGVtb3NfcGFnZV9fZHJhZ19hbmRfZHJvcF9wYWdlX2J5X2ltYWdlLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X2Jlc3R2cG5faHRtbDVkZW1vc19wYWdlX19kcmFnX2FuZF9kcm9wX3BhZ2VfYnlfaW1hZ2UuNi5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@Demo",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "bestvpn-site---drag-and-drop-image",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "bestvpn site - drag and drop image",
+    "tags": [
+      {
+        "name": "@test-webpage",
+        "line": 1
+      },
+      {
+        "name": "@Demo",
+        "line": 2
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-imageActions/bestvpn_site_drag_and_drop_images.feature"
+  }
+]

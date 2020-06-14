@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:12756) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-webpage @Demo</b>
+Feature: vArmour site screen text and see and click image
+
+    As a QA Engineer
+    I want to test see and click images
+
+  <b class=CYN>@test-webpage @Demo</b>
+  Scenario: Test screen area text
+https://www.varmour.com/
+  <b class=GRN>✔ Given I open the url "https://www.varmour.com/"</b>
+getImageText.js
+Warning: Invalid resolution 0 dpi. Using 70 instead.
+Estimating resolution as 183
+lineText: [eee Pan
+
+S (Me ee) | @ incognito
+
+    
+
+r is |
+Pte) a Product Niet its (adic raa na aa
+
+4 /
+Helping Security and IT teams Pe as)
+
+EVA nia ntinuou
+
+    
+  
+
+ 
+       
+  
+
+risk management. Start Fr:
+
+  
+  
+
+Multi-cloud
+
+  
+  
+
+fel (olNT6)
+
+  
+
+VIRTUAL LUNCH &amp; LEARN LATEST NEWS MINE
+
+     
+
+     
+  
+
+     
+  
+ 
+ 
+   
+   
+   
+
+    
+  
+
+Sa Ke lM mel me CRVTACTLE vArmour announces partnerships to Multi-Cloud Security: The Power of Application
+
+   
+  
+  
+
+PROT e nM AMON LIL Mm Coa
+SoTL Te CAML eM Te) athe)
+how to manage the 'new normal’
+Colorect Miele cece (0)
+SiMe year cm COL LCOlT LAL)
+the globe.
+
+VCR CoN ecm coal Rona Ct
+applications for Tanium, Gigamon, Tufin
+and more.
+
+CLD mm ee yy) (oa aCe
+Workload
+
+Continuous Application
+Relationship Management Pssst. wantto see how our
+
+platform helps CISOs?
+
+Asimplified approach for modeling and managing enterprise applications to
+
+<hr>
+
+expectedText: pssst
+keepWaiting: false
+  <b class=GRN>✔ And I wait every 5 seconds for 1 minute on the screen area to display the regex "pssst"</b>
+[ { text:
+     [ '[eee Pan',
+       '',
+       'S (Me ee) | @ incognito',
+       '',
+       '    ',
+       '',
+       'r is |',
+       'Pte) a Product Niet its (adic raa na aa',
+       '',
+       '4 /',
+       'Helping Security and IT teams Pe as)',
+       '',
+       'EVA nia ntinuou',
+       '',
+       '    ',
+       '  ',
+       '',
+       ' ',
+       '       ',
+       '  ',
+       '',
+       'risk management. Start Fr:',
+       '',
+       '  ',
+       '  ',
+       '',
+       'Multi-cloud',
+       '',
+       '  ',
+       '  ',
+       '',
+       'fel (olNT6)',
+       '',
+       '  ',
+       '',
+       'VIRTUAL LUNCH &amp; LEARN LATEST NEWS MINE',
+       '',
+       '     ',
+       '',
+       '     ',
+       '  ',
+       '',
+       '     ',
+       '  ',
+       ' ',
+       ' ',
+       '   ',
+       '   ',
+       '   ',
+       '',
+       '    ',
+       '  ',
+       '',
+       'Sa Ke lM mel me CRVTACTLE vArmour announces partnerships to Multi-Cloud Security: The Power of Application',
+       '',
+       '   ',
+       '  ',
+       '  ',
+       '',
+       'PROT e nM AMON LIL Mm Coa',
+       'SoTL Te CAML eM Te) athe)',
+       'how to manage the \'new normal’',
+       'Colorect Miele cece (0)',
+       'SiMe year cm COL LCOlT LAL)',
+       'the globe.',
+       '',
+       'VCR CoN ecm coal Rona Ct',
+       'applications for Tanium, Gigamon, Tufin',
+       'and more.',
+       '',
+       'CLD mm ee yy) (oa aCe',
+       'Workload',
+       '',
+       'Continuous Application',
+       'Relationship Management Pssst. wantto see how our',
+       '',
+       'platform helps CISOs?',
+       '',
+       'Asimplified approach for modeling and managing enterprise applications to',
+       '\f' ],
+    exitcode: 0 } ]
+  <b class=GRN>✔ Then I expect that the "last-seen" screen area does contain the text "Pssst"</b>
+findTargetImage.js --imagePath=Screen-100 --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"Screen-100","score":null,"text":["L VALITIOUT I relationships Matter Product Virtual Events Blog Contact Us More v Bre Ce Tae","Helping Security and IT teams navigate risk.","Mapping dynamic application relationships for continuous","risk management. Start Free Trial &gt;","Internet Webserver Critical Database","Azure On Premise","SWIFT","   "," ","Multi-cloud","Cloud","VIRTUAL LUNCH &amp; LEARN LATEST NEWS WEBINAR","Tune into one of our 30-minute Virtual vArmour announces partnerships to Multi-Cloud Security: The Power of Application","     ","  ","   "," ","   ","   ","   ","  "," "," "," "," ","Lunch &amp; Learns 'on demand' to get a elevate visibility &amp; control to secure Relationships In Complex Environments","Workload","  ","  "," "," ","security practitioner's perspective on applications for Tanium, Gigamon, Tufin"," ","WATCH NOW &gt;","how to manage the 'new normal’ and more."," ","  ","dispersed workforce. Each session","  "," ","  ","READ NOW &gt;","features a special guest from around","the globe."," "," ","   ","WATCH NOW &gt;","Continuous Application"],"textScore":null,"location":{"x":100,"y":100},"dimension":{"width":1720,"height":1000},"center":{"x":960,"y":600},"clicked":null}]
+[ { name: 'Screen-100',
+    score: null,
+    text:
+     [ 'L VALITIOUT I relationships Matter Product Virtual Events Blog Contact Us More v Bre Ce Tae',
+       'Helping Security and IT teams navigate risk.',
+       'Mapping dynamic application relationships for continuous',
+       'risk management. Start Free Trial &gt;',
+       'Internet Webserver Critical Database',
+       'Azure On Premise',
+       'SWIFT',
+       '   ',
+       ' ',
+       'Multi-cloud',
+       'Cloud',
+       'VIRTUAL LUNCH &amp; LEARN LATEST NEWS WEBINAR',
+       'Tune into one of our 30-minute Virtual vArmour announces partnerships to Multi-Cloud Security: The Power of Application',
+       '     ',
+       '  ',
+       '   ',
+       ' ',
+       '   ',
+       '   ',
+       '   ',
+       '  ',
+       ' ',
+       ' ',
+       ' ',
+       ' ',
+       'Lunch &amp; Learns \'on demand\' to get a elevate visibility &amp; control to secure Relationships In Complex Environments',
+       'Workload',
+       '  ',
+       '  ',
+       ' ',
+       ' ',
+       'security practitioner\'s perspective on applications for Tanium, Gigamon, Tufin',
+       ' ',
+       'WATCH NOW &gt;',
+       'how to manage the \'new normal’ and more.',
+       ' ',
+       '  ',
+       'dispersed workforce. Each session',
+       '  ',
+       ' ',
+       '  ',
+       'READ NOW &gt;',
+       'features a special guest from around',
+       'the globe.',
+       ' ',
+       ' ',
+       '   ',
+       'WATCH NOW &gt;',
+       'Continuous Application' ],
+    textScore: null,
+    location: { x: 100, y: 100 },
+    dimension: { width: 1720, height: 1000 },
+    center: { x: 960, y: 600 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "Screen-100" image does contain the text "Product"</b>
+
+  <b class=CYN>@test-webpage @Demo</b>
+  Scenario: Test image wait and text
+https://www.varmour.com/
+  <b class=GRN>✔ Given I open the url "https://www.varmour.com/"</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_logo.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/vArmour_logo.png --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"vArmour_logo.png","score":0.923527,"text":["r \"I","_VArMmOUr |"],"textScore":100,"location":{"x":374,"y":79},"dimension":{"width":157,"height":46},"center":{"x":453,"y":102},"clicked":null}]
+[ { name: 'vArmour_logo.png',
+    score: 0.923527,
+    text: [ 'r "I', '_VArMmOUr |' ],
+    textScore: 100,
+    location: { x: 374, y: 79 },
+    dimension: { width: 157, height: 46 },
+    center: { x: 453, y: 102 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "vArmour_logo" image on the screen</b>
+[ { name: 'vArmour_logo.png',
+    score: 0.923527,
+    text: [ 'r "I', '_VArMmOUr |' ],
+    textScore: 100,
+    location: { x: 374, y: 79 },
+    dimension: { width: 157, height: 46 },
+    center: { x: 453, y: 102 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "last-seen" image does appear exactly 1 time</b>
+[ { name: 'vArmour_logo.png',
+    score: 0.923527,
+    text: [ 'r "I', '_VArMmOUr |' ],
+    textScore: 100,
+    location: { x: 374, y: 79 },
+    dimension: { width: 157, height: 46 },
+    center: { x: 453, y: 102 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "last-seen" image does match the regex "v.*m.*r"</b>
+[ { name: 'vArmour_logo.png',
+    score: 0.923527,
+    text: [ 'r "I', '_VArMmOUr |' ],
+    textScore: 100,
+    location: { x: 374, y: 79 },
+    dimension: { width: 157, height: 46 },
+    center: { x: 453, y: 102 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "last-seen" image does mimic the text "varmour"</b>
+
+  <b class=CYN>@test-webpage @Demo</b>
+  Scenario: Test find image with text
+https://www.varmour.com/
+  <b class=GRN>✔ Given I open the url "https://www.varmour.com/"</b>
+  <b class=GRN>✔ And I pause for 3000ms</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/dialogRobot.jpg
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/dialogRobot.jpg --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+Empty page!!
+[{"name":"dialogRobot.jpg","score":0.955726,"text":[""],"textScore":100,"location":{"x":1820,"y":1116},"dimension":{"width":43,"height":47},"center":{"x":1842,"y":1140},"clicked":null}]
+[ { name: 'dialogRobot.jpg',
+    score: 0.955726,
+    text: [ '' ],
+    textScore: 100,
+    location: { x: 1820, y: 1116 },
+    dimension: { width: 43, height: 47 },
+    center: { x: 1842, y: 1140 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "dialogRobot" image on the screen</b>
+[ { name: 'dialogRobot.jpg',
+    score: 0.955726,
+    text: [ '' ],
+    textScore: 100,
+    location: { x: 1820, y: 1116 },
+    dimension: { width: 43, height: 47 },
+    center: { x: 1842, y: 1140 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "last-seen" image does appear exactly 1 time</b>
+[ { name: 'dialogRobot.jpg',
+    score: 0.955726,
+    text: [ '' ],
+    textScore: 100,
+    location: { x: 1820, y: 1116 },
+    dimension: { width: 43, height: 47 },
+    center: { x: 1842, y: 1140 },
+    clicked: null } ]
+  <b class=GRN>✔ When I click on the "last-seen" image on the screen</b>
+  <b class=GRN>✔ And I pause for 500ms</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/robotDialogWindow.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/robotDialogWindow.png --imageSimilarity=0.5 --maxSim=1 --textHint="Bot" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"robotDialogWindow.png","score":0.528011,"text":["vArmour Bot","Pssst... want to see how our","poe nlatfarm helne CIGOc?"],"textScore":100,"location":{"x":1533,"y":327},"dimension":{"width":344,"height":120},"center":{"x":1705,"y":387},"clicked":null}]
+[ { name: 'robotDialogWindow.png',
+    score: 0.528011,
+    text:
+     [ 'vArmour Bot',
+       'Pssst... want to see how our',
+       'poe nlatfarm helne CIGOc?' ],
+    textScore: 100,
+    location: { x: 1533, y: 327 },
+    dimension: { width: 344, height: 120 },
+    center: { x: 1705, y: 387 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "robotDialogWindow:0.5:Bot" image on the screen</b>
+[ { name: 'robotDialogWindow.png',
+    score: 0.528011,
+    text:
+     [ 'vArmour Bot',
+       'Pssst... want to see how our',
+       'poe nlatfarm helne CIGOc?' ],
+    textScore: 100,
+    location: { x: 1533, y: 327 },
+    dimension: { width: 344, height: 120 },
+    center: { x: 1705, y: 387 },
+    clicked: null } ]
+  <b class=GRN>✔ And I expect that the "last-seen" image does match the text "VAR:robotDialogWindowTextRegex"</b>
+
+3 scenarios (<b class=GRN>3 passed</b>)
+17 steps (<b class=GRN>17 passed</b>)
+0m36.243s
+</pre>
+</body>
+</html>

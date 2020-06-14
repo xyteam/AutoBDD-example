@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:23082) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Test visibility of elements
+
+      As a developer
+      I want to be able to test the visibillity of a element
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Invisible elements to be invisible
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Then I expect that the element "#hidden" is not visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Visible elements to be visible
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Then I expect that the element "#visible" is visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Element should become visible
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#makeVisible" is not visible</b>
+  <b class=GRN>✔ When I click on the element "#btnMakeVisible"</b>
+  <b class=GRN>✔ Then I expect that the element "#makeVisible" becomes visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Element should become invisible
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#makeInvisible" is visible</b>
+  <b class=GRN>✔ When I click on the element "#btnMakeInvisible"</b>
+  <b class=GRN>✔ Then I expect that the element "#makeInvisible" becomes not visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Element in the viewport
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ When I scroll to the element "h1"</b>
+  <b class=GRN>✔ Then I expect that the element "h1" is within the viewport</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Element outside the viewport
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ When I scroll to the element "#footer"</b>
+  <b class=GRN>✔ Then I expect that the element "h1" is not within the viewport</b>
+
+6 scenarios (<b class=GRN>6 passed</b>)
+24 steps (<b class=GRN>24 passed</b>)
+0m29.589s
+</pre>
+</body>
+</html>

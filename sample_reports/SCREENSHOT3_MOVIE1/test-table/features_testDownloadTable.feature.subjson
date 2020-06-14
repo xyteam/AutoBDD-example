@@ -1,0 +1,755 @@
+[
+  {
+    "description": "    As a developer\n    I want to be test table rows and columns",
+    "elements": [
+      {
+        "id": "test-table-rows-and-columns;check-expected-table-rows-and-columns",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "check expected table rows and columns",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/jstable.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 485786672
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"h1\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 88165038
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#firm_table\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 126011755
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .rows\" contains the text \"6 rows\"",
+            "result": {
+              "status": "passed",
+              "duration": 35189297
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .columns\" contains the text \"5 columns\"",
+            "result": {
+              "status": "passed",
+              "duration": 34509937
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .rows\" as \"expectedRows\"",
+            "result": {
+              "status": "passed",
+              "duration": 30848565
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .columns\" as \"expectedColumns\"",
+            "result": {
+              "status": "passed",
+              "duration": 25842943
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"tbody tr\" does exist exactly ENV:expectedRows times",
+            "result": {
+              "status": "passed",
+              "duration": 22243725
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"tbody td\" inside the 1st parent element \"tbody tr\" does exist exactly ENV:expectedColumns times",
+            "result": {
+              "status": "passed",
+              "duration": 41202299
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 130892
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4913277504
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC10YWJsZS9mZWF0dXJlc190ZXN0RG93bmxvYWRUYWJsZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdERvd25sb2FkVGFibGUuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC10YWJsZS9QYXNzZWRfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2V4cGVjdGVkX3RhYmxlX3Jvd3NfYW5kX2NvbHVtbnMubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjcucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjgucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy45LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjkucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvUGFzc2VkX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19leHBlY3RlZF90YWJsZV9yb3dzX2FuZF9jb2x1bW5zLjkucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZXhwZWN0ZWRfdGFibGVfcm93c19hbmRfY29sdW1ucy45LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-table",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-table-rows-and-columns;check-downloaded-table-csv-rows-and-columns",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "check downloaded table csv rows and columns",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/jstable.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 69242258
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"h1\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 65518984
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#firm_table\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 123972947
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .rows\" contains the text \"6 rows\"",
+            "result": {
+              "status": "passed",
+              "duration": 28613357
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .columns\" contains the text \"5 columns\"",
+            "result": {
+              "status": "passed",
+              "duration": 27999402
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .rows\" as \"expectedRows\"",
+            "result": {
+              "status": "passed",
+              "duration": 25290035
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .columns\" as \"expectedColumns\"",
+            "result": {
+              "status": "passed",
+              "duration": 23969029
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I delete all download files with the name \"table_*.csv\"",
+            "result": {
+              "status": "passed",
+              "duration": 1387606
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"button=Export to\"",
+            "result": {
+              "status": "passed",
+              "duration": 241679159
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the element \"li=CSV\"",
+            "result": {
+              "status": "passed",
+              "duration": 245803621
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait on download file \"table_*.csv\" for 5000ms to exist",
+            "result": {
+              "status": "passed",
+              "duration": 2002694008
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:156"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the downloaded file \"table_*.csv\" contains exactly ENV:expectedRows data rows and exactly ENV:expectedColumns columns",
+            "result": {
+              "status": "passed",
+              "duration": 3388504
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:100"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 73730
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4899970081
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC10YWJsZS9mZWF0dXJlc190ZXN0RG93bmxvYWRUYWJsZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdERvd25sb2FkVGFibGUuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC10YWJsZS9QYXNzZWRfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfY3N2X3Jvd3NfYW5kX2NvbHVtbnMubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjcucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjgucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy45LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjkucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9jc3Zfcm93c19hbmRfY29sdW1ucy4xMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvUGFzc2VkX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2Nzdl9yb3dzX2FuZF9jb2x1bW5zLjEyLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfY3N2X3Jvd3NfYW5kX2NvbHVtbnMuMTIucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-table",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-table-rows-and-columns;check-downloaded-table-json-rows-and-columns",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "check downloaded table json rows and columns",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/jstable.html\"",
+            "result": {
+              "status": "passed",
+              "duration": 54577622
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"h1\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 66964945
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#firm_table\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 102783757
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .rows\" contains the text \"6 rows\"",
+            "result": {
+              "status": "passed",
+              "duration": 27771726
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".expected .columns\" contains the text \"5 columns\"",
+            "result": {
+              "status": "passed",
+              "duration": 29230292
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .rows\" as \"expectedRows\"",
+            "result": {
+              "status": "passed",
+              "duration": 22162081
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I assign the number from the element \".expected .columns\" as \"expectedColumns\"",
+            "result": {
+              "status": "passed",
+              "duration": 41145877
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I delete all download files with the name \"table_*.json\"",
+            "result": {
+              "status": "passed",
+              "duration": 729795
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"button=Export to\"",
+            "result": {
+              "status": "passed",
+              "duration": 210044374
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the element \"li=JSON\"",
+            "result": {
+              "status": "passed",
+              "duration": 282483882
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait on download file \"table_*.json\" for 5000ms to exist",
+            "result": {
+              "status": "passed",
+              "duration": 2003459996
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:156"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the downloaded file \"table_*.json\" contains exactly ENV:expectedRows data rows and exactly ENV:expectedColumns columns",
+            "result": {
+              "status": "passed",
+              "duration": 1052662
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:100"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that all data entries in the downloaded json file \"table_*.json\" conform to the template file \"testTable_template.json\"",
+            "result": {
+              "status": "passed",
+              "duration": 32835814
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:90"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 71467
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4891449784
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC10YWJsZS9mZWF0dXJlc190ZXN0RG93bmxvYWRUYWJsZS5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdERvd25sb2FkVGFibGUuZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC10YWJsZS9QYXNzZWRfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfanNvbl9yb3dzX2FuZF9jb2x1bW5zLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuOC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuOC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuOS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuOS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMTAucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfanNvbl9yb3dzX2FuZF9jb2x1bW5zLjEwLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMTEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfanNvbl9yb3dzX2FuZF9jb2x1bW5zLjExLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMTIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfanNvbl9yb3dzX2FuZF9jb2x1bW5zLjEyLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvU3RlcF9MaW51eF9DSF90ZXN0dGFibGVfY2hlY2tfZG93bmxvYWRlZF90YWJsZV9qc29uX3Jvd3NfYW5kX2NvbHVtbnMuMTMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHRhYmxlX2NoZWNrX2Rvd25sb2FkZWRfdGFibGVfanNvbl9yb3dzX2FuZF9jb2x1bW5zLjEzLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtdGFibGUvUGFzc2VkX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2pzb25fcm93c19hbmRfY29sdW1ucy4xMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3R0YWJsZV9jaGVja19kb3dubG9hZGVkX3RhYmxlX2pzb25fcm93c19hbmRfY29sdW1ucy4xMy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-table",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-table-rows-and-columns",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "test table rows and columns",
+    "tags": [
+      {
+        "name": "@test-table",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-table/features/testDownloadTable.feature"
+  }
+]

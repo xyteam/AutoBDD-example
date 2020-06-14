@@ -1,0 +1,744 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test the visibillity of a element",
+    "elements": [
+      {
+        "id": "test-visibility-of-elements;invisible-elements-to-be-invisible",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Invisible elements to be invisible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1582648629
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1003419806
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#hidden\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 54894565
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 239398
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4933980400
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnZpc2libGVfZWxlbWVudHNfdG9fYmVfaW52aXNpYmxlLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0ludmlzaWJsZV9lbGVtZW50c190b19iZV9pbnZpc2libGUuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnZpc2libGVfZWxlbWVudHNfdG9fYmVfaW52aXNpYmxlLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0ludmlzaWJsZV9lbGVtZW50c190b19iZV9pbnZpc2libGUuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnZpc2libGVfZWxlbWVudHNfdG9fYmVfaW52aXNpYmxlLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0ludmlzaWJsZV9lbGVtZW50c190b19iZV9pbnZpc2libGUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9JbnZpc2libGVfZWxlbWVudHNfdG9fYmVfaW52aXNpYmxlLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfSW52aXNpYmxlX2VsZW1lbnRzX3RvX2JlX2ludmlzaWJsZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfSW52aXNpYmxlX2VsZW1lbnRzX3RvX2JlX2ludmlzaWJsZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-visibility-of-elements;visible-elements-to-be-visible",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Visible elements to be visible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 119819952
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002924611
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#visible\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 94605073
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 72681
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4935699816
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9WaXNpYmxlX2VsZW1lbnRzX3RvX2JlX3Zpc2libGUubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Zpc2libGVfZWxlbWVudHNfdG9fYmVfdmlzaWJsZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVmlzaWJsZV9lbGVtZW50c190b19iZV92aXNpYmxlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9WaXNpYmxlX2VsZW1lbnRzX3RvX2JlX3Zpc2libGUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-visibility-of-elements;element-should-become-visible",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Element should become visible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109997071
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002486910
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#makeVisible\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 32845482
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#btnMakeVisible\"",
+            "result": {
+              "status": "passed",
+              "duration": 240755621
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#makeVisible\" becomes visible",
+            "result": {
+              "status": "passed",
+              "duration": 1439875978
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 93436
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4931364012
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfdmlzaWJsZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX3Zpc2libGUuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV92aXNpYmxlLjUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-visibility-of-elements;element-should-become-invisible",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Element should become invisible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 101503561
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002440003
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the element \"#makeInvisible\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 59290209
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#btnMakeInvisible\"",
+            "result": {
+              "status": "passed",
+              "duration": 314121113
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#makeInvisible\" becomes not visible",
+            "result": {
+              "status": "passed",
+              "duration": 1358860961
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 98093
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4977083289
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV9pbnZpc2libGUuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV9pbnZpc2libGUuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV9pbnZpc2libGUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV9pbnZpc2libGUuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfc2hvdWxkX2JlY29tZV9pbnZpc2libGUuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X3Nob3VsZF9iZWNvbWVfaW52aXNpYmxlLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX2ludmlzaWJsZS41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9zaG91bGRfYmVjb21lX2ludmlzaWJsZS41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-visibility-of-elements;element-in-the-viewport",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Element in the viewport",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 122316943
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1004228115
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"h1\"",
+            "result": {
+              "status": "passed",
+              "duration": 37328666
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"h1\" is within the viewport",
+            "result": {
+              "status": "passed",
+              "duration": 49418081
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 68073
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4913395973
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X2luX3RoZV92aWV3cG9ydC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfaW5fdGhlX3ZpZXdwb3J0LjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9pbl90aGVfdmlld3BvcnQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfaW5fdGhlX3ZpZXdwb3J0LjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9pbl90aGVfdmlld3BvcnQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfaW5fdGhlX3ZpZXdwb3J0LjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9pbl90aGVfdmlld3BvcnQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfaW5fdGhlX3ZpZXdwb3J0LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9pbl90aGVfdmlld3BvcnQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9pbl90aGVfdmlld3BvcnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfaW5fdGhlX3ZpZXdwb3J0LjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-visibility-of-elements;element-outside-the-viewport",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Element outside the viewport",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 99621899
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002328836
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"#footer\"",
+            "result": {
+              "status": "passed",
+              "duration": 36502271
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"h1\" is not within the viewport",
+            "result": {
+              "status": "passed",
+              "duration": 22157722
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 88052
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4910030469
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRWaXNpYmlsaXR5LmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc19lbGVtZW50VmlzaWJpbGl0eS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X291dHNpZGVfdGhlX3ZpZXdwb3J0Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfb3V0c2lkZV90aGVfdmlld3BvcnQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X291dHNpZGVfdGhlX3ZpZXdwb3J0LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfb3V0c2lkZV90aGVfdmlld3BvcnQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X291dHNpZGVfdGhlX3ZpZXdwb3J0LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfb3V0c2lkZV90aGVfdmlld3BvcnQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X291dHNpZGVfdGhlX3ZpZXdwb3J0LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX0VsZW1lbnRfb3V0c2lkZV90aGVfdmlld3BvcnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9FbGVtZW50X291dHNpZGVfdGhlX3ZpZXdwb3J0LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9vdXRzaWRlX3RoZV92aWV3cG9ydC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfRWxlbWVudF9vdXRzaWRlX3RoZV92aWV3cG9ydC40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-visibility-of-elements",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test visibility of elements",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementVisibility.feature"
+  }
+]

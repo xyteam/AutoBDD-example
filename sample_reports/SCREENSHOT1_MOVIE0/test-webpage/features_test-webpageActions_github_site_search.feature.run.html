@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:8048) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Github test
+
+      As a Developer in Test
+      I want to search for webdriverio repository
+      So that I can use it in my future tests
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: open URL
+https://github.com/
+  <b class=GRN>✔ Given I open the url "https://github.com/"</b>
+https://github.com/
+  <b class=GRN>✔ Then I expect the URL host to be "github.com"</b>
+  <b class=GRN>✔ And I expect that the page title does equal the text "The world’s leading software development platform · GitHub"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: search for webdriverio repository
+https://github.com/search
+  <b class=GRN>✔ Given I open the url "https://github.com/search"</b>
+  <b class=GRN>✔ And I clear the inputfield "[placeholder='Search GitHub']"</b>
+  <b class=GRN>✔ And the element "[placeholder='Search GitHub']" not contains any value</b>
+  <b class=GRN>✔ And I click on the element "[placeholder='Search GitHub']"</b>
+  <b class=GRN>✔ And I add "webdriverio" to the inputfield "[placeholder='Search GitHub']"</b>
+  <b class=GRN>✔ And I add " " to the inputfield "[placeholder='Search GitHub']"</b>
+  <b class=GRN>✔ And I add "selenium" to the inputfield "[placeholder='Search GitHub']"</b>
+  <b class=GRN>✔ Then I expect that the element "[placeholder='Search GitHub']" contains the value "webdriverio selenium"</b>
+  <b class=GRN>✔ When I click on the element "button=Search"</b>
+  <b class=GRN>✔ Then I expect that the element ".repo-list-item:first-child" contains the text "webdriverio"</b>
+  <b class=GRN>✔ And I expect that the element ".repo-list-item:first-child" contains the text "selenium"</b>
+
+2 scenarios (<b class=GRN>2 passed</b>)
+14 steps (<b class=GRN>14 passed</b>)
+0m09.857s
+</pre>
+</body>
+</html>

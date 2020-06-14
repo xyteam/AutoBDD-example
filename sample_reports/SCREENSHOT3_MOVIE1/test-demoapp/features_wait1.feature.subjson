@@ -1,0 +1,1498 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if delayed actions are being performed",
+    "elements": [
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-to-exist",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test if element to exist",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 747222622
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002151878
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is no element \"#waitForCreateElement > span\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 20932672
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:71"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCreateBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 284933792
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForCreateElement > span\" for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 13620491
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 182188
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4935984629
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fZXhpc3QubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19leGlzdC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX2V4aXN0LjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fZXhpc3QuNS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-exists",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test if element exists",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109533467
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1001493533
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is no element \"#waitForCreateElement > span\" on the page",
+            "result": {
+              "status": "passed",
+              "duration": 14618202
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:71"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCreateBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 172237286
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForCreateElement > span\" for 1000ms to exist",
+            "result": {
+              "status": "passed",
+              "duration": 27091996
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 102184
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4900680096
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9leGlzdHMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9leGlzdHMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9leGlzdHMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9leGlzdHMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9leGlzdHMuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfZXhpc3RzLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2V4aXN0cy41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2V4aXN0cy41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-becomes-unchecked",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Test if element becomes unchecked",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 110936927
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1000847597
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCheckedBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 347974173
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002793323
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForCheckedElement\" is checked",
+            "result": {
+              "status": "passed",
+              "duration": 51790435
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCheckedBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 226371183
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForCheckedElement\" for 1000ms to not be checked",
+            "result": {
+              "status": "passed",
+              "duration": 27497308
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83577
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4945828003
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc191bmNoZWNrZWQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC42LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX3VuY2hlY2tlZC43LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfdW5jaGVja2VkLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc191bmNoZWNrZWQuNy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-becomes-disabled",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Test if element becomes disabled",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 108102609
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002630582
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForEnabledBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 308186548
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002202417
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForEnabledElement\" is enabled",
+            "result": {
+              "status": "passed",
+              "duration": 32564163
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForEnabledBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 276743433
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForEnabledElement\" for 1000ms to not be enabled",
+            "result": {
+              "status": "passed",
+              "duration": 35814764
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 138522
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4968365625
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc19kaXNhYmxlZC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfZGlzYWJsZWQuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX2Rpc2FibGVkLjcucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-becomes-not-selected",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Test if element becomes not selected",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 106698067
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002290929
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForSelectedBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 286985410
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002547949
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForSelectedElement option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 28305492
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForSelectedBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 253061785
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForSelectedElement option:nth-child(2)\" for 1000ms to not be selected",
+            "result": {
+              "status": "passed",
+              "duration": 20415189
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56500
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4928739124
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc19ub3Rfc2VsZWN0ZWQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC42LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF9zZWxlY3RlZC43LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3NlbGVjdGVkLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc19ub3Rfc2VsZWN0ZWQuNy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-becomes-not-visible",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Test if element becomes not visible",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 142747478
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1001878061
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForVisibleBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 283532403
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1001660819
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForVisibleElement\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 80293252
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForVisibleBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 253002724
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForVisibleElement\" for 1000ms to not be visible",
+            "result": {
+              "status": "passed",
+              "duration": 73917428
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 94376
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4918654969
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfYmVjb21lc19ub3RfdmlzaWJsZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X2JlY29tZXNfbm90X3Zpc2libGUuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9iZWNvbWVzX25vdF92aXNpYmxlLjcucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-to-not-contain-a-text",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Test if element to not contain a text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 117119807
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002577052
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForContainsTextBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 219598409
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1001717475
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForContainsTextElement\" contains any text",
+            "result": {
+              "status": "passed",
+              "duration": 27314630
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForContainsTextBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 195552733
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForContainsTextElement\" for 1000ms to not contain a text",
+            "result": {
+              "status": "passed",
+              "duration": 20643531
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 87994
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4924580564
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3RleHQuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV90ZXh0LjcucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdGV4dC43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdGV4dC43LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-to-not-contain-a-value",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Test if element to not contain a value",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 113366380
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1004243836
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForContainsValueBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 288591324
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002371814
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForContainsValueElement\" contains any value",
+            "result": {
+              "status": "passed",
+              "duration": 22655508
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForContainsValueBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 230725412
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForContainsValueElement\" for 2000ms to not contain a value",
+            "result": {
+              "status": "passed",
+              "duration": 18992609
+            },
+            "line": 60,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 59294
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4911472992
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfdG9fbm90X2NvbnRhaW5fYV92YWx1ZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X3RvX25vdF9jb250YWluX2FfdmFsdWUuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF90b19ub3RfY29udGFpbl9hX3ZhbHVlLjcucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-waiting-for-actions-part-1;test-if-element-not-exists",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Test if element not exists",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 95949245
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1002265600
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCreateBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 277769675
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 1000ms",
+            "result": {
+              "status": "passed",
+              "duration": 1003583697
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#waitForCreateElement > span\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 15008181
+            },
+            "line": 65,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#waitForCreateBtn\"",
+            "result": {
+              "status": "passed",
+              "duration": 271470344
+            },
+            "line": 66,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I wait on element \"#waitForCreateElement > span\" for 1000ms to not exist",
+            "result": {
+              "status": "passed",
+              "duration": 12613874
+            },
+            "line": 67,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 94388
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4920887014
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dhaXQxLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc193YWl0MS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2VsZW1lbnRfbm90X2V4aXN0cy5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjcucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuNy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9lbGVtZW50X25vdF9leGlzdHMuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfZWxlbWVudF9ub3RfZXhpc3RzLjcucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-waiting-for-actions-part-1",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test waiting for actions part 1",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/wait1.feature"
+  }
+]

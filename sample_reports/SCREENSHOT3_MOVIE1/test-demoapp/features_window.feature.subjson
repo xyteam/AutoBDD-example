@@ -1,0 +1,933 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a element opens a new window/tab",
+    "elements": [
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-new-window/tab-is-not-being-opened",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test if a new window/tab is not being opened",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 10697114
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 390922609
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 10969729
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 218946
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4961479580
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9uZXdfd2luZG93dGFiX2lzX25vdF9iZWluZ19vcGVuZWQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9uZXdfd2luZG93dGFiX2lzX25vdF9iZWluZ19vcGVuZWQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9uZXdfd2luZG93dGFiX2lzX25vdF9iZWluZ19vcGVuZWQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbmV3X3dpbmRvd3RhYl9pc19ub3RfYmVpbmdfb3BlbmVkLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX25ld193aW5kb3d0YWJfaXNfbm90X2JlaW5nX29wZW5lZC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX25ld193aW5kb3d0YWJfaXNfbm90X2JlaW5nX29wZW5lZC4zLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-default-link-does-not-open-a-new-window/tab",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test if a default link does not open a new window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 11761723
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 165389841
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkSameWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 615281396
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 7223839
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 100907
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4945905487
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9kZWZhdWx0X2xpbmtfZG9lc19ub3Rfb3Blbl9hX25ld193aW5kb3d0YWIuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9kZWZhdWx0X2xpbmtfZG9lc19ub3Rfb3Blbl9hX25ld193aW5kb3d0YWIuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9kZWZhdWx0X2xpbmtfZG9lc19ub3Rfb3Blbl9hX25ld193aW5kb3d0YWIuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9kZWZhdWx0X2xpbmtfZG9lc19ub3Rfb3Blbl9hX25ld193aW5kb3d0YWIuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfZGVmYXVsdF9saW5rX2RvZXNfbm90X29wZW5fYV9uZXdfd2luZG93dGFiLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2RlZmF1bHRfbGlua19kb2VzX25vdF9vcGVuX2FfbmV3X3dpbmRvd3RhYi40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2RlZmF1bHRfbGlua19kb2VzX25vdF9vcGVuX2FfbmV3X3dpbmRvd3RhYi40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-link-with-target-\"_blank\"-does-open-a-new-window/tab",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test if a link with target \"_blank\" does open a new window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 7355752
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 130919949
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 324439625
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 15550006
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66660
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4944105609
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2FfbGlua193aXRoX3RhcmdldF9fYmxhbmtfZG9lc19vcGVuX2FfbmV3X3dpbmRvd3RhYi5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9saW5rX3dpdGhfdGFyZ2V0X19ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2xpbmtfd2l0aF90YXJnZXRfX2JsYW5rX2RvZXNfb3Blbl9hX25ld193aW5kb3d0YWIuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9saW5rX3dpdGhfdGFyZ2V0X19ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2xpbmtfd2l0aF90YXJnZXRfX2JsYW5rX2RvZXNfb3Blbl9hX25ld193aW5kb3d0YWIuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9saW5rX3dpdGhfdGFyZ2V0X19ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2xpbmtfd2l0aF90YXJnZXRfX2JsYW5rX2RvZXNfb3Blbl9hX25ld193aW5kb3d0YWIuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9saW5rX3dpdGhfdGFyZ2V0X19ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2xpbmtfd2l0aF90YXJnZXRfX2JsYW5rX2RvZXNfb3Blbl9hX25ld193aW5kb3d0YWIuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX2xpbmtfd2l0aF90YXJnZXRfX2JsYW5rX2RvZXNfb3Blbl9hX25ld193aW5kb3d0YWIuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV9saW5rX3dpdGhfdGFyZ2V0X19ibGFua19kb2VzX29wZW5fYV9uZXdfd2luZG93dGFiLjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-a-window/tab-from-\"google.com\"-has-the-correct-url",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test if a window/tab from \"google.com\" has the correct url",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 114440156
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109501734
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 280674158
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the url \"http://example.com/\" is opened in a new window",
+            "result": {
+              "status": "passed",
+              "duration": 122932243
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:150"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 105078
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4957035700
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2Ffd2luZG93dGFiX2Zyb21fZ29vZ2xlY29tX2hhc190aGVfY29ycmVjdF91cmwubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfYV93aW5kb3d0YWJfZnJvbV9nb29nbGVjb21faGFzX3RoZV9jb3JyZWN0X3VybC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl9hX3dpbmRvd3RhYl9mcm9tX2dvb2dsZWNvbV9oYXNfdGhlX2NvcnJlY3RfdXJsLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX2Ffd2luZG93dGFiX2Zyb21fZ29vZ2xlY29tX2hhc190aGVfY29ycmVjdF91cmwuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-all-opened-windows/tabs-are-now-closed",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Test all opened windows/tabs are now closed",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 6036007
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 145757643
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 7294725
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 86233
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4946050999
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2FsbF9vcGVuZWRfd2luZG93c3RhYnNfYXJlX25vd19jbG9zZWQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfYWxsX29wZW5lZF93aW5kb3dzdGFic19hcmVfbm93X2Nsb3NlZC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9hbGxfb3BlbmVkX3dpbmRvd3N0YWJzX2FyZV9ub3dfY2xvc2VkLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2FsbF9vcGVuZWRfd2luZG93c3RhYnNfYXJlX25vd19jbG9zZWQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-we-can-close-the-last-opened-window/tab",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Test if we can close the last opened window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 6271382
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 103107536
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 254025003
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 7968351
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 62043708
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:121"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has not been opened",
+            "result": {
+              "status": "passed",
+              "duration": 8042403
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 71802
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4930689328
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2Nsb3NlX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9jbG9zZV90aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fY2xvc2VfdGhlX2xhc3Rfb3BlbmVkX3dpbmRvd3RhYi42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fY2xvc2VfdGhlX2xhc3Rfb3BlbmVkX3dpbmRvd3RhYi42LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-if-new-windows/tabs-are-being-opened;test-if-we-can-focus-the-last-opened-window/tab",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Test if we can focus the last opened window/tab",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I have closed all but the first tab",
+            "result": {
+              "status": "passed",
+              "duration": 8324497
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 102548534
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \"#linkNewWindow\"",
+            "result": {
+              "status": "passed",
+              "duration": 271263509
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect a new window has been opened",
+            "result": {
+              "status": "passed",
+              "duration": 11432169
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I focus the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 25120784
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the full URL to be \"http://example.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 10858477
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the last opened window",
+            "result": {
+              "status": "passed",
+              "duration": 43503251
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:121"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the URL path to be \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 12916738
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 68879
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4908812427
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3dpbmRvdy5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfd2luZG93LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjcucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX2ZvY3VzX3RoZV9sYXN0X29wZW5lZF93aW5kb3d0YWIuOC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9mb2N1c190aGVfbGFzdF9vcGVuZWRfd2luZG93dGFiLjgucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fZm9jdXNfdGhlX2xhc3Rfb3BlbmVkX3dpbmRvd3RhYi44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fZm9jdXNfdGhlX2xhc3Rfb3BlbmVkX3dpbmRvd3RhYi44LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-if-new-windows/tabs-are-being-opened",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test if new windows/tabs are being opened",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/window.feature"
+  }
+]

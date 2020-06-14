@@ -1,0 +1,402 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to test see and click images",
+    "elements": [
+      {
+        "id": "varmour-site-screen-text-and-see-and-click-image;test-screen-area-text",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Test screen area text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://www.varmour.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 982638792
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait every 5 seconds for 1 minute on the screen area to display the regex \"pssst\"",
+            "result": {
+              "status": "passed",
+              "duration": 8315123529
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_wait_on_the_X_area_to_display_the_text_X.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the \"last-seen\" screen area does contain the text \"Pssst\"",
+            "result": {
+              "status": "passed",
+              "duration": 8027168
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"Screen-100\" image does contain the text \"Product\"",
+            "result": {
+              "status": "passed",
+              "duration": 4826030463
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 186192
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3015127370
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF9zY3JlZW5fYXJlYV90ZXh0LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X3NjcmVlbl9hcmVhX3RleHQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@Demo",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "varmour-site-screen-text-and-see-and-click-image;test-image-wait-and-text",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Test image wait and text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://www.varmour.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 1054887320
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"vArmour_logo\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2695623308
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"last-seen\" image does appear exactly 1 time",
+            "result": {
+              "status": "passed",
+              "duration": 699145
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_image_X_does_X_appear_exactly_X_times.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"last-seen\" image does match the regex \"v.*m.*r\"",
+            "result": {
+              "status": "passed",
+              "duration": 737085
+            },
+            "line": 19,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"last-seen\" image does mimic the text \"varmour\"",
+            "result": {
+              "status": "passed",
+              "duration": 540575
+            },
+            "line": 20,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 81632
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2940800251
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF9pbWFnZV93YWl0X2FuZF90ZXh0LjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X2ltYWdlX3dhaXRfYW5kX3RleHQuNS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@Demo",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "varmour-site-screen-text-and-see-and-click-image;test-find-image-with-text",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Test find image with text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://www.varmour.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 690142863
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 3000ms",
+            "result": {
+              "status": "passed",
+              "duration": 3004229831
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"dialogRobot\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2381667272
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"last-seen\" image does appear exactly 1 time",
+            "result": {
+              "status": "passed",
+              "duration": 2362478
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_image_X_does_X_appear_exactly_X_times.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the \"last-seen\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 109080648
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/When/When_I_X_X_the_X_image_and_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 501807069
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"robotDialogWindow:0.5:Bot\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2787041533
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the \"last-seen\" image does match the text \"VAR:robotDialogWindowTextRegex\"",
+            "result": {
+              "status": "passed",
+              "duration": 23583873
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_expect_the_X_X_does_X_the_X_X.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 73191
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2902154384
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW4uaHRtbCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIvPmZlYXR1cmVzX3Rlc3QtaW1hZ2VBY3Rpb25zX3Zhcm1vdXJfc2l0ZV9pbWFnZXNfc2VlX3JlYWRfdGV4dF9hbmRfY2xpY2suZmVhdHVyZS5ydW48L2E+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF9maW5kX2ltYWdlX3dpdGhfdGV4dC44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF9maW5kX2ltYWdlX3dpdGhfdGV4dC44LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@Demo",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "varmour-site-screen-text-and-see-and-click-image",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "vArmour site screen text and see and click image",
+    "tags": [
+      {
+        "name": "@test-webpage",
+        "line": 1
+      },
+      {
+        "name": "@Demo",
+        "line": 2
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-imageActions/varmour_site_images_see_read_text_and_click.feature"
+  }
+]

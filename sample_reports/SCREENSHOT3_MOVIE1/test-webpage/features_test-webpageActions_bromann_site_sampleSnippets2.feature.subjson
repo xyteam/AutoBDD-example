@@ -1,0 +1,1805 @@
+[
+  {
+    "description": "    As a developer\n    I should be able to use given text snippets",
+    "elements": [
+      {
+        "id": "sample-snippets-test-part-2;query-title",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "query title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 2037805218
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page title does equal the text \"WebdriverJS Testpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 13592603
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page title does not equal the text \"Other title\"",
+            "result": {
+              "status": "passed",
+              "duration": 14913298
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the page title does equal the text \"WebdriverJS Testpage\"",
+            "result": {
+              "status": "passed",
+              "duration": 9539417
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the page title does not equal the text \"Other title\"",
+            "result": {
+              "status": "passed",
+              "duration": 10813107
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 170158
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4917052910
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9xdWVyeV90aXRsZS5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfcXVlcnlfdGl0bGUuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3F1ZXJ5X3RpdGxlLjUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-visibility",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "check visibility",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 80614297
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 52087363
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 84581809
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \".btn1\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 45286225
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".btn1_clicked\" is not visible",
+            "result": {
+              "status": "passed",
+              "duration": 87824487
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 95310
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4934750389
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3Zpc2liaWxpdHkuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3Zpc2liaWxpdHkuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3Zpc2liaWxpdHkuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3Zpc2liaWxpdHkuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3Zpc2liaWxpdHkuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja192aXNpYmlsaXR5LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfdmlzaWJpbGl0eS41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfdmlzaWJpbGl0eS41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;compare-texts",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "compare texts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 59093703
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains the same text as element \"#secondPageLink\"",
+            "result": {
+              "status": "passed",
+              "duration": 59982977
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains not the same text as element \"#githubRepo\"",
+            "result": {
+              "status": "passed",
+              "duration": 59379131
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#secondPageLink\" contains the same text as element \"#secondPageLink\"",
+            "result": {
+              "status": "passed",
+              "duration": 72475696
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#secondPageLink\" not contains the same text as element \"#githubRepo\"",
+            "result": {
+              "status": "passed",
+              "duration": 47570195
+            },
+            "line": 25,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 131388
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4907069069
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NvbXBhcmVfdGV4dHMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NvbXBhcmVfdGV4dHMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NvbXBhcmVfdGV4dHMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NvbXBhcmVfdGV4dHMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NvbXBhcmVfdGV4dHMuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jb21wYXJlX3RleHRzLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY29tcGFyZV90ZXh0cy41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY29tcGFyZV90ZXh0cy41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-text-content",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "check text content",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 49996089
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" contains the text \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 35883759
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#secondPageLink\" not contains the text \"andere linktext\"",
+            "result": {
+              "status": "passed",
+              "duration": 23095452
+            },
+            "line": 30,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#secondPageLink\" contains the text \"two\"",
+            "result": {
+              "status": "passed",
+              "duration": 23256250
+            },
+            "line": 31,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"#secondPageLink\" not contains the text \"anderer linktext\"",
+            "result": {
+              "status": "passed",
+              "duration": 26202698
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 107909
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4906656715
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja190ZXh0X2NvbnRlbnQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3RleHRfY29udGVudC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfdGV4dF9jb250ZW50LjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja190ZXh0X2NvbnRlbnQuNS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-input-content",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "check input content",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 43304465
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" contains the value \"a\"",
+            "result": {
+              "status": "passed",
+              "duration": 34185748
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"//html/body/section/form/input[1]\" not contains the value \"aa\"",
+            "result": {
+              "status": "passed",
+              "duration": 22327357
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"//html/body/section/form/input[1]\" contains the value \"a\"",
+            "result": {
+              "status": "passed",
+              "duration": 30639506
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \"//html/body/section/form/input[1]\" not contains the value \"aa\"",
+            "result": {
+              "status": "passed",
+              "duration": 29311981
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 62286
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4919163614
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2lucHV0X2NvbnRlbnQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2lucHV0X2NvbnRlbnQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2lucHV0X2NvbnRlbnQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2lucHV0X2NvbnRlbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2lucHV0X2NvbnRlbnQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19pbnB1dF9jb250ZW50LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfaW5wdXRfY29udGVudC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfaW5wdXRfY29udGVudC41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-attribut",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "check attribut",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 47426647
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the attribute \"data-foundby\" from element \"#newWindow\" is \"partial link text\"",
+            "result": {
+              "status": "passed",
+              "duration": 27267448
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the attribute \"data-foundby\" from element \"#newWindow\" is not \"something else\"",
+            "result": {
+              "status": "passed",
+              "duration": 24929981
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the attribute \"data-foundby\" from element \"#newWindow\" is \"partial link text\"",
+            "result": {
+              "status": "passed",
+              "duration": 36715340
+            },
+            "line": 45,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the attribute \"data-foundby\" from element \"#newWindow\" is not \"something else\"",
+            "result": {
+              "status": "passed",
+              "duration": 28156044
+            },
+            "line": 46,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 58646
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4902421841
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19hdHRyaWJ1dC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfYXR0cmlidXQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2F0dHJpYnV0LjUucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-css-attribut",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "check css attribut",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 46282567
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the css attribute \"background-color\" from element \".red\" is \"rgba(255,0,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 33516284
+            },
+            "line": 50,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the css attribute \"background-color\" from element \".red\" is not \"rgba(0,255,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 24644674
+            },
+            "line": 51,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the css attribute \"background-color\" from element \".red\" is \"rgba(255,0,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 19565163
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the css attribute \"background-color\" from element \".red\" is not \"rgba(0,255,0,1)\"",
+            "result": {
+              "status": "passed",
+              "duration": 26678539
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 75657
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4892977918
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19jc3NfYXR0cmlidXQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX2Nzc19hdHRyaWJ1dC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfY3NzX2F0dHJpYnV0LjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19jc3NfYXR0cmlidXQuNS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-width-and-height",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "check width and height",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 60955025
+            },
+            "line": 56,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is 102px broad",
+            "result": {
+              "status": "passed",
+              "duration": 32061781
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is 102px tall",
+            "result": {
+              "status": "passed",
+              "duration": 26333786
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not 103px broad",
+            "result": {
+              "status": "passed",
+              "duration": 24123950
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not 103px tall",
+            "result": {
+              "status": "passed",
+              "duration": 28159931
+            },
+            "line": 60,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \".red\" is 102px broad",
+            "result": {
+              "status": "passed",
+              "duration": 22338343
+            },
+            "line": 61,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is 102px tall",
+            "result": {
+              "status": "passed",
+              "duration": 29291889
+            },
+            "line": 62,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is not 103px broad",
+            "result": {
+              "status": "passed",
+              "duration": 37771479
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is not 103px tall",
+            "result": {
+              "status": "passed",
+              "duration": 25879481
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:130"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 62822
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 6004294200
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuNy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjcucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuOC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjgucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3dpZHRoX2FuZF9oZWlnaHQuOS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja193aWR0aF9hbmRfaGVpZ2h0LjkucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfd2lkdGhfYW5kX2hlaWdodC45LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfd2lkdGhfYW5kX2hlaWdodC45LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-offset",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "check offset",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 109794219
+            },
+            "line": 69,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is positioned at 15px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 25038353
+            },
+            "line": 70,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:128"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is positioned at 242px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 22145280
+            },
+            "line": 71,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:128"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not positioned at 16px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 20747409
+            },
+            "line": 72,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:128"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \".red\" is not positioned at 243px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 25751950
+            },
+            "line": 73,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:128"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \".red\" is positioned at 15px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 20368806
+            },
+            "line": 74,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is positioned at 242px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 20170718
+            },
+            "line": 75,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is not positioned at 16px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 38012487
+            },
+            "line": 76,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the element \".red\" is not positioned at 243px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 43565462
+            },
+            "line": 77,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 99376
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4925127812
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19vZmZzZXQubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC42LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC43LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC44LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC45LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX29mZnNldC45LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfb2Zmc2V0LjkucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19vZmZzZXQuOS5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 67
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;check-selected",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "check selected",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 54594044
+            },
+            "line": 80,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the checkbox \".checkbox_notselected\" is not checked",
+            "result": {
+              "status": "passed",
+              "duration": 26854473
+            },
+            "line": 81,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the element \".checkbox_notselected\"",
+            "result": {
+              "status": "passed",
+              "duration": 204154600
+            },
+            "line": 82,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \".checkbox_notselected\" is checked",
+            "result": {
+              "status": "passed",
+              "duration": 24039024
+            },
+            "line": 83,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 107725
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 6008598482
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9jaGVja19zZWxlY3RlZC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3NlbGVjdGVkLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfc2VsZWN0ZWQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3NlbGVjdGVkLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfc2VsZWN0ZWQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3NlbGVjdGVkLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfc2VsZWN0ZWQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3NlbGVjdGVkLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfc2VsZWN0ZWQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfY2hlY2tfc2VsZWN0ZWQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2NoZWNrX3NlbGVjdGVkLjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;set-/-read-cookie",
+        "keyword": "Scenario",
+        "line": 87,
+        "name": "set / read cookie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 48086726
+            },
+            "line": 88,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the cookie \"test\" does not exist",
+            "result": {
+              "status": "passed",
+              "duration": 11579248
+            },
+            "line": 89,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I set a cookie \"test\" with the content \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 11231239
+            },
+            "line": 90,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:81"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test\" exists",
+            "result": {
+              "status": "passed",
+              "duration": 12274498
+            },
+            "line": 91,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the cookie \"test\" contains \"test123\"",
+            "result": {
+              "status": "passed",
+              "duration": 12999846
+            },
+            "line": 92,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I expect that the cookie \"test\" not contains \"test1234\"",
+            "result": {
+              "status": "passed",
+              "duration": 9614729
+            },
+            "line": 93,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:120"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 75020
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5950426376
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX3NldF9fcmVhZF9jb29raWUuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9zZXRfX3JlYWRfY29va2llLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2Vfc2V0X19yZWFkX2Nvb2tpZS42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2Vfc2V0X19yZWFkX2Nvb2tpZS42LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 86
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "sample-snippets-test-part-2;delete-cookie",
+        "keyword": "Scenario",
+        "line": 97,
+        "name": "delete cookie",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"http://webdriverjs.christian-bromann.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 119086177
+            },
+            "line": 98,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the cookie \"test\" does exist",
+            "result": {
+              "status": "passed",
+              "duration": 11389415
+            },
+            "line": 99,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete the cookie \"test\"",
+            "result": {
+              "status": "passed",
+              "duration": 13008518
+            },
+            "line": 100,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:91"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the cookie \"test\" not exists",
+            "result": {
+              "status": "passed",
+              "duration": 18039926
+            },
+            "line": 101,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:125"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 77710
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5982894269
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfYnJvbWFubl9zaXRlX3NhbXBsZVNuaXBwZXRzMi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc19icm9tYW5uX3NpdGVfc2FtcGxlU25pcHBldHMyLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9kZWxldGVfY29va2llLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2RlbGV0ZV9jb29raWUuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9kZWxldGVfY29va2llLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2RlbGV0ZV9jb29raWUuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9kZWxldGVfY29va2llLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2RlbGV0ZV9jb29raWUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9kZWxldGVfY29va2llLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX2RlbGV0ZV9jb29raWUuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0d2VicGFnZV9kZWxldGVfY29va2llLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfZGVsZXRlX2Nvb2tpZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfZGVsZXRlX2Nvb2tpZS40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 96
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-snippets-test-part-2",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Sample Snippets test part 2",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/bromann_site_sampleSnippets2.feature"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a page has a certain title",
+    "elements": [
+      {
+        "id": "test-the-page-title;test-if-the-demo-app-has-the-title-\"demo-app\"",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test if the demo app has the title \"DEMO APP\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 247462274
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page title does equal the text \"DEMO APP\"",
+            "result": {
+              "status": "passed",
+              "duration": 12555850
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"h1\" contains the same text as element \".subtitle\"",
+            "result": {
+              "status": "passed",
+              "duration": 73850721
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 138832
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4949498143
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3RpdGxlLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc190aXRsZS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2hhc190aGVfdGl0bGVfREVNT19BUFAuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2hhc190aGVfdGl0bGVfREVNT19BUFAuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2hhc190aGVfdGl0bGVfREVNT19BUFAuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9oYXNfdGhlX3RpdGxlX0RFTU9fQVBQLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl90aGVfZGVtb19hcHBfaGFzX3RoZV90aXRsZV9ERU1PX0FQUC4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl90aGVfZGVtb19hcHBfaGFzX3RoZV90aXRsZV9ERU1PX0FQUC4zLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-page-title;test-if-the-demo-app-does-not-have-the-title-\"google\"",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test if the demo app does not have the title \"Google\"",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 110299947
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "the page title does not equal the text \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 9062535
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the page url is not \"https://www.google.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 12903910
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:96"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"h1\" not contains the text \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 32035741
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 64923
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4926907692
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3RpdGxlLmZlYXR1cmUucnVuLmh0bWwiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiLz5mZWF0dXJlc190aXRsZS5mZWF0dXJlLnJ1bjwvYT4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9kb2VzX25vdF9oYXZlX3RoZV90aXRsZV9Hb29nbGUubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfdGhlX2RlbW9fYXBwX2RvZXNfbm90X2hhdmVfdGhlX3RpdGxlX0dvb2dsZS40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl90aGVfZGVtb19hcHBfZG9lc19ub3RfaGF2ZV90aGVfdGl0bGVfR29vZ2xlLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3RoZV9kZW1vX2FwcF9kb2VzX25vdF9oYXZlX3RoZV90aXRsZV9Hb29nbGUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-page-title",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test the page title",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/title.feature"
+  }
+]

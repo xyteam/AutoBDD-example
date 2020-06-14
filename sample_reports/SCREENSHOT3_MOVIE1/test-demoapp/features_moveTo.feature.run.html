@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:22971) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Test moveTo elements
+
+      As a developer
+      I want to be able to test if I can move to a element
+      with an optional relative X and Y position
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Move to just the element
+http://localhost:8082/
+  <b class=GRN>✔ Given I open the path "/"</b>
+  <b class=GRN>✔ And I have a screen that is 1024 by 768 pixels</b>
+  <b class=GRN>✔ When I scroll to the element "#moveTo"</b>
+  <b class=GRN>✔ When I move to element "#moveTo"</b>
+  <b class=GRN>✔ Then I expect that the element "#moveTo" has the class "moveToClass"</b>
+  <b class=GRN>✔ When I move to element "body"</b>
+  <b class=GRN>✔ Then I expect that the element "#moveTo" does not have the class "moveToClass"</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Move to the element with a X and Y offset
+http://localhost:8082/
+  <b class=GRN>✔ Given I open the path "/"</b>
+  <b class=GRN>✔ And I have a screen that is 1024 by 768 pixels</b>
+  <b class=GRN>✔ When I scroll to the element "#moveTo"</b>
+  <b class=GRN>✔ When I move to element "#moveTo" with an offset of 15,5</b>
+  <b class=GRN>✔ Then I expect that the element "#moveTo" has the class "moveToClass"</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Move to the element with a too large offset
+http://localhost:8082/
+  <b class=GRN>✔ Given I open the path "/"</b>
+  <b class=GRN>✔ And I have a screen that is 1024 by 768 pixels</b>
+  <b class=GRN>✔ When I scroll to the element "#moveTo"</b>
+  <b class=RED>✖ When I move to element "#moveTo" with an offset of 5000,5000</b>
+  <b class=CYN>- Then I expect that the element "#moveTo" does not have the class "moveToClass"</b>
+browser error log:
+[]
+
+
+<b class=MAG>Failures:</b>
+<b class=MAG></b>
+<b class=MAG>1) Scenario: </b><b class=HIM>Move to the element with a too large offset</b><b class=MAG> - </b><b class=MAG style="color:#555555;">features/moveTo.feature:22</b>
+<b class=MAG>   Step: </b><b class=HIM>When I move to element "#moveTo" with an offset of 5000,5000</b><b class=MAG> - </b><b class=MAG style="color:#555555;">features/moveTo.feature:23</b>
+<b class=MAG>   Step Definition: </b><b class=MAG style="color:#555555;">../../../framework/support/steps/when.js:131</b>
+<b class=MAG>   Message:</b>
+<b class=YEL>     </b><b class=RED>Error: move target out of bounds</b>
+<b class=YEL>         at Request.emit (events.js:198:13)</b>
+<b class=YEL>         at Request.EventEmitter.emit (domain.js:448:20)</b>
+<b class=YEL>         at Request.emit (events.js:198:13)</b>
+<b class=YEL>         at Request.EventEmitter.emit (domain.js:448:20)</b>
+<b class=YEL>         at Object.onceWrapper (events.js:286:20)</b>
+<b class=YEL>         at IncomingMessage.emit (events.js:203:15)</b>
+<b class=YEL>         at IncomingMessage.EventEmitter.emit (domain.js:448:20)</b>
+<b class=YEL>         at endReadableNT (_stream_readable.js:1145:12)</b>
+<b class=YEL>         at process._tickCallback (internal/process/next_tick.js:63:19)</b>
+<b class=MAG></b>
+<b class=MAG>3 scenarios (</b><b class=RED>1 failed</b>, <b class=GRN>2 passed</b>)
+<b class=MAG>17 steps (</b><b class=RED>1 failed</b>, <b class=CYN>1 skipped</b>, <b class=GRN>15 passed</b>)
+<b class=MAG>0m16.684s</b>
+<b class=MAG></b>
+Cucumber steps failed
+</pre>
+</body>
+</html>

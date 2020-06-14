@@ -1,0 +1,1366 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a certain value is selected for a certain\n    select element",
+    "elements": [
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-second-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test if we can select the second option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 404103707
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 34233050
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 1st option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 103956674
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 34507662
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 232646
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 6032011593
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3NlY29uZF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9zZWNvbmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfc2Vjb25kX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-third-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Test if we can select the third option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 138348208
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 33974169
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 2nd option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 63309625
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 30283209
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 97279
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5027631700
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3RoaXJkX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfdGhpcmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3RoaXJkX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfdGhpcmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3RoaXJkX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfdGhpcmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3RoaXJkX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfdGhpcmRfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX3RoaXJkX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV90aGlyZF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV90aGlyZF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-fourth-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Test if we can select the fourth option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 105250138
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 31567268
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 3th option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 62703151
+            },
+            "line": 22,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 42792094
+            },
+            "line": 23,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 118478
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4948563146
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZvdXJ0aF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9mb3VydGhfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZm91cnRoX29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-the-first-option-of-a-select-element",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Test if we can select the first option of a select element",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 100830881
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 1st option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 113945126
+            },
+            "line": 26,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(1)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 66049892
+            },
+            "line": 27,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 0th option for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 82936898
+            },
+            "line": 28,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(1)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 70877871
+            },
+            "line": 29,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 75030
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4937116625
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZmlyc3Rfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZmlyc3Rfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZmlyc3Rfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZmlyc3Rfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF90aGVfZmlyc3Rfb3B0aW9uX29mX2Ffc2VsZWN0X2VsZW1lbnQuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfdGhlX2ZpcnN0X29wdGlvbl9vZl9hX3NlbGVjdF9lbGVtZW50LjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9maXJzdF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X3RoZV9maXJzdF9vcHRpb25fb2ZfYV9zZWxlY3RfZWxlbWVudC41LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-name",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Test if we can select a option by its name",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 107570938
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 33165812
+            },
+            "line": 32,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the name \"secondOption\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 70910961
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 41017643
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 121356
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4997981118
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWUubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZS40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWUuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-value",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Test if we can select a option by its value",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 116784610
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 39917433
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the value \"third\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 118995573
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23248157
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 102309
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 5061714940
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWUuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWUuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWUuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWUuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZS40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-visible-text",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Test if we can select a option by its visible text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 96776650
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 41613047
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the text \"Option #4\" for element \"#selectElementTest\"",
+            "result": {
+              "status": "passed",
+              "duration": 51972316
+            },
+            "line": 43,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 24891105
+            },
+            "line": 44,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 90638
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4917115809
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3Zpc2libGVfdGV4dC5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHQuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0LjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-value-using-xpath-selectors-only",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Test if we can select a option by its value using XPath selectors only",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 118982739
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 28453049
+            },
+            "line": 47,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the value \"second\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 60693508
+            },
+            "line": 48,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 23135419
+            },
+            "line": 49,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 66651
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4909387572
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlX3VzaW5nX1hQYXRoX3NlbGVjdG9yc19vbmx5Lm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzX29ubHkuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlX3VzaW5nX1hQYXRoX3NlbGVjdG9yc19vbmx5LjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzX29ubHkuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlX3VzaW5nX1hQYXRoX3NlbGVjdG9yc19vbmx5LjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzX29ubHkuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlX3VzaW5nX1hQYXRoX3NlbGVjdG9yc19vbmx5LjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmFsdWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzX29ubHkuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3ZhbHVlX3VzaW5nX1hQYXRoX3NlbGVjdG9yc19vbmx5LjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZV91c2luZ19YUGF0aF9zZWxlY3RvcnNfb25seS40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192YWx1ZV91c2luZ19YUGF0aF9zZWxlY3RvcnNfb25seS40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-index-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Test if we can select a option by its index using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 121254920
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 28625263
+            },
+            "line": 52,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the 3rd option for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 53181633
+            },
+            "line": 53,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:136"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(4)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 25040882
+            },
+            "line": 54,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 87455
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4910021423
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX2luZGV4X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19pbmRleF91c2luZ19YUGF0aF9zZWxlY3RvcnMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfaW5kZXhfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-visible-text-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Test if we can select a option by its visible text using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 127199581
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 26925665
+            },
+            "line": 57,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the text \"Option #3\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 47672821
+            },
+            "line": 58,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(3)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 25719485
+            },
+            "line": 59,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 75076
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4905670935
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3Zpc2libGVfdGV4dF91c2luZ19YUGF0aF9zZWxlY3RvcnMubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfdmlzaWJsZV90ZXh0X3VzaW5nX1hQYXRoX3NlbGVjdG9ycy40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c192aXNpYmxlX3RleHRfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX3Zpc2libGVfdGV4dF91c2luZ19YUGF0aF9zZWxlY3RvcnMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-select-elements;test-if-we-can-select-a-option-by-its-name-using-xpath-selectors",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Test if we can select a option by its name using XPath selectors",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 102050102
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is not selected",
+            "result": {
+              "status": "passed",
+              "duration": 27035477
+            },
+            "line": 62,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the option with the name \"secondOption\" for element \"//select[@id='selectElementTest']\"",
+            "result": {
+              "status": "passed",
+              "duration": 54778350
+            },
+            "line": 63,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:141"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#selectElementTest option:nth-child(2)\" is selected",
+            "result": {
+              "status": "passed",
+              "duration": 29072905
+            },
+            "line": 64,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 115668
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4921159923
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX3NlbGVjdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfc2VsZWN0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZV91c2luZ19YUGF0aF9zZWxlY3RvcnMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZV91c2luZ19YUGF0aF9zZWxlY3RvcnMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZV91c2luZ19YUGF0aF9zZWxlY3RvcnMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1Rlc3RfaWZfd2VfY2FuX3NlbGVjdF9hX29wdGlvbl9ieV9pdHNfbmFtZV91c2luZ19YUGF0aF9zZWxlY3RvcnMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UZXN0X2lmX3dlX2Nhbl9zZWxlY3RfYV9vcHRpb25fYnlfaXRzX25hbWVfdXNpbmdfWFBhdGhfc2VsZWN0b3JzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lX3VzaW5nX1hQYXRoX3NlbGVjdG9ycy40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGVzdF9pZl93ZV9jYW5fc2VsZWN0X2Ffb3B0aW9uX2J5X2l0c19uYW1lX3VzaW5nX1hQYXRoX3NlbGVjdG9ycy40LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-select-elements",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test select elements",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/select.feature"
+  }
+]

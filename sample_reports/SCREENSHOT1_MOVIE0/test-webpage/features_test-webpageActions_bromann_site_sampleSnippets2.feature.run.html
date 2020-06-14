@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:287) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Sample Snippets test part 2
+
+      As a developer
+      I should be able to use given text snippets
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: query title
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the page title does equal the text "WebdriverJS Testpage"</b>
+  <b class=GRN>✔ And the page title does not equal the text "Other title"</b>
+  <b class=GRN>✔ Then I expect that the page title does equal the text "WebdriverJS Testpage"</b>
+  <b class=GRN>✔ And I expect that the page title does not equal the text "Other title"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check visibility
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".btn1" is visible</b>
+  <b class=GRN>✔ And the element ".btn1_clicked" is not visible</b>
+  <b class=GRN>✔ Then I expect that the element ".btn1" is visible</b>
+  <b class=GRN>✔ And I expect that the element ".btn1_clicked" is not visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: compare texts
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element "#secondPageLink" contains the same text as element "#secondPageLink"</b>
+  <b class=GRN>✔ And the element "#secondPageLink" contains not the same text as element "#githubRepo"</b>
+  <b class=GRN>✔ Then I expect that the element "#secondPageLink" contains the same text as element "#secondPageLink"</b>
+  <b class=GRN>✔ And I expect that the element "#secondPageLink" not contains the same text as element "#githubRepo"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check text content
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element "#secondPageLink" contains the text "two"</b>
+  <b class=GRN>✔ And the element "#secondPageLink" not contains the text "andere linktext"</b>
+  <b class=GRN>✔ Then I expect that the element "#secondPageLink" contains the text "two"</b>
+  <b class=GRN>✔ And I expect that the element "#secondPageLink" not contains the text "anderer linktext"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check input content
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element "//html/body/section/form/input[1]" contains the value "a"</b>
+  <b class=GRN>✔ And the element "//html/body/section/form/input[1]" not contains the value "aa"</b>
+  <b class=GRN>✔ Then I expect that the element "//html/body/section/form/input[1]" contains the value "a"</b>
+  <b class=GRN>✔ And I expect that the element "//html/body/section/form/input[1]" not contains the value "aa"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check attribut
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the attribute "data-foundby" from element "#newWindow" is "partial link text"</b>
+  <b class=GRN>✔ And the attribute "data-foundby" from element "#newWindow" is not "something else"</b>
+  <b class=GRN>✔ Then I expect that the attribute "data-foundby" from element "#newWindow" is "partial link text"</b>
+  <b class=GRN>✔ And I expect that the attribute "data-foundby" from element "#newWindow" is not "something else"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check css attribut
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the css attribute "background-color" from element ".red" is "rgba(255,0,0,1)"</b>
+  <b class=GRN>✔ And the css attribute "background-color" from element ".red" is not "rgba(0,255,0,1)"</b>
+  <b class=GRN>✔ Then I expect that the css attribute "background-color" from element ".red" is "rgba(255,0,0,1)"</b>
+  <b class=GRN>✔ And I expect that the css attribute "background-color" from element ".red" is not "rgba(0,255,0,1)"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check width and height
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".red" is 102px broad</b>
+  <b class=GRN>✔ And the element ".red" is 102px tall</b>
+  <b class=GRN>✔ And the element ".red" is not 103px broad</b>
+  <b class=GRN>✔ And the element ".red" is not 103px tall</b>
+  <b class=GRN>✔ Then I expect that the element ".red" is 102px broad</b>
+  <b class=GRN>✔ And I expect that the element ".red" is 102px tall</b>
+  <b class=GRN>✔ And I expect that the element ".red" is not 103px broad</b>
+  <b class=GRN>✔ And I expect that the element ".red" is not 103px tall</b>
+
+  <b class=CYN>@test-demoapp @Pending</b>
+  Scenario: check offset
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".red" is positioned at 15px on the x axis</b>
+  <b class=GRN>✔ And the element ".red" is positioned at 242px on the y axis</b>
+  <b class=GRN>✔ And the element ".red" is not positioned at 16px on the x axis</b>
+  <b class=GRN>✔ And the element ".red" is not positioned at 243px on the y axis</b>
+  <b class=GRN>✔ Then I expect that the element ".red" is positioned at 15px on the x axis</b>
+  <b class=GRN>✔ And I expect that the element ".red" is positioned at 242px on the y axis</b>
+  <b class=GRN>✔ And I expect that the element ".red" is not positioned at 16px on the x axis</b>
+  <b class=GRN>✔ And I expect that the element ".red" is not positioned at 243px on the y axis</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: check selected
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the checkbox ".checkbox_notselected" is not checked</b>
+  <b class=GRN>✔ When I click on the element ".checkbox_notselected"</b>
+  <b class=GRN>✔ Then I expect that the element ".checkbox_notselected" is checked</b>
+
+  <b class=CYN>@test-demoapp @Pending</b>
+  Scenario: set / read cookie
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the cookie "test" does not exist</b>
+  <b class=GRN>✔ When I set a cookie "test" with the content "test123"</b>
+  <b class=GRN>✔ Then I expect that the cookie "test" exists</b>
+  <b class=GRN>✔ And I expect that the cookie "test" contains "test123"</b>
+  <b class=GRN>✔ And I expect that the cookie "test" not contains "test1234"</b>
+
+  <b class=CYN>@test-demoapp @Pending</b>
+  Scenario: delete cookie
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the cookie "test" does exist</b>
+  <b class=GRN>✔ When I delete the cookie "test"</b>
+  <b class=GRN>✔ Then I expect that the cookie "test" not exists</b>
+
+12 scenarios (<b class=GRN>12 passed</b>)
+67 steps (<b class=GRN>67 passed</b>)
+0m40.230s
+</pre>
+</body>
+</html>

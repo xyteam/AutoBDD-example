@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:7030) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-download</b>
+Feature: File download and validation
+
+    As a QA Engineer
+    I want to open browser to download a few files and investigate file contents
+
+  <b class=CYN>@test-download @SmokeTest</b>
+  Scenario: Open url, check content, download file and check downloaded content - PDF file
+  <b class=GRN>✔ Given I delete all download files with the name "pdf-test.*"</b>
+http://www.orimi.com/pdf-test.pdf
+  <b class=GRN>✔ When I open the url "http://www.orimi.com/pdf-test.pdf"</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/Yukon_Logo.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/Yukon_Logo.png --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"Yukon_Logo.png","score":0.999812,"text":["Yukon","Education","Education"],"textScore":100,"location":{"x":632,"y":192},"dimension":{"width":188,"height":114},"center":{"x":726,"y":249},"clicked":null}]
+[ { name: 'Yukon_Logo.png',
+    score: 0.999812,
+    text: [ 'Yukon', 'Education', 'Education' ],
+    textScore: 100,
+    location: { x: 632, y: 192 },
+    dimension: { width: 188, height: 114 },
+    center: { x: 726, y: 249 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "Yukon_Logo" image on the screen</b>
+parking mouse to {"x":960,"y":600}
+  <b class=GRN>✔ And I park mouse at the center position of the screen</b>
+hovering mouse to {"x":"0","y":"100"}
+  <b class=GRN>✔ And I hover mouse at the 0,100 position of the screen</b>
+/home/xywang68/Projects/AutoBDD/framework/testimages/PDF_download_icon.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/framework/testimages/PDF_download_icon.png --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"PDF_download_icon.png","score":0.839946,"text":["le"],"textScore":100,"location":{"x":1805,"y":77},"dimension":{"width":37,"height":36},"center":{"x":1824,"y":95},"clicked":null}]
+[ { name: 'PDF_download_icon.png',
+    score: 0.839946,
+    text: [ 'le' ],
+    textScore: 100,
+    location: { x: 1805, y: 77 },
+    dimension: { width: 37, height: 36 },
+    center: { x: 1824, y: 95 },
+    clicked: null } ]
+  <b class=GRN>✔ And I click on the "PDF_download_icon" image on the screen</b>
+  <b class=GRN>✔ And I pause for 5000ms</b>
+/home/xywang68/Projects/AutoBDD/framework/testimages/FileSave_button.ubuntu.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/framework/testimages/FileSave_button.ubuntu.png --imageSimilarity=0.5 --maxSim=1 --textHint="Save" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"FileSave_button.ubuntu.png","score":0.982826,"text":["| Save |"],"textScore":100,"location":{"x":1031,"y":778},"dimension":{"width":89,"height":40},"center":{"x":1076,"y":798},"clicked":null}]
+[ { name: 'FileSave_button.ubuntu.png',
+    score: 0.982826,
+    text: [ '| Save |' ],
+    textScore: 100,
+    location: { x: 1031, y: 778 },
+    dimension: { width: 89, height: 40 },
+    center: { x: 1076, y: 798 },
+    clicked: null } ]
+  <b class=GRN>✔ And I doubleClick on the "FileSave_button:0.5:Save" image on the screen</b>
+  <b class=GRN>✔ And I wait on download file "pdf-test.pdf" for 5000ms to exist</b>
+file:///tmp/download_100/pdf-test.pdf
+  <b class=GRN>✔ And I open the download file "pdf-test.pdf"</b>
+  <b class=GRN>✔ Then I expect that the downloaded file "pdf-test.pdf" contains exactly 18 lines</b>
+  <b class=GRN>✔ And I expect that the downloaded file "pdf-test.pdf" contains more than 10 lines</b>
+  <b class=GRN>✔ And I expect that the downloaded file "pdf-test.pdf" contains less than 20 lines</b>
+  <b class=GRN>✔ And I expect that the downloaded file "pdf-test.pdf" at line 4 does contain the text "PDF Test File"</b>
+  <b class=GRN>✔ And I expect that the downloaded file "pdf-test.pdf" does not contain the text "PDF Tast File"</b>
+  <b class=GRN>✔ And I expect that the downloaded file "pdf-test.pdf" does match the text "Box \d{4}"</b>
+
+
+  <b class=CYN>@test-download</b>
+  Scenario: Download and check file - XLS file
+  <b class=GRN>✔ Given I delete all download files with the name "file_example_XLS_10*"</b>
+https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls
+  <b class=GRN>✔ When I open the url "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"</b>
+  <b class=GRN>✔ And I wait on download file "file_example_XLS_10.xls" for 5000ms to exist</b>
+I have downloaded file_example_XLS_10.xls to /tmp/download_100
+  <b class=GRN>✔ And I announce message: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"</b>
+I have downloaded file_example_XLS_10.xls to /tmp/download_100
+  <b class=GRN>✔ And I announce message at browser: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"</b>
+  <b class=GRN>✔ Then I expect that the downloaded file "file_example_XLS_10.xls" contains 10 lines</b>
+  <b class=GRN>✔ And I expect that the downloaded file "file_example_XLS_10.xls" contains 10 rows and 8 columns</b>
+  <b class=GRN>✔ And I expect that the downloaded file "file_example_XLS_10.xls" contains 9 data rows and 7 data columns</b>
+  <b class=GRN>✔ And I expect that the downloaded file "file_example_XLS_10.xls" at row 0 does contain the text "0,First Name,Last Name,Gender,Country,Age,Date,Id"</b>
+  <b class=GRN>✔ And I expect that the downloaded file "file_example_XLS_10.xls" at row 1 and column 4 does equal the text "United States"</b>
+
+
+  <b class=CYN>@test-download</b>
+  Scenario: Browse directory and open file - PNG file
+file:///home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example
+  <b class=GRN>✔ Given I open the file "ENV:PROJECTRUNPATH"</b>
+  <b class=GRN>✔ And I click the element "a=test-webpage/"</b>
+  <b class=GRN>✔ And I click the element "a=testimages/"</b>
+  <b class=GRN>✔ And I click the element "a=Yukon_Logo.png"</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/Yukon_Logo.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/testimages/Yukon_Logo.png --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[{"name":"Yukon_Logo.png","score":0.999798,"text":["Yukon","Education","Education"],"textScore":100,"location":{"x":866,"y":554},"dimension":{"width":188,"height":114},"center":{"x":960,"y":611},"clicked":null}]
+[ { name: 'Yukon_Logo.png',
+    score: 0.999798,
+    text: [ 'Yukon', 'Education', 'Education' ],
+    textScore: 100,
+    location: { x: 866, y: 554 },
+    dimension: { width: 188, height: 114 },
+    center: { x: 960, y: 611 },
+    clicked: null } ]
+  <b class=GRN>✔ Then I should see the "Yukon_Logo" image on the screen</b>
+
+
+3 scenarios (<b class=GRN>3 passed</b>)
+31 steps (<b class=GRN>31 passed</b>)
+0m45.367s
+</pre>
+</body>
+</html>

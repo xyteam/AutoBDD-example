@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:2481) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Test the page title
+
+      As a developer
+      I want to be able to test if a page has a certain title
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if the demo app has the title "DEMO APP"
+http://localhost:8082/
+  <b class=GRN>✔ Given I open the path "/"</b>
+  <b class=GRN>✔ Given the page title does equal the text "DEMO APP"</b>
+  <b class=GRN>✔ Then I expect that the element "h1" contains the same text as element ".subtitle"</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if the demo app does not have the title "Google"
+http://localhost:8082/
+  <b class=GRN>✔ Given I open the path "/"</b>
+  <b class=GRN>✔ Given the page title does not equal the text "Google"</b>
+http://localhost:8082/
+  <b class=GRN>✔ And the page url is not "https://www.google.com/"</b>
+  <b class=GRN>✔ Then I expect that the element "h1" not contains the text "Google"</b>
+
+
+2 scenarios (<b class=GRN>2 passed</b>)
+7 steps (<b class=GRN>7 passed</b>)
+0m10.375s
+</pre>
+</body>
+</html>

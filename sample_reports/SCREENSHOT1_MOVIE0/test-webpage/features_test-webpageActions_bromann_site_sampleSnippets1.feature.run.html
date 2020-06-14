@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:15579) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Sample Snippets test part 1
+
+      As a developer
+      I should be able to use given text snippets
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: open URL
+chrome://newtab/
+  <b class=GRN>✔ Given the page url is not "http://webdriverjs.christian-bromann.com/"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ And I open the url "http://webdriverjs.christian-bromann.com/"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Then I expect the full URL to be "http://webdriverjs.christian-bromann.com/"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ And I expect the full URL to not be "http://google.com"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: open sub page of weburl
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given the page url is not "http://webdriverjs.christian-bromann.com/two.html"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ And I open the url "http://webdriverjs.christian-bromann.com/"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Then I expect the full URL to be "http://webdriverjs.christian-bromann.com/"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ And I expect the full URL to not be "http://google.com"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: click on link
+  <b class=GRN>✔ Given the page title does not equal the text "two"</b>
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ And I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ When I click on the link "two"</b>
+  <b class=GRN>✔ Then I expect that the page title does equal the text "two"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: click on button
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".btn1_clicked" is not visible</b>
+  <b class=GRN>✔ When I click on the button ".btn1"</b>
+  <b class=GRN>✔ Then I expect that the element ".btn1_clicked" is visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: double click on a button
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".btn1_dblclicked" is not visible</b>
+  <b class=GRN>✔ When I double click on the element ".btn1"</b>
+  <b class=GRN>✔ Then I expect that the element ".btn1_dblclicked" is visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: click on element
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".btn1_clicked" is not visible</b>
+  <b class=GRN>✔ When I click on the element ".btn1"</b>
+  <b class=GRN>✔ Then I expect that the element ".btn1_clicked" is visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: add value to an input element
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element "//html/body/section/form/input[1]" not contains the value "abc"</b>
+  <b class=GRN>✔ When I add "bc" to the inputfield "//html/body/section/form/input[1]"</b>
+  <b class=GRN>✔ Then I expect that the element "//html/body/section/form/input[1]" contains the value "abc"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: set value to an input element
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element "//html/body/section/form/input[1]" not contains the value "bc"</b>
+  <b class=GRN>✔ When I set "bc" to the inputfield "//html/body/section/form/input[1]"</b>
+  <b class=GRN>✔ Then I expect that the element "//html/body/section/form/input[1]" contains the value "bc"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: clear value of input element
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ When I set "test" to the inputfield "//html/body/section/form/input[1]"</b>
+  <b class=GRN>✔ And I clear the inputfield "//html/body/section/form/input[1]"</b>
+  <b class=GRN>✔ Then I expect that the element "//html/body/section/form/input[1]" not contains any text</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: drag n drop
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And the element ".searchinput" not contains the value "Dropped!"</b>
+  <b class=GRN>✔ When I drag element "#overlay" to element ".red"</b>
+  <b class=GRN>✔ Then I expect that the element ".searchinput" contains the value "Dropped!"</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: submit form
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And there is no element ".gotDataA" on the page</b>
+  <b class=GRN>✔ When I submit the form ".send"</b>
+  <b class=GRN>✔ Then I expect that the element ".gotDataA" is visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: wait for element
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And there is no element ".lateElem" on the page</b>
+  <b class=GRN>✔ Then I wait on element ".lateElem" for 5000ms to be visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: wait for element using default wait time
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And there is no element ".lateElem" on the page</b>
+  <b class=GRN>✔ Then I wait on element ".lateElem" to be visible</b>
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: pause
+http://webdriverjs.christian-bromann.com/
+  <b class=GRN>✔ Given I open the url "http://webdriverjs.christian-bromann.com/"</b>
+  <b class=GRN>✔ And there is no element ".lateElem" on the page</b>
+  <b class=GRN>✔ When I pause for 3000ms</b>
+  <b class=GRN>✔ Then I expect that the element ".lateElem" is visible</b>
+
+14 scenarios (<b class=GRN>14 passed</b>)
+54 steps (<b class=GRN>54 passed</b>)
+0m55.817s
+</pre>
+</body>
+</html>

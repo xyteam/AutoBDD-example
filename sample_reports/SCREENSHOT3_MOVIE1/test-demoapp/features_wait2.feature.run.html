@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:16821) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-demoapp</b>
+Feature: Test waiting for actions part 2
+
+      As a developer
+      I want to be able to test if delayed actions are being performed
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element becomes checked after 2000 ms
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the checkbox "#waitForCheckedElement" is not checked</b>
+  <b class=GRN>✔ When I click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 2000ms to be checked</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element becomes checked with different mouse clicks
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the checkbox "#waitForCheckedElement" is not checked</b>
+  <b class=GRN>✔ When I left click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to be checked</b>
+  <b class=GRN>✔ When I left click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to not be checked</b>
+  <b class=GRN>✔ When I right click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to be checked</b>
+  <b class=GRN>✔ When I right click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to not be checked</b>
+  <b class=GRN>✔ When I middle click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to be checked</b>
+  <b class=GRN>✔ When I middle click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to not be checked</b>
+  <b class=GRN>✔ When I double click on the element "#waitForCheckedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForCheckedElement" for 1000ms to not be checked</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element becomes enabled
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#waitForEnabledElement" is not enabled</b>
+  <b class=GRN>✔ When I click on the element "#waitForEnabledBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForEnabledElement" for 1000ms to be enabled</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element becomes selected
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#waitForSelectedElement option:nth-child(2)" is not selected</b>
+  <b class=GRN>✔ When I click on the element "#waitForSelectedBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForSelectedElement option:nth-child(2)" for 1000ms to be selected</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element becomes visible
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#waitForVisibleElement" is not visible</b>
+  <b class=GRN>✔ When I click on the element "#waitForVisibleBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForVisibleElement" for 1000ms to be visible</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element to contain a text
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#waitForContainsTextElement" not contains any text</b>
+  <b class=GRN>✔ When I click on the element "#waitForContainsTextBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForContainsTextElement" for 1000ms to contain a text</b>
+
+
+  <b class=CYN>@test-demoapp</b>
+  Scenario: Test if element to contain a value
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ And I pause for 1000ms</b>
+  <b class=GRN>✔ Given the element "#waitForContainsValueElement" not contains any text</b>
+  <b class=GRN>✔ When I click on the element "#waitForContainsValueBtn"</b>
+  <b class=GRN>✔ Then I wait on element "#waitForContainsValueElement" for 1000ms to contain a value</b>
+
+
+7 scenarios (<b class=GRN>7 passed</b>)
+47 steps (<b class=GRN>47 passed</b>)
+0m47.891s
+</pre>
+</body>
+</html>

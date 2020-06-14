@@ -1,0 +1,692 @@
+{
+    "attribute-Test the attributes of a given element": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "attribute-Test the attributes of a given element",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_attribute.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_attribute.feature.subjson",
+            "scenario": "The attribute \"role\" of a element should be \"note\"",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/attribute.feature"
+        }
+    },
+    "bestvpn_site_drag_and_drop_images-bestvpn site - drag and drop image": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "bestvpn_site_drag_and_drop_images-bestvpn site - drag and drop image",
+            "line": 8,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-imageActions_bestvpn_site_drag_and_drop_images.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-imageActions_bestvpn_site_drag_and_drop_images.feature.subjson",
+            "scenario": "Test bestvpn html5demos page - drag and drop page by image",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-imageActions/bestvpn_site_drag_and_drop_images.feature"
+        }
+    },
+    "brenz_mouse_position-brenz.net mouse tracker page": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "brenz_mouse_position-brenz.net mouse tracker page",
+            "line": 8,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-mouseActions_brenz_mouse_position.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-mouseActions_brenz_mouse_position.feature.subjson",
+            "scenario": "brenz.net mouse tracker page",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-mouseActions/brenz_mouse_position.feature"
+        }
+    },
+    "bromann_site_sampleSnippets1-Sample Snippets test part 1": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "bromann_site_sampleSnippets1-Sample Snippets test part 1",
+            "line": 7,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_bromann_site_sampleSnippets1.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_bromann_site_sampleSnippets1.feature.subjson",
+            "scenario": "open URL",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/bromann_site_sampleSnippets1.feature"
+        }
+    },
+    "bromann_site_sampleSnippets2-Sample Snippets test part 2": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "bromann_site_sampleSnippets2-Sample Snippets test part 2",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_bromann_site_sampleSnippets2.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_bromann_site_sampleSnippets2.feature.subjson",
+            "scenario": "query title",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/bromann_site_sampleSnippets2.feature"
+        }
+    },
+    "buttonPress-Test button press": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "buttonPress-Test button press",
+            "line": 11,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_buttonPress.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_buttonPress.feature.subjson",
+            "scenario": "Test if element responds to button press",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/buttonPress.feature"
+        }
+    },
+    "checkTitle-Local server test": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "checkTitle-Local server test",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_checkTitle.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_checkTitle.feature.subjson",
+            "scenario": "Is not Google",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/checkTitle.feature"
+        }
+    },
+    "checkbox-Test the selected state of a checkbox": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "checkbox-Test the selected state of a checkbox",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_checkbox.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_checkbox.feature.subjson",
+            "scenario": "The checkbox should not be selected by default",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/checkbox.feature"
+        }
+    },
+    "class-Test if a given element has a certain CSS class": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "class-Test if a given element has a certain CSS class",
+            "line": 11,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_class.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_class.feature.subjson",
+            "scenario": "Element #classTest should have the class \"class1\"",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/class.feature"
+        }
+    },
+    "click-Test how clicks are handled on a certain element": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "click-Test how clicks are handled on a certain element",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_click.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_click.feature.subjson",
+            "scenario": "Single click on a link should navigate to another page",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/click.feature"
+        }
+    },
+    "cookie-Test the existens and content of cookies": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "cookie-Test the existens and content of cookies",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_cookie.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_cookie.feature.subjson",
+            "scenario": "The cookie \"test\" should exist",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/cookie.feature"
+        }
+    },
+    "demoapp_drag_and_drop-demoapp drag and drop": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "demoapp_drag_and_drop-demoapp drag and drop",
+            "line": 8,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_demoapp_drag_and_drop.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_demoapp_drag_and_drop.feature.subjson",
+            "scenario": "Drag to dropzone - by webelement",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/demoapp_drag_and_drop.feature"
+        }
+    },
+    "drag-Test draggable elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "drag-Test draggable elements",
+            "line": 16,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_drag.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_drag.feature.subjson",
+            "scenario": "Drag to dropzone",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/drag.feature"
+        }
+    },
+    "dropdown_list-dropdown list": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "dropdown_list-dropdown list",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_dropdown_list.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_dropdown_list.feature.subjson",
+            "scenario": "Click Drop-Down List - by webelement",
+            "status": "failed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/dropdown_list.feature"
+        }
+    },
+    "elementExistence-Test existence of elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "elementExistence-Test existence of elements",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementExistence.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementExistence.feature.subjson",
+            "scenario": "None existing element check",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementExistence.feature"
+        }
+    },
+    "elementPosition-Test the position of a given element": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "elementPosition-Test the position of a given element",
+            "line": 13,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementPosition.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementPosition.feature.subjson",
+            "scenario": "The element #square100x100 is at XX pixels on the X axis",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementPosition.feature"
+        }
+    },
+    "elementSize-Test the width and height of a given element": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "elementSize-Test the width and height of a given element",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementSize.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementSize.feature.subjson",
+            "scenario": "The element #square100x100 whould have a width of 100px",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementSize.feature"
+        }
+    },
+    "elementVisibility-Test visibility of elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "elementVisibility-Test visibility of elements",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementVisibility.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_elementVisibility.feature.subjson",
+            "scenario": "Invisible elements to be invisible",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementVisibility.feature"
+        }
+    },
+    "file_download-File download and validation": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "file_download-File download and validation",
+            "line": 8,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-fileActions_file_download.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-fileActions_file_download.feature.subjson",
+            "scenario": "Open url, check content, download file and check downloaded content - PDF file",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-fileActions/file_download.feature"
+        }
+    },
+    "focus-Test the focus state of a given element": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "focus-Test the focus state of a given element",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_focus.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_focus.feature.subjson",
+            "scenario": "The element #textinput should not have the focus by default",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/focus.feature"
+        }
+    },
+    "form-Test form submission": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "form-Test form submission",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_form.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_form.feature.subjson",
+            "scenario": "Test if a message is shown when the form is submitted",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/form.feature"
+        }
+    },
+    "github_site_login-Github test": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "github_site_login-Github test",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_login.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_login.feature.subjson",
+            "scenario": "login with fake credentials",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/github_site_login.feature"
+        }
+    },
+    "github_site_search-Github test": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "github_site_search-Github test",
+            "line": 7,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_search.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_search.feature.subjson",
+            "scenario": "open URL",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/github_site_search.feature"
+        }
+    },
+    "github_site_webElement_isExisting-Github test": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "github_site_webElement_isExisting-Github test",
+            "line": 7,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_webElement_isExisting.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_github_site_webElement_isExisting.feature.subjson",
+            "scenario": "open URL",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/github_site_webElement_isExisting.feature"
+        }
+    },
+    "inputfield-Test input fields on a page": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "inputfield-Test input fields on a page",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_inputfield.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_inputfield.feature.subjson",
+            "scenario": "Set the content of a input field",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/inputfield.feature"
+        }
+    },
+    "isEmpty-Test input fields on a page": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "isEmpty-Test input fields on a page",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_isEmpty.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_isEmpty.feature.subjson",
+            "scenario": "Set the content of a input field",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/isEmpty.feature"
+        }
+    },
+    "modals-Test modals": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "modals-Test modals",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_modals.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_modals.feature.subjson",
+            "scenario": "Test if alert is opened accepted",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/modals.feature"
+        }
+    },
+    "moveTo-Test moveTo elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "moveTo-Test moveTo elements",
+            "line": 12,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_moveTo.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_moveTo.feature.subjson",
+            "scenario": "Move to just the element",
+            "status": "failed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/moveTo.feature"
+        }
+    },
+    "pending-Pending scenario": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "pending-Pending scenario",
+            "line": 8,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_pending.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_pending.feature.subjson",
+            "scenario": "do somethimg",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/pending.feature"
+        }
+    },
+    "postman_collection-postman collection": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "postman_collection-postman collection",
+            "line": 14,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-postman/features_postman_collection.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-postman/features_postman_collection.feature.subjson",
+            "scenario": "Run postman collection test - in newman commandline",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-postman/features/postman_collection.feature"
+        }
+    },
+    "select-Test select elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "select-Test select elements",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_select.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_select.feature.subjson",
+            "scenario": "Test if we can select the second option of a select element",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/select.feature"
+        }
+    },
+    "structure-Test the page structure": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "structure-Test the page structure",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_structure.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_structure.feature.subjson",
+            "scenario": "Test if the page has a H1 I expect its at the top of the page",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/structure.feature"
+        }
+    },
+    "testBrowserLog-Test browser log": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "testBrowserLog-Test browser log",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-browser/features_testBrowserLog.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-browser/features_testBrowserLog.feature.subjson",
+            "scenario": "Test browser log without error",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-browser/features/testBrowserLog.feature"
+        }
+    },
+    "testDownloadTable-test table rows and columns": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "testDownloadTable-test table rows and columns",
+            "line": 16,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-table/features_testDownloadTable.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-table/features_testDownloadTable.feature.subjson",
+            "scenario": "check expected table rows and columns",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-table/features/testDownloadTable.feature"
+        }
+    },
+    "test_init-test init": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "test_init-test init",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-init/features_test_init.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-init/features_test_init.feature.subjson",
+            "scenario": "download drivers",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-init/features/test_init.feature"
+        }
+    },
+    "textComparison-Test text contents of elements": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "textComparison-Test text contents of elements",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_textComparison.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_textComparison.feature.subjson",
+            "scenario": "Elements containing different text",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/textComparison.feature"
+        }
+    },
+    "title-Test the page title": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "title-Test the page title",
+            "line": 9,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_title.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_title.feature.subjson",
+            "scenario": "Test if the demo app has the title \"DEMO APP\"",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/title.feature"
+        }
+    },
+    "urlValidation-Test if the url is a certain value": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "urlValidation-Test if the url is a certain value",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_urlValidation.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_urlValidation.feature.subjson",
+            "scenario": "The url should not be http://www.google.com/",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/urlValidation.feature"
+        }
+    },
+    "varmour_site_images_see_read_text_and_click-vArmour site screen text and see and click image": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "varmour_site_images_see_read_text_and_click-vArmour site screen text and see and click image",
+            "line": 11,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-imageActions_varmour_site_images_see_read_text_and_click.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-imageActions_varmour_site_images_see_read_text_and_click.feature.subjson",
+            "scenario": "Test screen area text",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-imageActions/varmour_site_images_see_read_text_and_click.feature"
+        }
+    },
+    "varmour_site_nth_and_child_element-vArmour site nth and child element validation and action": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "varmour_site_nth_and_child_element-vArmour site nth and child element validation and action",
+            "line": 12,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_nth_and_child_element.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_nth_and_child_element.feature.subjson",
+            "scenario": "Test the nth web element order and text",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/varmour_site_nth_and_child_element.feature"
+        }
+    },
+    "varmour_site_nth_iframe-vArmour site nth iframe validation and action": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "varmour_site_nth_iframe-vArmour site nth iframe validation and action",
+            "line": 15,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_nth_iframe.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_nth_iframe.feature.subjson",
+            "scenario": "Test the nth iframe element visibility and click action",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/varmour_site_nth_iframe.feature"
+        }
+    },
+    "varmour_site_tab-vArmour site tab validation and action": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "varmour_site_tab-vArmour site tab validation and action",
+            "line": 12,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_tab.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-webpage/features_test-webpageActions_varmour_site_tab.feature.subjson",
+            "scenario": "Test tab action",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/varmour_site_tab.feature"
+        }
+    },
+    "wait1-Test waiting for actions part 1": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "wait1-Test waiting for actions part 1",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_wait1.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_wait1.feature.subjson",
+            "scenario": "Test if element to exist",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/wait1.feature"
+        }
+    },
+    "wait2-Test waiting for actions part 2": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "wait2-Test waiting for actions part 2",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_wait2.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_wait2.feature.subjson",
+            "scenario": "Test if element becomes checked after 2000 ms",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/wait2.feature"
+        }
+    },
+    "window-Test if new windows/tabs are being opened": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "window-Test if new windows/tabs are being opened",
+            "line": 10,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_window.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_window.feature.subjson",
+            "scenario": "Test if a new window/tab is not being opened",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/window.feature"
+        }
+    },
+    "withinViewport-Viewport test": {
+        "1": {
+            "HOST": "default",
+            "SSHPORT": "default",
+            "browser": "CH",
+            "feature": "withinViewport-Viewport test",
+            "line": 6,
+            "platform": "Linux",
+            "run_report": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_withinViewport.feature.run",
+            "run_result": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/bdd_reports/AutoBDD-example_20200614_204234GMT/test-demoapp/features_withinViewport.feature.subjson",
+            "scenario": "Header in viewport, footer outside viewport",
+            "status": "passed",
+            "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/withinViewport.feature"
+        }
+    }
+}

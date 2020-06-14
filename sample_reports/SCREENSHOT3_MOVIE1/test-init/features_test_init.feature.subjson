@@ -1,0 +1,78 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to initialize my automation test environment",
+    "elements": [
+      {
+        "id": "test-init;download-drivers",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "download drivers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 134481818
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 134077
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4912365026
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1pbml0L2ZlYXR1cmVzX3Rlc3RfaW5pdC5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdF9pbml0LmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1pbml0L1Bhc3NlZF9MaW51eF9DSF90ZXN0aW5pdF9kb3dubG9hZF9kcml2ZXJzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtaW5pdC9TdGVwX0xpbnV4X0NIX3Rlc3Rpbml0X2Rvd25sb2FkX2RyaXZlcnMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0aW5pdF9kb3dubG9hZF9kcml2ZXJzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtaW5pdC9QYXNzZWRfTGludXhfQ0hfdGVzdGluaXRfZG93bmxvYWRfZHJpdmVycy4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGluaXRfZG93bmxvYWRfZHJpdmVycy4xLnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-init",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "test init",
+    "tags": [],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-init/features/test_init.feature"
+  }
+]

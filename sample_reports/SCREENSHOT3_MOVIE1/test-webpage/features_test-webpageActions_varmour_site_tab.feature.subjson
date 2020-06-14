@@ -1,0 +1,215 @@
+[
+  {
+    "description": "  As a QA Engineer\n  I want to test see and click images",
+    "elements": [
+      {
+        "id": "varmour-site-tab-validation-and-action;test-tab-action",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test tab action",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the url \"https://www.varmour.com/\"",
+            "result": {
+              "status": "passed",
+              "duration": 932138595
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait on element \".menu\" for 1000ms to be visible",
+            "result": {
+              "status": "passed",
+              "duration": 237181802
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:166"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the element \"li=Contact Us\" inside the parent element \".menu\"",
+            "result": {
+              "status": "passed",
+              "duration": 263825025
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I focus the last opened tab",
+            "result": {
+              "status": "passed",
+              "duration": 25477120
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pause for 500ms",
+            "result": {
+              "status": "passed",
+              "duration": 502815172
+            },
+            "line": 15,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the \"vArmour_ContactUs:0.8:Contact\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 2755541114
+            },
+            "line": 16,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I close the last opened tab",
+            "result": {
+              "status": "passed",
+              "duration": 78294978
+            },
+            "line": 17,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:121"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should not see the \"vArmour_ContactUs:0.8:Contact\" image on the screen",
+            "result": {
+              "status": "passed",
+              "duration": 1820623996
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 280545
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 6004915264
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC13ZWJwYWdlL2ZlYXR1cmVzX3Rlc3Qtd2VicGFnZUFjdGlvbnNfdmFybW91cl9zaXRlX3RhYi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfdGVzdC13ZWJwYWdlQWN0aW9uc192YXJtb3VyX3NpdGVfdGFiLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC13ZWJwYWdlL1Bhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X3RhYl9hY3Rpb24ubXA0IiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBjb250cm9scy8+WW91ciBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQgdGhlIHZpZGVvIHRhZy48L3ZpZGVvPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4xLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4xLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4yLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4yLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4zLnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi4zLnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi40LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi40LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi41LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi41LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi42LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi43LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi43LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9TdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi44LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJTdGVwX0xpbnV4X0NIX3Rlc3R3ZWJwYWdlX1Rlc3RfdGFiX2FjdGlvbi44LnBuZyI+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3Qtd2VicGFnZS9QYXNzZWRfTGludXhfQ0hfdGVzdHdlYnBhZ2VfVGVzdF90YWJfYWN0aW9uLjgucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlBhc3NlZF9MaW51eF9DSF90ZXN0d2VicGFnZV9UZXN0X3RhYl9hY3Rpb24uOC5wbmciPg==",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-webpage",
+            "line": 1
+          },
+          {
+            "name": "@Demo",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "varmour-site-tab-validation-and-action",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "vArmour site tab validation and action",
+    "tags": [
+      {
+        "name": "@test-webpage",
+        "line": 1
+      },
+      {
+        "name": "@Demo",
+        "line": 2
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-webpage/features/test-webpageActions/varmour_site_tab.feature"
+  }
+]

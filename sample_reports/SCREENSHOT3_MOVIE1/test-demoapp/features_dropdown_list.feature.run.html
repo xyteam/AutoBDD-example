@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Google Chrome 83.0.4103.97
+Chrome Driver 83.0.4103.39
+(node:22993) [DEP0022] DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+<b class=GRN>
+Master Chimp and become a testing Ninja! Check out our course: </b><b class=UND></b><b class="BLU UND">http://bit.ly/2btQaFu
+</b><b class=UND></b>
+<b class=YEL>
+[chimp] Running...</b>
+<b class=CYN>@test-webpage</b>
+Feature: dropdown list
+
+    As a QA Engineer
+    I want to try out dropdown list automation:
+      1. click page elements
+      2. click page images
+
+  <b class=CYN>@test-webpage</b>
+  Scenario: Click Drop-Down List - by webelement
+/
+  <b class=GRN>✔ When I open the url "/"</b>
+  <b class=GRN>✔ Then I should see the page title to contain "demo app"</b>
+  <b class=GRN>✔ When I scroll to the element "footer"</b>
+  <b class=GRN>✔ Then I should see the "Option #1" option on the page</b>
+  <b class=GRN>✔ When I click the "Option #1" option on the page</b>
+  <b class=GRN>✔ Then I should see the "Option #2" option on the page</b>
+
+
+  <b class=CYN>@test-webpage</b>
+  Scenario: Click Drop-Down List - by tryClick
+/
+  <b class=GRN>✔ When I open the url "/"</b>
+  <b class=GRN>✔ Then I should see the page title to contain "demo app"</b>
+  <b class=GRN>✔ When I scroll to the element "footer"</b>
+  <b class=GRN>✔ Then I should see the "Option #1" option on the page</b>
+1st try with direct click ...
+  <b class=GRN>✔ When I tryClick the 4th element "option" inside the parent element "#selectElementTest"</b>
+  <b class=GRN>✔ Then I should see the "Option #4" option on the page</b>
+
+
+  <b class=CYN>@test-webpage</b>
+  Scenario: Click Drop-Down List - by deepClick
+/
+  <b class=GRN>✔ When I open the url "/"</b>
+  <b class=GRN>✔ Then I should see the page title to contain "demo app"</b>
+  <b class=GRN>✔ When I scroll to the element "footer"</b>
+  <b class=GRN>✔ Then I should see the "Option #1" option on the page</b>
+do deep click ...
+  <b class=GRN>✔ When I deepClick the 4th element "option" inside the parent element "#selectElementTest"</b>
+  <b class=GRN>✔ Then I should see the "Option #4" option on the page</b>
+
+
+  <b class=CYN>@test-webpage</b>
+  Scenario: Click Drop-Down List - by image
+/
+  <b class=GRN>✔ Given I open the url "/"</b>
+  <b class=GRN>✔ When I scroll to the element "footer"</b>
+/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/project/testimages/First_option.png
+findTargetImage.js --imagePath=/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/project/testimages/First_option.png --imageSimilarity=0.8 --maxSim=1 --textHint="" --imageWaitTime=null --imageAction=null --imageMaxCount=1
+[]
+[]
+  <b class=RED>✖ Then I should see the "First_option" image on the screen</b>
+  <b class=CYN>- When I click on the "First_option" image on the screen</b>
+  <b class=CYN>- Then I should see the "First_option_Opened" image on the screen</b>
+browser error log:
+[]
+
+
+<b class=MAG>Failures:</b>
+<b class=MAG></b>
+<b class=MAG>1) Scenario: </b><b class=HIM>Click Drop-Down List - by image</b><b class=MAG> - </b><b class=MAG style="color:#555555;">features/dropdown_list.feature:33</b>
+<b class=MAG>   Step: </b><b class=HIM>Then I should see the "First_option" image on the screen</b><b class=MAG> - </b><b class=MAG style="color:#555555;">features/dropdown_list.feature:36</b>
+<b class=MAG>   Step Definition: </b><b class=MAG style="color:#555555;">../../../framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:4</b>
+<b class=MAG>   Message:</b>
+<b class=YEL>     </b><b class=RED>ExpectationFailed: Expected 0 not to equal 0, 'expect image First_option on the screen but not found.'.</b>
+<b class=YEL>         at World.&lt;anonymous&gt; (/home/xywang68/Projects/AutoBDD/framework/support/steps/Then/Then_I_should_see_the_X_image_on_the_screen.js:14:43)</b>
+<b class=MAG></b>
+<b class=MAG>4 scenarios (</b><b class=RED>1 failed</b>, <b class=GRN>3 passed</b>)
+<b class=MAG>23 steps (</b><b class=RED>1 failed</b>, <b class=CYN>2 skipped</b>, <b class=GRN>20 passed</b>)
+<b class=MAG>0m22.985s</b>
+<b class=MAG></b>
+Cucumber steps failed
+</pre>
+</body>
+</html>

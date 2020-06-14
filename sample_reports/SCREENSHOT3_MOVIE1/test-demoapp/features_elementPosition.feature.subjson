@@ -1,0 +1,642 @@
+[
+  {
+    "description": "    As a developer\n    I want to be able to test if a element has a certain position",
+    "elements": [
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-at-xx-pixels-on-the-x-axis",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "The element #square100x100 is at XX pixels on the X axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 301101293
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 112283309
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 58901516
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 25689905
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 39542980
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#square100x100\" is positioned at 32.5px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 24476183
+            },
+            "line": 14,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 199504
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4919452932
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRQb3NpdGlvbi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZWxlbWVudFBvc2l0aW9uLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWF9heGlzLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1hfYXhpcy42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1hfYXhpcy42LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-at-xx-pixels-on-the-y-axis",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The element #square100x100 is at XX pixels on the Y axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 126056711
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 125439946
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 23202224
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 35543866
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 28975612
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#square100x100\" is positioned at 1084px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 22997184
+            },
+            "line": 18,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 88263
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4922030895
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRQb3NpdGlvbi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZWxlbWVudFBvc2l0aW9uLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLm1wNCIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgY29udHJvbHMvPllvdXIgYnJvd3NlciBkb2VzIG5vdCBzdXBwb3J0IHRoZSB2aWRlbyB0YWcuPC92aWRlbz4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuMS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjEucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuMi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjIucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuMy5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjMucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuNC5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjQucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuNS5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjUucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfYXRfWFhfcGl4ZWxzX29uX3RoZV9ZX2F4aXMuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iU3RlcF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX2F0X1hYX3BpeGVsc19vbl90aGVfWV9heGlzLjYucG5nIj4=",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1lfYXhpcy42LnBuZyIgc3R5bGU9Im1heC13aWR0aDogMTAwJTsgaGVpZ2h0OiBhdXRvOyIgYWx0PSJQYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19hdF9YWF9waXhlbHNfb25fdGhlX1lfYXhpcy42LnBuZyI+",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          },
+          {
+            "name": "@Pending",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-not-at-yy-pixels-on-the-x-axis",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "The element #square100x100 is not at YY pixels on the X axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 117710838
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 117270573
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 25549694
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 23868300
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 31776603
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#square100x100\" is not positioned at 101px on the x axis",
+            "result": {
+              "status": "passed",
+              "duration": 25356136
+            },
+            "line": 21,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 156397
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4907046266
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRQb3NpdGlvbi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZWxlbWVudFBvc2l0aW9uLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX25vdF9hdF9ZWV9waXhlbHNfb25fdGhlX1hfYXhpcy5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV9YX2F4aXMuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfWF9heGlzLjYucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "test-the-position-of-a-given-element;the-element-#square100x100-is-not-at-yy-pixels-on-the-y-axis",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "The element #square100x100 is not at YY pixels on the y axis",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open the path \"/\"",
+            "result": {
+              "status": "passed",
+              "duration": 95873715
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I have a screen that is 800 by 600 pixels",
+            "result": {
+              "status": "passed",
+              "duration": 115344772
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px broad",
+            "result": {
+              "status": "passed",
+              "duration": 26479285
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the element \"#square100x100\" is 100px tall",
+            "result": {
+              "status": "passed",
+              "duration": 27050505
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/given.js:123"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the element \"#square100x100\"",
+            "result": {
+              "status": "passed",
+              "duration": 27940622
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/when.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect that the element \"#square100x100\" is not positioned at 99px on the y axis",
+            "result": {
+              "status": "passed",
+              "duration": 23732757
+            },
+            "line": 24,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/steps/then.js:135"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 112667
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/node_modules/chimpy/dist/lib/cucumberjs/hooks.js:66"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4937001938
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "PGEgaHJlZj0idGVzdC1kZW1vYXBwL2ZlYXR1cmVzX2VsZW1lbnRQb3NpdGlvbi5mZWF0dXJlLnJ1bi5odG1sIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ii8+ZmVhdHVyZXNfZWxlbWVudFBvc2l0aW9uLmZlYXR1cmUucnVuPC9hPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PHZpZGVvIHNyYz0idGVzdC1kZW1vYXBwL1Bhc3NlZF9MaW51eF9DSF90ZXN0ZGVtb2FwcF9UaGVfZWxlbWVudF9zcXVhcmUxMDB4MTAwX2lzX25vdF9hdF9ZWV9waXhlbHNfb25fdGhlX3lfYXhpcy5tcDQiIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGNvbnRyb2xzLz5Zb3VyIGJyb3dzZXIgZG9lcyBub3Qgc3VwcG9ydCB0aGUgdmlkZW8gdGFnLjwvdmlkZW8+",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjEucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuMS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjIucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuMi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjMucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuMy5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjQucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuNC5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjUucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuNS5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9TdGVwX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjYucG5nIiBzdHlsZT0ibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IiBhbHQ9IlN0ZXBfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuNi5wbmciPg==",
+                "mime_type": "text/html"
+              },
+              {
+                "data": "PGltZyBzcmM9InRlc3QtZGVtb2FwcC9QYXNzZWRfTGludXhfQ0hfdGVzdGRlbW9hcHBfVGhlX2VsZW1lbnRfc3F1YXJlMTAweDEwMF9pc19ub3RfYXRfWVlfcGl4ZWxzX29uX3RoZV95X2F4aXMuNi5wbmciIHN0eWxlPSJtYXgtd2lkdGg6IDEwMCU7IGhlaWdodDogYXV0bzsiIGFsdD0iUGFzc2VkX0xpbnV4X0NIX3Rlc3RkZW1vYXBwX1RoZV9lbGVtZW50X3NxdWFyZTEwMHgxMDBfaXNfbm90X2F0X1lZX3BpeGVsc19vbl90aGVfeV9heGlzLjYucG5nIj4=",
+                "mime_type": "text/html"
+              }
+            ],
+            "match": {
+              "location": "/home/xywang68/Projects/AutoBDD/framework/support/module_hooks.js:27"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test-demoapp",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-the-position-of-a-given-element",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Test the position of a given element",
+    "tags": [
+      {
+        "name": "@test-demoapp",
+        "line": 1
+      }
+    ],
+    "uri": "/home/xywang68/Projects/AutoBDD/test-projects/AutoBDD-example/test-demoapp/features/elementPosition.feature"
+  }
+]
