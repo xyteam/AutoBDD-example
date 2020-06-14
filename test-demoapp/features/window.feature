@@ -36,5 +36,5 @@ Feature: Test if new windows/tabs are being opened
         Then  I expect a new window has been opened
         When  I switch to the last opened window
         Then  I expect the full URL to be "http://example.com/"
-        When  I close the last opened window
-        Then  I expect the URL path to be "/"
+        # When  I close the last opened window
+        # Then  I expect the URL path to be "/"
