@@ -23,6 +23,8 @@ Feature: Test how clicks are handled on a certain element
 
     Scenario: Single click on the element #toggleBackground should make the elemnt red
         When  I click the element "#toggleBackground"
+        And   the css attribute "background-color" from element "#toggleBackground" is "rgba(255,0,0,1)"
 
     Scenario: Double click on the element #toggleBackground should make the elemnt blue
         When  I double click on the element "#toggleBackground"
+        And   the css attribute "background-color" from element "#toggleBackground" is "rgba(0,0,255,1)"
