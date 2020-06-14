@@ -16,6 +16,8 @@ nohup.out
 # dirs to ignore
 node_modules/
 tmp/
+.tmp/
+logs/
 .DS_Store
 .screenshots/
 .vscode/
