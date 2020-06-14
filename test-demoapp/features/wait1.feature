@@ -7,61 +7,59 @@ Feature: Test waiting for actions part 1
         Given I open the url "/"
         And   I pause for 1000ms
 
-    Scenario: Test if element to exist
+    Scenario: Test element wait
         Given there is no element "#waitForCreateElement > span" on the page
         When  I click the element "#waitForCreateBtn"
-        Then  I wait on element "#waitForCreateElement > span" for 1000ms
+        And   I wait on element "#waitForCreateElement > span" for 1000ms
+        Then  there is an element "#waitForCreateElement > span" on the page
 
-    Scenario: Test if element exists
+    Scenario: Test wait for element to exist
         Given there is no element "#waitForCreateElement > span" on the page
         When  I click the element "#waitForCreateBtn"
-        Then  I wait on element "#waitForCreateElement > span" for 1000ms to exist
+        And   I wait on element "#waitForCreateElement > span" for 1000ms to exist
+        Then  there is an element "#waitForCreateElement > span" on the page
 
-    Scenario: Test if element becomes unchecked
+    Scenario: Test wait for element to be enabled
+        Given the element "#waitForEnabledElement" is not enabled
+        When  I click the element "#waitForEnabledBtn"
+        And   I wait on element "#waitForEnabledElement" for 1000ms to be enabled
+        Then  the element "#waitForEnabledElement" is enabled
+
+    Scenario: Test wait for element to be visible
+        Given the element "#waitForVisibleElement" is not visible
+        When  I click the element "#waitForVisibleBtn"
+        And   I wait on element "#waitForVisibleElement" for 1000ms to be visible
+        Then  the element "#waitForVisibleElement" is visible
+        When  I click the element "#waitForVisibleBtn"
+        And   I wait on element "#waitForVisibleElement" for 1000ms to not be visible
+        Then  the element "#waitForVisibleElement" is not visible
+
+    Scenario: Test wait for element to be checked
+        Given the element "#waitForCheckedElement" is not checked
         When  I click the element "#waitForCheckedBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForCheckedElement" is checked
+        Then  I wait on element "#waitForCheckedElement" for 1000ms to be checked
+        And   I expect that the element "#waitForCheckedElement" is checked
         When  I click the element "#waitForCheckedBtn"
         Then  I wait on element "#waitForCheckedElement" for 1000ms to not be checked
+        And   I expect that the element "#waitForCheckedElement" is not checked
 
-    Scenario: Test if element becomes disabled
-        When  I click the element "#waitForEnabledBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForEnabledElement" is enabled
-        When  I click the element "#waitForEnabledBtn"
-        Then  I wait on element "#waitForEnabledElement" for 1000ms to not be enabled
-
-    Scenario: Test if element becomes not selected
+    Scenario: Test wait for element to be selected
+        Given the element "#waitForSelectedElement option:nth-child(2)" is not checked
         When  I click the element "#waitForSelectedBtn"
-        And   I pause for 1000ms
+        Then  I wait on element "#waitForSelectedElement option:nth-child(2)" for 1000ms to be selected
         Then  I expect that the element "#waitForSelectedElement option:nth-child(2)" is selected
         When  I click the element "#waitForSelectedBtn"
         Then  I wait on element "#waitForSelectedElement option:nth-child(2)" for 1000ms to not be selected
+        And   I expect that the element "#waitForSelectedElement option:nth-child(2)" is not selected
 
-    Scenario: Test if element becomes not visible
-        When  I click the element "#waitForVisibleBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForVisibleElement" is visible
-        When  I click the element "#waitForVisibleBtn"
-        Then  I wait on element "#waitForVisibleElement" for 1000ms to not be visible
-
-    Scenario: Test if element to not contain a text
+    Scenario: Test wait for element to contain a text
+        Given the element "#waitForContainsTextElement" text is empty
         When  I click the element "#waitForContainsTextBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForContainsTextElement" contains any text
-        When  I click the element "#waitForContainsTextBtn"
-        Then  I wait on element "#waitForContainsTextElement" for 1000ms to not contain a text
+        And   I wait on element "#waitForContainsTextElement" for 1000ms to contain a text
+        Then  the element "#waitForContainsTextElement" text is not empty
 
-    Scenario: Test if element to not contain a value
+    Scenario: Test wait for element to contain a value
+        Given the element "#waitForContainsValueElement" value is empty
         When  I click the element "#waitForContainsValueBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForContainsValueElement" contains any value
-        When  I click the element "#waitForContainsValueBtn"
-        Then  I wait on element "#waitForContainsValueElement" for 2000ms to not contain a value
-
-    Scenario: Test if element not exists
-        When  I click the element "#waitForCreateBtn"
-        And   I pause for 1000ms
-        Then  I expect that the element "#waitForCreateElement > span" does exist
-        When  I click the element "#waitForCreateBtn"
-        Then  I wait on element "#waitForCreateElement > span" for 1000ms to not exist
+        And   I wait on element "#waitForContainsValueElement" for 2000ms to contain a value
+        Then  the element "#waitForContainsValueElement" value is not empty
