@@ -47,6 +47,7 @@ Feature: Sample Snippets test part 2
 
     Scenario: check css attribut
         Given I open the url "http://webdriverjs.christian-bromann.com/"
+        And   I pause for 1000ms
         And   the css attribute "background-color" from element ".red" is "rgba(255,0,0,1)"
         And   the css attribute "background-color" from element ".red" is not "rgba(0,255,0,1)"
         Then  I expect that the css attribute "background-color" from element ".red" is "rgba(255,0,0,1)"
@@ -64,7 +65,6 @@ Feature: Sample Snippets test part 2
         And   I expect that the element ".red" is not 103px tall
 
     # For some reason this test is failing when running it in the Travis VM
-    @Pending
     Scenario: check offset
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   the element ".red" is positioned at 15px on the x axis
@@ -79,23 +79,23 @@ Feature: Sample Snippets test part 2
     Scenario: check selected
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   the checkbox ".checkbox_notselected" is not checked
-        When  I click on the element ".checkbox_notselected"
+        When  I click the element ".checkbox_notselected"
         Then  I expect that the element ".checkbox_notselected" is checked
 
     # This will fail in PhantoJS due to a security warning
-    @Pending
     Scenario: set / read cookie
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the cookie "test" does not exist
-        When  I set a cookie "test" with the content "test123"
-        Then  I expect that the cookie "test" exists
-        And   I expect that the cookie "test" contains "test123"
-        And   I expect that the cookie "test" not contains "test1234"
+        And   the cookie "test1" does not exist
+        When  I set a cookie "test1" with the content "test123"
+        Then  I expect that the cookie "test1" exists
+        And   I expect that the cookie "test1" contains "test123"
+        And   I expect that the cookie "test1" not contains "test1234"
 
     # This will fail in PhantoJS due to a security warning
-    @Pending
     Scenario: delete cookie
         Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the cookie "test" does exist
-        When  I delete the cookie "test"
-        Then  I expect that the cookie "test" not exists
+        And   the cookie "test2" does not exist
+        When  I set a cookie "test2" with the content "test123"
+        Then  I expect that the cookie "test2" exists
+        When  I delete the cookie "test2"
+        Then  I expect that the cookie "test2" not exists

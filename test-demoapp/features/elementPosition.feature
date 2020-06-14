@@ -13,7 +13,6 @@ Feature: Test the position of a given element
     Scenario: The element #square100x100 is at XX pixels on the X axis
         Then  I expect that the element "#square100x100" is positioned at 32.5px on the x axis
 
-    @Pending
     Scenario: The element #square100x100 is at XX pixels on the Y axis
         Then  I expect that the element "#square100x100" is positioned at 1084px on the y axis
 

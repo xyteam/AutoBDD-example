@@ -23,6 +23,15 @@ Feature: vArmour site nth and child element validation and action
     Then  I expect that the element "a=Start Free Trial" becomes visible
     And   I expect the 4th element "li" inside the parent element ".menu" contains the text "Contact Us"
     When  I click the 4th element "li" inside the parent element ".menu"
-    And   I focus the last opened tab
+    And   I pause for 500ms
+    And   I switch to the last opened tab
     And   I pause for 500ms
     Then  I should see the "vArmour_ContactUs:0.8:Contact" image on the screen
+
+  Scenario: Test tab action
+    When  I click the element "li=Contact Us" inside the parent element ".menu"
+    And   I pause for 500ms
+    And   I switch to the last opened tab
+    Then  I should see the "vArmour_ContactUs:0.8:Contact" image on the screen
+    And   I close the last opened tab
+    Then  I should not see the "vArmour_ContactUs:0.8:Contact" image on the screen

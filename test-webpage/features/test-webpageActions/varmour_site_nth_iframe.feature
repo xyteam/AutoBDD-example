@@ -14,16 +14,16 @@ Feature: vArmour site nth iframe validation and action
   
   Scenario: Test the nth iframe element visibility and click action
     Then  I expect the element "iframe" does exist no less than 4 times
-    And   I expect that the element "button#widgetButton" is not visible
-    And   I expect that the element "button#widgetCloseButton" is not visible
+    And   I expect that the element "button#widgetButton" does not exist
+    And   I expect that the element "button#widgetCloseButton" does not exist
     And   I switch to the 4th iframe
-    And   I wait on element "button#widgetButton" for 5000ms to be visible
-    Then  I expect that the element "html body" contains the text "Pssst… want to see how our platform helps CISOs"
+    And   I wait on element "button#widgetButton" for 5000ms
+    Then  I expect that the element "html body" contains the text "want to see how our platform helps CISOs"
     And   I expect that the element "a=Start Free Trial" is not visible
-    When  I click on the element "button"
+    When  I tryClick the element "button#widgetButton"
     And   I expect that the element "button=Sure!" becomes visible
     And   I expect that the element "button=Nope, I'll explore on my own." becomes visible
-    When  I click on the element "button=Sure!"
+    When  I click the element "button=Sure!"
     Then  I expect that the element "button=Yes!" becomes visible
     And   I expect that the element "button=No, thanks." becomes visible
     Then  I expect that the element "button#widgetCloseButton" is visible
