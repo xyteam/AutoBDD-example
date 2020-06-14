@@ -1,5 +1,5 @@
 @test-demoapp
-Feature: Test input fields on a page
+Feature: Test input fields can be empty
     As a developer
     I want to be able to test input fields on a certain page
 

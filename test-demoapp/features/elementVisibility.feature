@@ -16,6 +16,7 @@ Feature: Test visibility of elements
     Scenario: Element should become visible
         Given the element "#makeVisible" is not visible
         When  I click the element "#btnMakeVisible"
+        And   I pause for 1000ms
         Then  I expect that the element "#makeVisible" becomes visible
 
     Scenario: Element should become invisible

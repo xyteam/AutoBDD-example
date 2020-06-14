@@ -1,5 +1,3 @@
-@wip
-@Pending
 @test-demoapp
 Feature: Pending scenario
     As a test framework
