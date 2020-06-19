@@ -14,7 +14,7 @@ Feature: File download and validation
     And   I click on the "PDF_download_icon" image on the screen
     And   I pause for 5000ms
     And   I doubleClick on the "FileSave_button:0.5:Save" image on the screen
-    And   I wait on download file "pdf-test.pdf" for 5000ms to exist
+    And   I wait on download file "pdf-test.pdf" for 5000ms to be existing
     And   I open the download file "pdf-test.pdf"
     Then  I expect that the downloaded file "pdf-test.pdf" contains exactly 18 lines
     And   I expect that the downloaded file "pdf-test.pdf" contains more than 10 lines
@@ -26,7 +26,7 @@ Feature: File download and validation
   Scenario: Download and check file - XLS file
     Given I delete all download files with the name "file_example_XLS_10*"
     When  I open the url "https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_10.xls"
-    And   I wait on download file "file_example_XLS_10.xls" for 5000ms to exist
+    And   I wait on download file "file_example_XLS_10.xls" for 5000ms to be existing
     And   I announce message: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     And   I announce message at browser: "I have downloaded file_example_XLS_10.xls to ENV:DownloadPathLocal"
     Then  I expect that the downloaded file "file_example_XLS_10.xls" contains 10 lines
