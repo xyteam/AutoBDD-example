@@ -88,6 +88,7 @@ Feature: Sample Snippets test part 1
 
     Scenario: scroll to element for element to be visible
         Given I open the url "http://webdriverjs.christian-bromann.com/"
+        And   I resize browser window to 1024 by 768 pixels
         And   there is no element ".lateElem" on the page
         Then  I wait on element ".lateElem" for 5000ms to be displayed
         And   I expect that the element ".lateElem" is displayed

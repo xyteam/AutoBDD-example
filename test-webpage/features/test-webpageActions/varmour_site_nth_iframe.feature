@@ -13,7 +13,7 @@ Feature: vArmour site nth iframe validation and action
     And    I pause for 3000ms
   
   Scenario: Test the nth iframe element visibility and click action
-    Then  I expect the element "iframe" does exist no less than 4 times
+    Then  I expect the element "iframe" does exist at least 4 times
     And   I expect that the element "button#widgetButton" does not exist
     And   I expect that the element "button#widgetCloseButton" does not exist
     And   I switch to the 4th iframe

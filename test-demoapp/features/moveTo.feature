@@ -6,7 +6,7 @@ Feature: Test moveTo elements
 
     Background:
         Given I open the path "/"
-        And   I have a screen that is 1024 by 768 pixels
+        And   I resize browser window to 1024 by 768 pixels
         And   I scroll to the element "#moveTo"
         And   I expect that the element "#moveTo" does not have the class "moveToClass"
 

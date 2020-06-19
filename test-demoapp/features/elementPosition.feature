@@ -5,7 +5,7 @@ Feature: Test the position of a given element
 
     Background:
         Given I open the path "/"
-        And   I have a screen that is 800 by 600 pixels
+        And   I resize browser window to 800 by 600 pixels
         And   the element "#square100x100" is 100px broad
         And   the element "#square100x100" is 100px tall
         When  I scroll to the element "#square100x100"
