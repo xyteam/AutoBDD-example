@@ -70,18 +70,29 @@ Feature: Sample Snippets test part 1
         When  I click the element ".send .sendBtn"
         Then  I expect that the element ".gotDataA" is visible
 
-    Scenario: wait for element
+    Scenario: wait for element to be displayed
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" for 5000ms to be visible
+        Then  I wait on element ".lateElem" for 5000ms to be displayed
 
     Scenario: wait for element using default wait time
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
-        Then  I wait on element ".lateElem" to be visible
+        Then  I wait on element ".lateElem" to be displayed
 
     Scenario: pause
         Given I open the url "http://webdriverjs.christian-bromann.com/"
         And   there is no element ".lateElem" on the page
         And   I pause for 5000ms
+        Then  I expect that the element ".lateElem" is displayed
+
+    Scenario: scroll to element for element to be visible
+        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        And   I resize browser window to 1024 by 768 pixels
+        And   there is no element ".lateElem" on the page
+        Then  I wait on element ".lateElem" for 5000ms to be displayed
+        And   I expect that the element ".lateElem" is displayed
+        And   I expect that the element ".lateElem" is not visible
+        When  I scroll to the element ".lateElem"
         Then  I expect that the element ".lateElem" is visible
+

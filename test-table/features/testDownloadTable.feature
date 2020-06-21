@@ -21,13 +21,13 @@ Feature: test table rows and columns
         Given I delete all download files with the name "table_*.csv"
         When  I click the element "button=Export to"
         And   I click the element "li=CSV"
-        And   I wait on download file "table_*.csv" for 5000ms to exist
+        And   I wait on download file "table_*.csv" for 5000ms to be existing
         Then  I expect that the downloaded file "table_*.csv" contains exactly ENV:expectedRows data rows and exactly ENV:expectedColumns columns
 
     Scenario: check downloaded table json rows and columns
         Given I delete all download files with the name "table_*.json"
         When  I click the element "button=Export to"
         And   I click the element "li=JSON"
-        And   I wait on download file "table_*.json" for 5000ms to exist
+        And   I wait on download file "table_*.json" for 5000ms to be existing
         Then  I expect that the downloaded file "table_*.json" contains exactly ENV:expectedRows data rows and exactly ENV:expectedColumns columns
         And   I expect that all data entries in the downloaded json file "table_*.json" conform to the template file "testTable_template.json"
