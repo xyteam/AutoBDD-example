@@ -18,8 +18,9 @@ Feature: vArmour site nth iframe validation and action
     And   I expect that the element "button#widgetCloseButton" does not exist
     And   I switch to the 4th iframe
     And   I wait on element "button#widgetButton" for 5000ms
-    Then  I expect that the element "html body" contains the text "want to see how our platform helps CISOs"
-    And   I expect that the element "a=Start Free Trial" is not visible
+    And   I wait on element "body" for 15000ms to be containing a text
+    Then  I expect that the element "body" contains the text "want to see how our platform helps CISOs"
+    And   I expect that the element "a=Start Free Trial" is not existing
     When  I tryClick the element "button#widgetButton"
     And   I expect that the element "button=Sure!" becomes visible
     And   I expect that the element "button=Nope, I'll explore on my own." becomes visible
