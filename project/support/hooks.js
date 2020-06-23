@@ -1,7 +1,7 @@
 const projectHooks = {
   // onPrepare: function (config, capabilities) {
   // },
-  
+
   // onWorkerStart: function (cid, caps, specs, args, execArgv) {
   // },
 
@@ -26,22 +26,22 @@ const projectHooks = {
   // beforeCommand: function (commandName, args) {
   // },
 
-  // BeforeFeature: function(feature) {
+  // beforeFeature: function (uri, feature, scenarios) {
   // },
 
-  // BeforeScenario: function(scenario) {
+  // beforeScenario: function (uri, feature, scenario, sourceLocation) {
   // },
 
-  // BeforeStep: function(step) {
+  // beforeStep: function ({uri, feature, step}, context) {
   // },
 
-  // AfterStep: function(step, passed) {
+  // afterStep: function ({uri, feature, step}, context, {error, result, duration, passed}) {
   // },
 
-  // AfterScenario: function(scenario, result) {
+  // afterScenario: function (uri, feature, scenario, result, sourceLocation) {
   // },
 
-  // AfterFeature: function(feature) {
+  // afterFeature: function (uri, feature, scenarios) {
   // },
 
   // afterCommand: function (commandName, args, result, error) {
