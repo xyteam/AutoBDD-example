@@ -10,10 +10,10 @@ Feature: Test waiting for actions part 2
     Scenario: Test if element becomes checked with different mouse clicks
         Given the checkbox "#waitForCheckedElement" is not checked
         When  I click on the element "#waitForCheckedBtn"
-        And   I wait on element "#waitForCheckedElement" for 1000ms to be checked
+        And   I wait on the element "#waitForCheckedElement" for 1000ms to be checked
         Then  the checkbox "#waitForCheckedElement" is checked
         When  I left click on the element "#waitForCheckedBtn"
-        And   I wait on element "#waitForCheckedElement" for 1000ms to be not checked
+        And   I wait on the element "#waitForCheckedElement" for 1000ms to be not checked
         Then  the checkbox "#waitForCheckedElement" is not checked
         When  I right click on the element "#waitForCheckedBtn"
         Then  the checkbox "#waitForCheckedElement" is not checked
@@ -21,5 +21,5 @@ Feature: Test waiting for actions part 2
         When  I middle click on the element "#waitForCheckedBtn"
         Then  the checkbox "#waitForCheckedElement" is not checked
         When  I double click on the element "#waitForCheckedBtn"
-        And   I wait on element "#waitForCheckedElement" for 1000ms to be not checked
+        And   I wait on the element "#waitForCheckedElement" for 1000ms to be not checked
         Then  the checkbox "#waitForCheckedElement" is not checked

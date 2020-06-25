@@ -8,11 +8,10 @@ Feature: File download and validation
   Scenario: Open url, check content, download file and check downloaded content - PDF file
     Given I delete all download files with the name "pdf-test.*"
     When  I open the url "http://www.orimi.com/pdf-test.pdf"
-    Then  I should see the "Yukon_Logo" image on the screen
     And   I park mouse at the center position of the screen
-    And   I hover mouse at the topRight position of the screen
+    And   I hover mouse at the topCenter position of the screen
     And   I doubleClick on the "PDF_download_icon" image on the screen
-    And   I pause for 5000ms
+    And   I pause for 500ms
     And   I click on the "FileSave_button:0.5:Save" image on the screen
     And   I wait on download file "pdf-test.pdf" for 5000ms to be existing
     And   I open the download file "pdf-test.pdf"
@@ -22,6 +21,7 @@ Feature: File download and validation
     And   I expect that the downloaded file "pdf-test.pdf" at line 4 does contain the text "PDF Test File"
     And   I expect that the downloaded file "pdf-test.pdf" does not contain the text "PDF Tast File"
     And   I expect that the downloaded file "pdf-test.pdf" does match the text "Box \d{4}"
+    Then  I should see the "Yukon_Logo" image on the screen
 
   Scenario: Download and check file - XLS file
     Given I delete all download files with the name "file_example_XLS_10*"
