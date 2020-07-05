@@ -17,7 +17,7 @@
     "test-webpage": "cd ~/Projects/AutoBDD && . .autoPathrc.sh && cd - && cd ./test-webpage && xvfb-runner.sh npx wdio abdd.js",
     "test-postman": "cd ~/Projects/AutoBDD && . .autoPathrc.sh && cd - && cd ./test-postman && xvfb-runner.sh npx wdio abdd.js",
     "test-demoapp": "cd ~/Projects/AutoBDD && . .autoPathrc.sh && cd - && cd ./test-demoapp && xvfb-runner.sh npx wdio abdd.js",
-    "smoke-test": "npm run test-init & npm test-browser",
+    "smoke-test": "npm run test-init & npm run test-browser",
     "api-test": "npm run test-postman",
     "int-test": "npm run test-table",
     "e2e-test": "npm run test-webpage & npm run test-demoapp"
