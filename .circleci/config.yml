@@ -13,7 +13,7 @@ jobs:
         name: "run e2e test"
         command: |
           docker-compose run --rm autobdd-example-run
-  workflows:
-    test:
+workflows:
+    e2e-test:
       jobs:
         - e2e-test
