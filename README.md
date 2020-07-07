@@ -6,7 +6,7 @@ git clone https://github.com/xyteam/AutoBDD-example.git; \
 cd ~/Projects/AutoBDD-example/docker
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
-Open the HTML BDD test report in ~/Projects/AutoBDD-example/bdd_reports/
+Open the HTML BDD test report in ~/Projects/AutoBDD-example/e2e-report/
 
 ## AutoBDD-example
 
@@ -55,7 +55,7 @@ Options can be appended with quotes to the run command above.
 
 #### Step 3: Review test report
 
-A folder named **bdd_reports** will be created under the test project.
+A folder named **e2e-report** will be created under the test project.
 Each run creates a timestamped folder with a HTML report and all the run log as well as screenshots and movie.
 
 ### Special Mentions
