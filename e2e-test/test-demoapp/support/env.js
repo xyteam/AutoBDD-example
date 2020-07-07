@@ -1,10 +1,9 @@
 const path = require('path');
 const PROJECTBASE = process.env.PROJECTBASE || 'test-projects';
-const PROJECTNAME = process.env.PROJECTNAME || path.resolve().split(PROJECTBASE)[1].split('/')[1]
-var moduleDepth = path.resolve().split(PROJECTNAME)[1].split('/').length
-var relativePathToProject = '../'.repeat(moduleDepth)
-require(relativePathToProject + 'e2e-test/support/env.js');
+const PROJECTNAME = process.env.PROJECTNAME || path.resolve().split(PROJECTBASE)[1].split('/')[1];
+var moduleDepth = path.resolve().split(PROJECTNAME)[1].split('/').length - 1;
+var relativePathToProject = '../'.repeat(moduleDepth);
 // define module level Env vars here
-process.env.ThisModule = path.resolve().split(PROJECTNAME)[1].split('/')[2]
-// test env vars here
-process.env.DemoAppHost = process.env.DemoAppHost || 'localhost';
+process.env.TestDir = path.resolve().split(PROJECTNAME)[1].split('/')[1];
+process.env.TestModule = path.resolve().split(PROJECTNAME)[1].split('/')[2];
+require(relativePathToProject + 'support/env.js');
