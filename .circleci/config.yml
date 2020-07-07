@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: 'xyteam/autobdd-run:2.0.0'
+      - image: 'xyteam/autobdd-run:2.1.0'
     working_directory: ~/Projects/AutoBDD/test-projects/AutoBDD-example
     steps:
       - checkout
