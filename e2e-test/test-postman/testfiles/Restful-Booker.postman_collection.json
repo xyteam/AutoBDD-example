@@ -67,9 +67,10 @@
 									"  }",
 									"};",
 									"",
-									"pm.test(\"return item count should be 10\", function () {",
+									"pm.test(\"return item count should be at least 10\", function () {",
 									"    var jsonData = pm.response.json();",
-									"    pm.expect(jsonData.length).to.eql(10);",
+									"    console.log(jsonData); ",
+									"    pm.expect(jsonData.length).to.be.at.least(10);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -105,6 +106,7 @@
 								"exec": [
 									"pm.test(\"Has firstname and lastname\", function () {",
 									"    var jsonData = pm.response.json();",
+									"    console.log(jsonData); ",
 									"    pm.expect(jsonData.firstname).not.equal(null);",
 									"    pm.expect(jsonData.lastname).not.equal(null);",
 									"});"
