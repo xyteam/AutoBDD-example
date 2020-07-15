@@ -13,9 +13,9 @@ before_install:
 script:
     - |
         cd .docker
-        docker-compose run --rm calculator-app-run "npm install" 
-        docker-compose run --rm calculator-app-run "npm start"
-        docker-compose run --rm calculator-app-run "npm smoke-test"
-        docker-compose run --rm calculator-app-run "npm api-test"
-        docker-compose run --rm calculator-app-run "npm int-test"
-        docker-compose run --rm calculator-app-run "npm e2e-test"
+        docker-compose run --rm autobdd-example-run "npm install" 
+        docker-compose run --rm autobdd-example-run "npm start"
+        docker-compose run --rm autobdd-example-run "npm smoke-test"
+        docker-compose run --rm autobdd-example-run "npm api-test"
+        docker-compose run --rm autobdd-example-run "npm int-test"
+        docker-compose run --rm autobdd-example-run "npm e2e-test"
