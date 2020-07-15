@@ -13,9 +13,4 @@ before_install:
 script:
     - |
         cd .docker
-        docker-compose run --rm autobdd-example-run "npm install" 
-        docker-compose run --rm autobdd-example-run "npm start"
-        docker-compose run --rm autobdd-example-run "npm run smoke-test"
-        docker-compose run --rm autobdd-example-run "npm run api-test"
-        docker-compose run --rm autobdd-example-run "npm run int-test"
-        docker-compose run --rm autobdd-example-run "npm run e2e-test"
+        docker-compose run --rm autobdd-example-run "--cucumberOpts.tagExpression='not @xfail and not @flicky and not @pending'" 
