@@ -22,5 +22,4 @@ tmp/
 .screenshots/
 .vscode/
 .settings/
-e2e-report/
-sample_reports/
+test-results/
