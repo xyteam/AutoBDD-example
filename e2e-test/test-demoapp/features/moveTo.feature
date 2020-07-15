@@ -20,6 +20,7 @@ Feature: Test moveTo elements
         When  I move to element "#moveTo" with an offset of 15,5
         Then  I expect that the element "#moveTo" has the class "moveToClass"
 
+    @xfail
     Scenario: Move to the element with a too large offset
         When  I move to element "#moveTo" with an offset of 5000,5000
         Then  I expect that the element "#moveTo" has the class "moveToClass"

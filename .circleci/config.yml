@@ -10,7 +10,8 @@ jobs:
       - run: npm start
       - run: npm run smoke-test
       - run: npm run api-test
-      - run: npm run int-test
+      - run: npm run int-tes
+      - run: npm run e2e-test
 
 orbs:
   node: circleci/node@3.0.1

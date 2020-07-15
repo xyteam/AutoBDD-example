@@ -1,4 +1,5 @@
 @test-demoapp
+@pending
 Feature: Pending scenario
     As a test framework
     I should be able skip all these scenarios

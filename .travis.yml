@@ -1,0 +1,21 @@
+os: linux
+dist: focal
+
+services:
+    - docker
+
+env:
+    - ProjectsBase=build/xyteam
+      
+before_install:
+    - docker pull xyteam/autobdd-run:2.1.0
+    
+script:
+    - |
+        cd .docker
+        docker-compose run --rm calculator-app-run "npm install" 
+        docker-compose run --rm calculator-app-run "npm start"
+        docker-compose run --rm calculator-app-run "npm smoke-test"
+        docker-compose run --rm calculator-app-run "npm api-test"
+        docker-compose run --rm calculator-app-run "npm int-test"
+        docker-compose run --rm calculator-app-run "npm e2e-test"
