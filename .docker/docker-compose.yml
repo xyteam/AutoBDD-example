@@ -11,7 +11,7 @@ services:
     volumes:
       - ${HOME}/.ssh:/home/${USER}/.ssh:rw
       - ${HOME}/.m2:/home/${USER}/.m2:rw
-      - ${HOME}/Projects/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
+      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
     ports:
       - "5901:5900"
       - "2222:22"
@@ -21,7 +21,7 @@ services:
       PASSWORD: ${PASSWORD}
       VNC_PASSWORD: ${VNC_PASSWORD}
       RESOLUTION: 1920x1200x24
-    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-example-dev.startup.sh"]
+    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/.docker/autobdd-example-dev.startup.sh"]
 
   autobdd-example-run:
     image: "xyteam/autobdd-run:${AutoBDD_Ver}"
@@ -32,7 +32,7 @@ services:
     volumes:
       - ${HOME}/.ssh:/home/${USER}/.ssh:rw
       - ${HOME}/.m2:/home/${USER}/.m2:rw
-      - ${HOME}/Projects/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
+      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
     environment:
       USER: ${USER}
       BDD_PROJECT: ${BDD_PROJECT}
@@ -40,4 +40,4 @@ services:
       USERID: ${USERID}
       GROUPID: ${GROUPID}
       DemoAppHost: ${DemoAppHost}
-    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/docker/autobdd-example-run.startup.sh"]
+    entrypoint: ["/bin/bash", "/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}/.docker/autobdd-example-run.startup.sh"]

@@ -3,7 +3,7 @@
 ```
 mkdir -p ~/Projects; cd ~/Projects; \
 git clone https://github.com/xyteam/AutoBDD-example.git; \
-cd ~/Projects/AutoBDD-example/docker
+cd ~/Projects/AutoBDD-example/.docker
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
 Open the HTML BDD test report in ~/Projects/AutoBDD-example/e2e-report/
@@ -43,7 +43,7 @@ git clone https://github.com/xyteam/AutoBDD-example.git;
 ```
 #### Step 2: Run test:
 ```
-cd AutoBDD-example/docker; \
+cd AutoBDD-example/.docker; \
 # to run test cases with @Demo tag
 docker-compose run --rm test-run "--movie 1 --argstring '--tags @Demo'"
 ```
