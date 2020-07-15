@@ -19,6 +19,7 @@ Feature: vArmour site screen text and see and click image
     And   I expect that the "last-seen" image does match the regex "v.*m.*r"
     And   I expect that the "last-seen" image does mimic the text "varmour"
 
+  @flicky
   Scenario: Test find image with text
     And   I pause for 3000ms
     Then  I should see the "dialogRobot" image on the screen
