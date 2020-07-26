@@ -9,9 +9,9 @@ Feature: vArmour site screen text and see and click image
     Given  I open the url "https://www.varmour.com/"
 
   Scenario: Test screen area text
-    And   I wait every 5 seconds for 1 minute on the screen area to display the regex "pssst"
-    Then  I expect that the "last-seen" screen area does contain the text "Pssst"
-    And   I expect that the "Screen-100" image does contain the text "Product"
+    And   I wait every 5 seconds for 1 minute on the screen area to display the text "Application"
+    Then  I expect that the "Screen-100" screen area does match the regex "Application +Controller"
+    And   I expect that the "last-seen" image does contain the text "Product"
 
   Scenario: Test image wait and text
     Then  I should see the "vArmour_logo" image on the screen
