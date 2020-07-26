@@ -40,5 +40,5 @@ Feature: File download and validation
     And   I click the element "a=e2e-test/"
     And   I click the element "a=test-webpage/"
     And   I click the element "a=testimages/"
-    And   I click the element "a=Yukon_Logo.png"
+    And   I click the element "a*=Yukon_Logo"
     Then  I should see the "Yukon_Logo" image on the screen
