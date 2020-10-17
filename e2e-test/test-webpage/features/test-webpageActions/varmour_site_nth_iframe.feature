@@ -16,10 +16,10 @@ Feature: vArmour site nth iframe validation and action
     Then  I expect the element "iframe" does exist at least 4 times
     And   I expect that the element "button#widgetButton" does not exist
     And   I expect that the element "button#widgetCloseButton" does not exist
-    And   I switch to the 4th iframe
+    And   I switch to the 6th iframe
     And   I wait on the element "button#widgetButton" for 5000ms
     And   I wait on the element "body" for 15000ms to be containing a text
-    Then  I expect that the element "body" contains the text "Hi! Want to see Application Controller in action?"
+    Then  I expect that the element "body" contains the text "Hi!"
     And   I expect that the element "a=Start Free Trial" is not existing
     When  I tryClick the element "button#widgetButton"
     And   I expect that the element "button=Sure!" becomes visible

@@ -7,7 +7,7 @@ Feature: Github test
 Scenario: open URL
     Given I open the url "https://github.com/"
     Then  I expect the URL host to be "github.com"
-    And   I expect that the page title does equal the text "The world’s leading software development platform · GitHub"
+    And   I expect that the page title does contain the text "GitHub"
 
 Scenario: check elements existing
     Given I open the url "https://github.com/webdriverio/cucumber-boilerplate"

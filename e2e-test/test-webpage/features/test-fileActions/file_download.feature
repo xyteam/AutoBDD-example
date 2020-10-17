@@ -13,6 +13,7 @@ Feature: File download and validation
     And   I doubleClick on the "PDF_download_icon" image on the screen
     And   I pause for 500ms
     And   I click on the "FileSave_button:0.5:Save" image on the screen
+    And   I pause for 500ms
     And   I wait on download file "pdf-test.pdf" for 5000ms to be existing
     And   I open the download file "pdf-test.pdf"
     Then  I expect that the downloaded file "pdf-test.pdf" contains exactly 18 lines
