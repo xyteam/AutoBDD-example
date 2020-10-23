@@ -17,53 +17,60 @@ if [ -n "$OPENBOX_ARGS" ]; then
 fi
 
 if [ -n "$RESOLUTION" ]; then
-    sed -i "s/1024x768/$RESOLUTION/" /usr/local/bin/xvfb.sh
+    sed -i "s/1024x768x16/$RESOLUTION/" /usr/local/bin/xvfb.sh
 fi
 
 USER=${USER:-root}
 HOME=/root
 if [ "$USER" != "root" ]; then
+    # USER
     echo "* enable custom user: $USER"
     if [ "$HOSTOS" == "Linux" ]; then
         useradd --uid $USERID --gid $GROUPID --create-home --shell /bin/bash --groups adm,sudo $USER
     else
         useradd --create-home --shell /bin/bash --user-group --groups adm,sudo $USER
     fi
+    export HOME=/home/$USER
+
+    # PASSWORD
     if [ -z "$PASSWORD" ]; then
         echo "  set default password to \"ubuntu\""
         PASSWORD=ubuntu
     fi
-    export HOME=/home/$USER
     echo "$USER:$PASSWORD" | chpasswd
-    cp -r /root/{.gtkrc-2.0,.asoundrc} ${HOME}
-    [ -d "/dev/snd" ] && chgrp -R adm /dev/snd
     unset PASSWORD
+
+    # HOME
+    # user dirs and files
+    cd /root; tar cf - $(ls -A1 -I Projects -I .xvfb-locks .) | (cd $HOME; tar xf -)
+    [ ! -d "$HOME/Projects/AutoBDD/framework" ] \
+        && (echo "updating Projects/AutoBDD" && cd /root; tar -cf - Projects/AutoBDD | (cd $HOME; tar xf -)) \
+        || (echo "only updating Projects/AutoBDD/node_modules" && cd /root; tar cf - Projects/AutoBDD/node_modules | (cd $HOME; tar xf -))
+    mkdir -p $HOME/.config/pcmanfm/LXDE/
+    ln -sf /usr/local/share/doro-lxde-wallpapers/desktop-items-0.conf $HOME/.config/pcmanfm/LXDE/
+    # update file ownership inside docker
+    if [ "$HOSTOS" == "Linux" ]; then
+      chown -R $USERID:$GROUPID $HOME
+    else
+      chown -R $USER:$USER $HOME
+    fi
+
+    # OTHER
+    sed -i "s|%USER%|$USER|" /etc/supervisor/conf.d/supervisord.conf
+    sed -i "s|%HOME%|$HOME|" /etc/supervisor/conf.d/supervisord.conf
+    [ -d "/dev/snd" ] && chgrp -R adm /dev/snd
+    mkdir -p /run/sshd
 fi
-sed -i "s|%USER%|$USER|" /etc/supervisor/conf.d/supervisord.conf
-sed -i "s|%HOME%|$HOME|" /etc/supervisor/conf.d/supervisord.conf
 
-# prepare sshd
-mkdir -p /run/sshd
-
-# home folder
-mkdir -p $HOME/.config/pcmanfm/LXDE/
-ln -sf /usr/local/share/doro-lxde-wallpapers/desktop-items-0.conf $HOME/.config/pcmanfm/LXDE/
-cd /root && tar cf - ./Projects | (cd $HOME && tar xf -)
-if [ "$HOSTOS" == "Linux" ]; then
-  chown -R $USERID:$GROUPID $HOME
-else
-  chown -R $USER:$USER $HOME
-fi
-
-# set bash_profile
-cat /root/.bashrc >> $HOME/.bash_profile && chown $USER:$USER $HOME/.bash_profile
+# add display and npm settings to bash_profile
 cat >> $HOME/.bash_profile << END_bash_profile
 export DISPLAY=:1
 npm config set script-shell /bin/bash
-cd \\$HOME/Projects/AutoBDD
-source .autoPathrc.sh
-cd \\$HOME/Projects/AutoBDD/test-projects/\\${BDD_PROJECT}
+cd ~/Projects/AutoBDD
+. .autoPathrc.sh
 END_bash_profile
+chown $USER:$USER $HOME/.bash_profile
 
 # start supervisord
 exec /bin/tini -- /usr/local/bin/supervisord -n -c /etc/supervisor/conf.d/supervisord.conf
+

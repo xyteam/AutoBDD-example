@@ -9,8 +9,6 @@ services:
     user: root
     privileged: true
     volumes:
-      - ${HOME}/.ssh:/home/${USER}/.ssh:rw
-      - ${HOME}/.m2:/home/${USER}/.m2:rw
       - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
     ports:
       - "5901:5900"
@@ -30,8 +28,6 @@ services:
     user: root
     privileged: true
     volumes:
-      - ${HOME}/.ssh:/home/${USER}/.ssh:rw
-      - ${HOME}/.m2:/home/${USER}/.m2:rw
       - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:rw
     environment:
       USER: ${USER}
