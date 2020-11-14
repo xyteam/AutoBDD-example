@@ -114,10 +114,11 @@ Failed_*.png
 Step_*.png
 npm-debug.log
 hs_err_pid*.log
-sikulixapi*.jar
 package-lock.json
 .project
 nohup.out
+e2e-test/*/*-*.json
+!*/testfiles/*-*.json
 junit.xml
 test-results.xml
 
@@ -125,6 +126,14 @@ test-results.xml
 .screenshots/
 videos/
 node_modules/
+logs/
+tmp/
+.tmp/
+.DS_Store
+.screenshots/
+.vscode/
+.settings/
+bdd_reports/
 test-results/
 allure-reports/
 allure-results/
