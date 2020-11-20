@@ -1,0 +1,54 @@
+# run test with autobdd-run
+# docker-compose run --rm autobdd-run "make test-all"
+#
+# spin up autobdd-dev for test development:
+# docker-compose up -d autobdd-dev
+# docker-compose logs -f autobdd-dev
+# ssh localhost -p 2222
+# vnc localhost:5922
+# 
+version: '3.5'
+services:
+
+  # dev container for developing autobdd test
+  autobdd-example-dev:
+    image: "xyteam/autobdd:${AutoBDD_Ver}"
+    container_name: autobdd-example-dev
+    shm_size: 1536M
+    user: root
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:delegated
+      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:delegated
+    ports:
+      - "5924:5900"
+      - "2224:22"
+      - "8004:8000"
+    environment:
+      - USER=${USER}
+      - BDD_PROJECT=${BDD_PROJECT}
+      - HOSTOS=${HOSTOS}
+      - USERID=${USERID}
+      - GROUPID=${GROUPID}
+      - PASSWORD=${PASSWORD}
+      - VNC_PASSWORD=${VNC_PASSWORD}
+      - RESOLUTION=1920x1200x24
+    entrypoint: "/root/autobdd-dev.startup.sh"
+
+  # run container for running autobdd test
+  autobdd-example-run:
+    image: "xyteam/autobdd:${AutoBDD_Ver}"
+    container_name: autobdd-example-run
+    shm_size: 1536M
+    user: root
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:delegated
+      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/root/Projects/AutoBDD/test-projects/${BDD_PROJECT}:delegated
+    environment:
+      - USER=root
+      - BDD_PROJECT=${BDD_PROJECT}
+      - HOSTOS=${HOSTOS}
+      - USERID=${USERID}
+      - GROUPID=${GROUPID}
+    entrypoint: "/root/autobdd-run.startup.sh"

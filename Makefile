@@ -8,5 +8,4 @@ e2e-test: demo-up
 	make test
 
 docker_run_e2e:
-	cd .docker && \
 	docker-compose run --rm autobdd-example-run "make e2e-test"
