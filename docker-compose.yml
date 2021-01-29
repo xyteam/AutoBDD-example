@@ -1,12 +1,3 @@
-# run test with autobdd-run
-# docker-compose run --rm autobdd-run "make test-all"
-#
-# spin up autobdd-dev for test development:
-# docker-compose up -d autobdd-dev
-# docker-compose logs -f autobdd-dev
-# ssh localhost -p 2222
-# vnc localhost:5922
-# 
 version: '3.5'
 services:
 
@@ -19,14 +10,14 @@ services:
     privileged: true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:delegated
-      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:delegated
+      - ${HOME}/${ProjectsBase:-Projects}/${ABDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${ABDD_PROJECT}:consistent
     ports:
       - "5924:5900"
       - "2224:22"
       - "8004:8000"
     environment:
       - USER=${USER}
-      - BDD_PROJECT=${BDD_PROJECT}
+      - ABDD_PROJECT=${ABDD_PROJECT}
       - HOSTOS=${HOSTOS}
       - USERID=${USERID}
       - GROUPID=${GROUPID}
@@ -44,11 +35,17 @@ services:
     privileged: true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:delegated
-      - ${HOME}/${ProjectsBase:-Projects}/${BDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${BDD_PROJECT}:delegated
+      - ${HOME}/${ProjectsBase:-Projects}/${ABDD_PROJECT}:/home/${USER}/Projects/AutoBDD/test-projects/${ABDD_PROJECT}:consistent
     environment:
       - USER=${USER}
-      - BDD_PROJECT=${BDD_PROJECT}
+      - ABDD_PROJECT=${ABDD_PROJECT}
       - HOSTOS=${HOSTOS}
       - USERID=${USERID}
       - GROUPID=${GROUPID}
+      - PYTHONUNBUFFERED=1
+      - REPORTDIR=${REPORTDIR}
+      - MOVIE=${MOVIE}
+      - SCREENSHOT=${SCREENSHOT}
+      - SCREENSHOTREMARK=${SCREENSHOTREMARK}
     entrypoint: "/root/autobdd-run.startup.sh"
+
