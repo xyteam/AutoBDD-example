@@ -26,7 +26,7 @@ Scenario: search for webdriverio repository
     Then  I expect that the element "[placeholder='Search GitHub']" contains the value "webdriverio selenium"
     When  I click the element "button=Search"
     Then  I expect that the element ".repo-list-item:first-child" contains the text "webdriverio"
-    And   I expect that the element ".repo-list-item:first-child" contains the text "selenium"
+    And   I expect that the element ".repo-list-item:last-child" matches the regex "selenium"
 
 Scenario: login with fake credentials
     Given I open the url "https://github.com/login"

@@ -16,8 +16,8 @@ Feature: vArmour site screen text and see and click image
     And   I expect that the "last-seen" image does mimic the text "Free Trial"
 
   Scenario: Test screen area text
-    And   I wait every 5 seconds for 1 minute on the screen area to display the regex "ACI|SC"
-    Then  I expect that the "last-seen" screen area does match the regex "Cisco|Standard Chartered"
+    And   I wait every 5 seconds for 1 minute on the screen area to display the regex "cloud"
+    Then  I expect that the "last-seen" screen area does match the regex "application"
 
   @flicky
   Scenario: Test find image with text
