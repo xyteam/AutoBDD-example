@@ -1,6 +1,6 @@
 {
   "name": "autobdd-example",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "BDD Automation",
   "main": "demo-app/index.html",
   "dependencies": {
