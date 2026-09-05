@@ -6,7 +6,7 @@ Feature: bestvpn site - drag and drop image
   I want to test bestvpn html5demos page - drag and drop page by image
   
   Scenario: Test bestvpn html5demos page - drag and drop page by image
-    When  I open the url "https://bestvpn.org/html5demos/drag/"
+    When  I open the url "http://localhost:8090/bestvpn/index.html"
     Then  I should see the "target_drop_box" image on the screen
     Given I should see the "NordVPN:0.9" image on the screen
     When  I drag "NordVPN:0.9" and drop to "target_drop_box"

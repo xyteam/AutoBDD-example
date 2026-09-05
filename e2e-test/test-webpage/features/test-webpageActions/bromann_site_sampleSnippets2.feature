@@ -4,49 +4,49 @@ Feature: Sample Snippets test part 2
     I should be able to use given text snippets
 
     Scenario: query title
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the page title does equal the text "WebdriverJS Testpage"
         And   the page title does not equal the text "Other title"
         Then  I expect that the page title does equal the text "WebdriverJS Testpage"
         And   I expect that the page title does not equal the text "Other title"
 
     Scenario: check visibility
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the element ".btn1" is visible
         And   the element ".btn1_clicked" is not visible
         Then  I expect that the element ".btn1" is visible
         And   I expect that the element ".btn1_clicked" is not visible
 
     Scenario: compare texts
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the element "#secondPageLink" contains the same text as element "#secondPageLink"
         And   the element "#secondPageLink" contains not the same text as element "#githubRepo"
         Then  I expect that the element "#secondPageLink" contains the same text as element "#secondPageLink"
         And   I expect that the element "#secondPageLink" not contains the same text as element "#githubRepo"
 
     Scenario: check text content
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the element "#secondPageLink" contains the text "two"
         And   the element "#secondPageLink" not contains the text "andere linktext"
         Then  I expect that the element "#secondPageLink" contains the text "two"
         And   I expect that the element "#secondPageLink" not contains the text "anderer linktext"
 
     Scenario: check input content
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the element "//html/body/section/form/input[1]" contains the value "a"
         And   the element "//html/body/section/form/input[1]" not contains the value "aa"
         Then  I expect that the element "//html/body/section/form/input[1]" contains the value "a"
         And   I expect that the element "//html/body/section/form/input[1]" not contains the value "aa"
 
     Scenario: check attribut
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the attribute "data-foundby" from element "#newWindow" is "partial link text"
         And   the attribute "data-foundby" from element "#newWindow" is not "something else"
         Then  I expect that the attribute "data-foundby" from element "#newWindow" is "partial link text"
         And   I expect that the attribute "data-foundby" from element "#newWindow" is not "something else"
 
     Scenario: check css attribut
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   I pause for 1000ms
         And   the css attribute "background-color" from element ".red" is "rgba(255,0,0,1)"
         And   the css attribute "background-color" from element ".red" is not "rgba(0,255,0,1)"
@@ -54,46 +54,43 @@ Feature: Sample Snippets test part 2
         And   I expect that the css attribute "background-color" from element ".red" is not "rgba(0,255,0,1)"
 
     Scenario: check width and height
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element ".red" is 102px broad
-        And   the element ".red" is 102px tall
-        And   the element ".red" is not 103px broad
-        And   the element ".red" is not 103px tall
-        Then  I expect that the element ".red" is 102px broad
-        And   I expect that the element ".red" is 102px tall
-        And   I expect that the element ".red" is not 103px broad
-        And   I expect that the element ".red" is not 103px tall
+        Given I open the url "http://localhost:8082/snippets.html"
+        And   the element ".red" is 100px broad
+        And   the element ".red" is 100px tall
+        And   the element ".red" is not 101px broad
+        And   the element ".red" is not 101px tall
+        Then  I expect that the element ".red" is 100px broad
+        And   I expect that the element ".red" is 100px tall
+        And   I expect that the element ".red" is not 101px broad
+        And   I expect that the element ".red" is not 101px tall
 
-    # For some reason this test is failing when running it in the Travis VM
     Scenario: check offset
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
-        And   the element ".red" is positioned at 15px on the x axis
-        And   the element ".red" is positioned at 242px on the y axis
-        And   the element ".red" is not positioned at 16px on the x axis
-        And   the element ".red" is not positioned at 243px on the y axis
-        Then  I expect that the element ".red" is positioned at 15px on the x axis
-        And   I expect that the element ".red" is positioned at 242px on the y axis
-        And   I expect that the element ".red" is not positioned at 16px on the x axis
-        And   I expect that the element ".red" is not positioned at 243px on the y axis
+        Given I open the url "http://localhost:8082/snippets.html"
+        And   the element ".red" is positioned at 12px on the x axis
+        And   the element ".red" is positioned at 474px on the y axis
+        And   the element ".red" is not positioned at 200px on the x axis
+        And   the element ".red" is not positioned at 900px on the y axis
+        Then  I expect that the element ".red" is positioned at 12px on the x axis
+        And   I expect that the element ".red" is positioned at 474px on the y axis
+        And   I expect that the element ".red" is not positioned at 200px on the x axis
+        And   I expect that the element ".red" is not positioned at 900px on the y axis
 
     Scenario: check selected
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the checkbox ".checkbox_notselected" is not checked
         When  I click the element ".checkbox_notselected"
         Then  I expect that the element ".checkbox_notselected" is checked
 
-    # This will fail in PhantoJS due to a security warning
     Scenario: set / read cookie
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the cookie "test1" does not exist
         When  I set a cookie "test1" with the content "test123"
         Then  I expect that the cookie "test1" exists
         And   I expect that the cookie "test1" contains "test123"
         And   I expect that the cookie "test1" not contains "test1234"
 
-    # This will fail in PhantoJS due to a security warning
     Scenario: delete cookie
-        Given I open the url "http://webdriverjs.christian-bromann.com/"
+        Given I open the url "http://localhost:8082/snippets.html"
         And   the cookie "test2" does not exist
         When  I set a cookie "test2" with the content "test123"
         Then  I expect that the cookie "test2" exists

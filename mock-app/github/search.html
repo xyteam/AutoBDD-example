@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Search · GitHub</title>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #24292e; background: #fff; }
+    a { color: #0366d6; text-decoration: none; }
+    .site-header { background-color: #24292e; color: #fff; padding: 16px 24px; display: flex; align-items: center; }
+    .site-header .octicon-mark-github { fill: #fff; margin-right: 12px; display: block; }
+    .header-logo-text { color: #fff; font-weight: 600; font-size: 18px; }
+    .header-links { margin-left: auto; }
+    .header-links a { color: #fff; margin-left: 16px; font-size: 14px; }
+    .search-area { padding: 48px 24px 16px; max-width: 1012px; margin: 0 auto; }
+    .search-box { display: flex; gap: 8px; }
+    .search-box .form-control { flex: 1; padding: 8px 12px; font-size: 16px; border: 1px solid #d1d5da; border-radius: 6px; box-sizing: border-box; min-width: 0; }
+    .btn { display: inline-block; padding: 8px 16px; font-size: 14px; font-weight: 600; border-radius: 6px; cursor: pointer; }
+    .btn-primary { color: #fff; background-color: #2ea44f; border: 1px solid rgba(27,31,35,.15); }
+    .results { max-width: 1012px; margin: 0 auto; padding: 0 24px 64px; }
+    .results h2 { font-size: 20px; border-bottom: 1px solid #eaecef; padding-bottom: 12px; }
+    .results .summary { color: #586069; font-size: 14px; }
+    .repo-list { list-style: none; margin: 0; padding: 0; }
+    .repo-list-item { padding: 16px 0; border-bottom: 1px solid #eaecef; }
+    .repo-list-item h3 { margin: 0 0 4px; font-size: 16px; }
+    .repo-list-item p { margin: 4px 0; color: #586069; font-size: 14px; }
+    .repo-meta { font-size: 12px; color: #586069; }
+    .repo-meta .dot { color: #d1d5da; margin: 0 6px; }
+    .footer { text-align: center; color: #6a737d; font-size: 12px; padding: 24px; border-top: 1px solid #eaecef; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <svg class="octicon octicon-mark-github" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    <span class="header-logo-text">GitHub</span>
+    <div class="header-links">
+      <a href="#">Pull requests</a>
+      <a href="#">Issues</a>
+      <a href="#">Marketplace</a>
+      <a href="#">Explore</a>
+      <a href="http://localhost:8090/github/login.html">Sign in</a>
+    </div>
+  </header>
+
+  <div class="search-area">
+    <form id="search-form" role="search" autocomplete="off">
+      <div class="search-box">
+        <input id="search-input" class="form-control" type="text" name="q" placeholder="Search GitHub" aria-label="Search GitHub">
+        <button type="button" id="search-submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="results">
+    <section id="repo-results" style="display:none;">
+      <h2>Results</h2>
+      <p class="summary" id="search-summary">We have found 2 repositories matching your search.</p>
+      <ul class="repo-list">
+        <li class="repo-list-item">
+          <h3><a href="#">webdriverio/webdriverio</a></h3>
+          <p>Next-gen browser and mobile automation test framework for Node.js. WebdriverIO lets you control a browser or a mobile application with just a few lines of code, running tests against the WebDriver protocol or native Appium automation.</p>
+          <div class="repo-meta">JavaScript <span class="dot">•</span> 8,900 stars <span class="dot">•</span> Updated today</div>
+        </li>
+        <li class="repo-list-item">
+          <h3><a href="#">webdriverio/selenium-standalone</a></h3>
+          <p>Simple command line interface for installing and launching a Selenium server with the WebDriver Manager. Used by WebdriverIO to run Selenium based automation suites locally.</p>
+          <div class="repo-meta">JavaScript <span class="dot">•</span> 1,200 stars <span class="dot">•</span> Updated 2 days ago</div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="footer">
+    © 2026 GitHub, Inc. This is a local mock page for demonstration purposes.
+  </footer>
+
+  <script>
+    (function () {
+      var repoResults = document.getElementById('repo-results');
+      var searchForm = document.getElementById('search-form');
+      var searchSubmit = document.getElementById('search-submit');
+      var searchInput = document.getElementById('search-input');
+      function runSearch() {
+        repoResults.style.display = 'block';
+      }
+      searchSubmit.addEventListener('click', function () { runSearch(); });
+      searchForm.addEventListener('submit', function (e) { e.preventDefault(); runSearch(); });
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); runSearch(); }
+      });
+    })();
+  </script>
+</body>
+</html>

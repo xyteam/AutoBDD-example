@@ -9,6 +9,7 @@
   },
   "scripts": {
     "demo-app": "forever start -s ./node_modules/.bin/http-server ./demo-app -s -p 8082",
+    "mock-app": "forever start -s -c node mock-server.js",
     "start": "npm run demo-app",
     "stop": "forever stopall",
     "test-init": "cd ~/Projects/AutoBDD && . .autoPathrc.sh && cd - && cd ./e2e-test/test-1nit && xvfb-runner.sh npx wdio abdd.js",

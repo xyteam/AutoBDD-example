@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>vArmour - Application Controller Security (local mock)</title>
+    <style type="text/css">
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { height: 100%; }
+        body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; background: #f4f7fa; color: #24303c; }
+        .site-header { background: #0e1e33; display: flex; align-items: center; justify-content: space-between; padding: 16px 36px; }
+        .brand { color: #ffffff; font-size: 24px; font-weight: 700; letter-spacing: 0.5px; }
+        .brand span { color: #00a6e6; }
+        nav.menu ul { list-style: none; display: flex; align-items: center; gap: 32px; }
+        nav.menu a { color: #d7e0ea; font-size: 15px; text-decoration: none; }
+        nav.menu a:hover { color: #ffffff; }
+        nav.menu a.free-trial { background: #00a6e6; color: #ffffff; border-radius: 20px; padding: 9px 20px; font-weight: 600; }
+        main { max-width: 1080px; margin: 0 auto; padding: 48px 36px 90px; }
+        .hero h1 { font-size: 34px; line-height: 1.2; color: #0e1e33; }
+        .hero p { margin-top: 14px; color: #51606f; font-size: 16px; line-height: 1.6; max-width: 720px; }
+        .feeds { margin-top: 46px; }
+        .feeds h2 { font-size: 18px; color: #0e1e33; margin-bottom: 14px; }
+        .feed-row { display: flex; gap: 18px; flex-wrap: wrap; }
+        .feed-row iframe { width: 220px; height: 150px; border: 1px solid #d5dee7; background: #ffffff; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">vArmour<span>.</span></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#" class="free-trial">Start Free Trial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Security that moves at the speed of your applications</h1>
+            <p>vArmour Application Controller delivers micro-segmentation and visibility for
+               hybrid cloud data centers, so you can protect critical workloads wherever
+               they run.</p>
+        </section>
+
+        <section class="feeds">
+            <h2>Latest from vArmour</h2>
+            <div class="feed-row">
+                <iframe src="filler.html" title="vArmour news 1"></iframe>
+                <iframe src="filler.html" title="vArmour news 2"></iframe>
+                <iframe src="filler.html" title="vArmour news 3"></iframe>
+                <iframe src="filler.html" title="vArmour news 4"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- 5th iframe in DOM order: hosts the interactive chat widget -->
+    <iframe id="widget-frame" src="widget.html" title="vArmour chat assistant"
+            style="position: fixed; right: 18px; bottom: 18px; width: 320px; height: 460px;
+                   border: 0; border-radius: 14px; box-shadow: 0 10px 34px rgba(14,30,51,0.35);
+                   background: #ffffff; z-index: 50;"></iframe>
+</body>
+</html>

@@ -5,18 +5,18 @@ Feature: Github test
     So that I can use it in my future tests
 
 Scenario: open URL
-    Given I open the url "https://github.com/"
-    Then  I expect the URL host to be "github.com"
+    Given I open the url "http://localhost:8090/github/index.html"
+    Then  I expect the URL host to be "localhost"
     And   I expect that the page title does contain the text "GitHub"
 
 Scenario: check elements existing
-    Given I open the url "https://github.com/webdriverio/cucumber-boilerplate"
+    Given I open the url "http://localhost:8090/github/repo.html"
     Then  I expect that the element ".octicon-mark-github" does exist
     And   I expect that the element ".octicon-mark-github" does exist exactly 2 times
     And I expect that the element ".some-other-element" does not exist
 
 Scenario: search for webdriverio repository
-    Given I open the url "https://github.com/search"
+    Given I open the url "http://localhost:8090/github/search.html"
     And   I clear the inputfield "[placeholder='Search GitHub']"
     And   the element "[placeholder='Search GitHub']" not contains any value
     And   I click the element "[placeholder='Search GitHub']"
@@ -29,7 +29,7 @@ Scenario: search for webdriverio repository
     And   I expect that the element ".repo-list-item:last-child" matches the regex "selenium"
 
 Scenario: login with fake credentials
-    Given I open the url "https://github.com/login"
+    Given I open the url "http://localhost:8090/github/login.html"
     And   I clear the inputfield "#login_field"
     When  I add "marketionist" to the inputfield "#login_field"
     And   I clear the inputfield "#password"

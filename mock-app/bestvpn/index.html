@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>bestvpn html5demos drag and drop demo</title>
+        <style type="text/css">
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                background: #ffffff;
+                color: #333333;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+            .page {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 24px 24px 40px 24px;
+                background: #ffffff;
+            }
+            h1 {
+                margin: 0 0 6px 0;
+                font-size: 28px;
+                font-weight: bold;
+                color: #222222;
+            }
+            .subtitle {
+                margin: 0 0 6px 0;
+                font-size: 15px;
+                color: #666666;
+            }
+            .instruction {
+                margin: 0 0 20px 0;
+                font-size: 14px;
+                color: #444444;
+            }
+            .stage {
+                display: flex;
+                align-items: flex-start;
+                gap: 70px;
+                border: 2px dashed #bbbbbb;
+                border-radius: 8px;
+                background: #ffffff;
+                padding: 30px 34px;
+            }
+            #sources {
+                flex: 0 0 auto;
+            }
+            .drag-item {
+                margin-bottom: 16px;
+                padding: 6px;
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                background: #ffffff;
+                cursor: move;
+                -webkit-user-drag: none;
+                user-select: none;
+            }
+            .drag-item:last-child {
+                margin-bottom: 0;
+            }
+            .drag-item img {
+                display: block;
+                -webkit-user-drag: none;
+                user-select: none;
+                pointer-events: none;
+            }
+            .drag-item.dragging {
+                opacity: 0.45;
+                border-style: dashed;
+                border-color: #888888;
+                background: #f2f2f2;
+            }
+            .drag-item.dropped {
+                display: none;
+            }
+            #drop-area {
+                flex: 0 0 auto;
+                text-align: center;
+                margin-left: auto;
+            }
+            #drop-label {
+                margin: 0 0 12px 0;
+                font-size: 16px;
+                font-weight: bold;
+                color: #333333;
+            }
+            #drop-zone {
+                display: inline-block;
+                padding: 8px;
+                border: 2px dashed #aaaaaa;
+                border-radius: 8px;
+                background: #ffffff;
+            }
+            #drop-zone.hovering {
+                border-color: #339933;
+                background: #f7fdf7;
+            }
+            #drop-box {
+                display: block;
+                -webkit-user-drag: none;
+                user-select: none;
+            }
+            #drop-status {
+                margin-top: 10px;
+                font-size: 14px;
+                color: #555555;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <h1>bestvpn html5demos drag &amp; drop demo</h1>
+            <p class="subtitle">Drag and drop page by image</p>
+            <p class="instruction">Grab a VPN offer with the mouse and drop it onto the drop box below.</p>
+
+            <div class="stage">
+                <div id="sources">
+                    <div class="drag-item" data-offer="NordVPN">
+                        <img src="NordVPN.png" alt="NordVPN" width="174" height="56">
+                    </div>
+                    <div class="drag-item" data-offer="BestVPN">
+                        <img src="BestVPN.png" alt="BestVPN" width="174" height="54">
+                    </div>
+                    <div class="drag-item" data-offer="ExpressVPN">
+                        <img src="ExpressVPN.png" alt="ExpressVPN" width="174" height="56">
+                    </div>
+                    <div class="drag-item" data-offer="UnblockNetflixVPN">
+                        <img src="UnblockNetflixVPN.png" alt="UnblockNetflixVPN" width="178" height="86">
+                    </div>
+                    <div class="drag-item" data-offer="VPNServices">
+                        <img src="VPNServices.png" alt="VPNServices" width="174" height="56">
+                    </div>
+                </div>
+
+                <div id="drop-area">
+                    <div id="drop-label">Drop box</div>
+                    <div id="drop-zone">
+                        <img id="drop-box" src="target_drop_box.jpg" alt="target drop box" width="179" height="263">
+                    </div>
+                    <div id="drop-status">Drag a VPN offer here</div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            // jQuery-free drag & drop for WebDriver-driven mouse events:
+            // a drag is started by mousedown on a source image and is completed
+            // by mouseup on the drop box (no HTML5 drag & drop events used).
+            (function () {
+                'use strict';
+
+                var dropZone = document.getElementById('drop-zone');
+                var dropStatus = document.getElementById('drop-status');
+                var dragState = null;
+
+                function closestItem(node) {
+                    while (node && node !== document) {
+                        if (node.classList && node.classList.contains('drag-item')) {
+                            return node;
+                        }
+                        node = node.parentNode;
+                    }
+                    return null;
+                }
+
+                // Start a drag: mousedown (left button) anywhere on a source item.
+                document.addEventListener('mousedown', function (event) {
+                    if (event.button !== 0) {
+                        return;
+                    }
+                    var item = closestItem(event.target);
+                    if (!item) {
+                        return;
+                    }
+                    dragState = { item: item };
+                    item.classList.remove('dropped');
+                    item.classList.add('dragging');
+                    event.preventDefault();
+                });
+
+                // The drop box mouseup handler performs the drop: it hides the
+                // offer image that is being dragged, mirroring how WebDriver
+                // dragAndDrop works (mousedown on the source, mouseup on the box).
+                dropZone.addEventListener('mouseup', function (event) {
+                    if (event.button !== 0 || !dragState) {
+                        return;
+                    }
+                    var item = dragState.item;
+                    dragState = null;
+                    item.classList.remove('dragging');
+                    item.classList.add('dropped');
+                    dropStatus.textContent = 'Dropped!';
+                    dropZone.classList.remove('hovering');
+                });
+
+                // Visual feedback while the pointer is over the drop box.
+                dropZone.addEventListener('mouseover', function () {
+                    if (dragState) {
+                        dropZone.classList.add('hovering');
+                    }
+                });
+                dropZone.addEventListener('mouseout', function () {
+                    dropZone.classList.remove('hovering');
+                });
+
+                // Release anywhere else cancels the drag.
+                document.addEventListener('mouseup', function () {
+                    if (!dragState) {
+                        return;
+                    }
+                    dragState.item.classList.remove('dragging');
+                    dragState = null;
+                    dropZone.classList.remove('hovering');
+                });
+            })();
+        </script>
+    </body>
+</html>

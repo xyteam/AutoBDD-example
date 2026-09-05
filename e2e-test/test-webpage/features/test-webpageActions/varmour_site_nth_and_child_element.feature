@@ -6,7 +6,7 @@ Feature: vArmour site nth and child element validation and action
   I want to test see and click images
 
   Background: open page
-    Given  I open the url "https://www.varmour.com/"
+    Given  I open the url "http://localhost:8090/varmour_child/index.html"
     And    I wait on the element ".top-menu" for 5000ms to be visible
     And    I wait on the element ".menu" for 5000ms to be visible
   

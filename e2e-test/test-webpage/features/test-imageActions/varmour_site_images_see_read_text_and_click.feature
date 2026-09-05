@@ -6,7 +6,7 @@ Feature: vArmour site screen text and see and click image
   I want to test see and click images
   
   Background: open page
-    Given  I open the url "https://www.varmour.com/"
+    Given  I open the url "http://localhost:8090/varmour_images/index.html"
 
   Scenario: Test image wait and text
     And   I pause for 3000ms

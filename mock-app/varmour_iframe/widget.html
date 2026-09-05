@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>vArmour chat widget (local mock)</title>
+    <style type="text/css">
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body { height: 100%; }
+        body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; overflow: hidden; }
+        button { font-family: inherit; cursor: pointer; }
+        .widget { position: relative; height: 100%; }
+
+        /* launcher bubble - visible in the initial state */
+        #widgetButton.launcher {
+            position: absolute; right: 16px; bottom: 16px;
+            background: #00a6e6; color: #ffffff; border: 0;
+            border-radius: 24px; padding: 13px 22px;
+            font-size: 15px; font-weight: 600;
+            box-shadow: 0 6px 18px rgba(0, 100, 150, 0.35);
+        }
+        #widgetButton.launcher[hidden] { display: none; }
+
+        /* chat panel - revealed once the launcher is clicked */
+        #chatPanel.panel {
+            position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+            display: flex; flex-direction: column;
+            background: #ffffff; border-radius: 14px; overflow: hidden;
+            border: 1px solid #d9e2ea; box-shadow: 0 10px 34px rgba(14, 30, 51, 0.28);
+        }
+        #chatPanel.panel[hidden] { display: none; }
+
+        .panel__header {
+            display: flex; align-items: center; justify-content: space-between;
+            background: #0e1e33; color: #ffffff; padding: 14px 16px;
+        }
+        .panel__greeting { font-size: 15px; font-weight: 600; }
+        #widgetCloseButton.close {
+            background: transparent; color: #cfd8e3; border: 1px solid #40536b;
+            border-radius: 14px; padding: 5px 12px; font-size: 13px;
+        }
+        #widgetCloseButton.close:hover { color: #ffffff; border-color: #7fd4f5; }
+        .panel__body { padding: 18px 16px; overflow-y: auto; }
+        .bubble {
+            background: #eef4f9; color: #24303c; border-radius: 4px 16px 16px 16px;
+            padding: 10px 14px; font-size: 14px; line-height: 1.5; max-width: 92%;
+        }
+        .answers { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; align-items: flex-start; }
+        .answers[hidden] { display: none; }
+        .answers .answer {
+            background: #ffffff; color: #0e6f9e; border: 1px solid #9ed8f0;
+            border-radius: 18px; padding: 9px 16px; font-size: 14px; text-align: left;
+        }
+        .answers .answer:hover { background: #e8f6fd; }
+    </style>
+</head>
+<body>
+    <div class="widget">
+
+        <button type="button" id="widgetButton" class="launcher">Hi! Chat with us</button>
+
+        <section id="chatPanel" class="panel" hidden>
+            <header class="panel__header">
+                <span class="panel__greeting">Hi! I'm the vArmour assistant.</span>
+                <button type="button" id="widgetCloseButton" class="close">Close</button>
+            </header>
+            <div class="panel__body">
+                <p class="bubble">Thanks for visiting. Would you like a quick tour of what vArmour can do for you?</p>
+                <div class="answers" id="answersAsk">
+                    <button type="button" id="btnSure" class="answer">Sure!</button>
+                    <button type="button" id="btnNope" class="answer">Nope, I'll explore on my own.</button>
+                </div>
+                <div class="answers" id="answersTopics" hidden>
+                    <button type="button" class="answer">I'd like to talk to a human</button>
+                    <button type="button" class="answer">Tell me about Application Controller</button>
+                    <button type="button" class="answer">I want to explore a career at vArmour</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script type="text/javascript">
+        // jQuery-free chat widget state handling. Every interaction reacts to
+        // real mouse click events fired by WebDriver.
+        (function () {
+            'use strict';
+            var widgetButton = document.getElementById('widgetButton');
+            var chatPanel = document.getElementById('chatPanel');
+            var widgetCloseButton = document.getElementById('widgetCloseButton');
+            var answersAsk = document.getElementById('answersAsk');
+            var answersTopics = document.getElementById('answersTopics');
+            var btnSure = document.getElementById('btnSure');
+            var btnNope = document.getElementById('btnNope');
+
+            function openPanel() {
+                widgetButton.hidden = true;
+                chatPanel.hidden = false;
+            }
+
+            function closePanel() {
+                chatPanel.hidden = true;
+                widgetButton.hidden = false;
+            }
+
+            widgetButton.addEventListener('click', openPanel);
+            widgetCloseButton.addEventListener('click', closePanel);
+            btnSure.addEventListener('click', function () {
+                answersAsk.hidden = true;
+                answersTopics.hidden = false;
+            });
+            btnNope.addEventListener('click', closePanel);
+        })();
+    </script>
+</body>
+</html>

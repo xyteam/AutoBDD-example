@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WebdriverJS Testpage</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; background: #fff; color: #000; }
+        h1, h2 { font-weight: normal; }
+        .row { padding: 12px; border-bottom: 1px solid #ddd; }
+        .btn1 { display: inline-block; padding: 6px 12px; background: #eee; border: 1px solid #aaa; cursor: pointer; }
+        .red { width: 100px; height: 100px; background-color: rgb(255,0,0); }
+        input[type=text] { border: 1px solid #999; padding: 4px; }
+        .dragoverlay { display: inline-block; padding: 6px 10px; background: #cde; border: 1px solid #579; cursor: pointer; }
+        a { color: #06c; }
+        section { display: block; }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <h2>Navigation links</h2>
+        <p>
+            <a id="secondPageLink" href="two.html">two</a> &nbsp;
+            <a id="githubRepo" href="https://github.com/webdriverio/webdriverio">webdriverio repo</a> &nbsp;
+            <a id="newWindow" href="two.html" data-foundby="partial link text" target="_blank">open two</a>
+        </p>
+    </div>
+
+    <div class="row">
+        <h2>Buttons</h2>
+        <button class="btn1" id="btn1">button one</button>
+        <span id="btnArea"></span>
+        <script>
+            (function () {
+                var b = document.getElementById('btn1');
+                var area = document.getElementById('btnArea');
+                b.addEventListener('click', function () {
+                    var el = document.createElement('span');
+                    el.className = 'btn1_clicked';
+                    el.id = 'btn1clicked';
+                    el.textContent = 'clicked';
+                    area.appendChild(el);
+                });
+                b.addEventListener('dblclick', function () {
+                    var el = document.createElement('span');
+                    el.className = 'btn1_dblclicked';
+                    el.id = 'btn1dblclicked';
+                    el.textContent = 'double clicked';
+                    area.appendChild(el);
+                });
+            })();
+        </script>
+    </div>
+
+    <section>
+        <h2>Form</h2>
+        <form>
+            <input type="text" name="first" value="a">
+            <input type="text" name="second" value="">
+        </form>
+        <div class="send">
+            <button class="sendBtn" id="sendbtn">send</button>
+        </div>
+        <span id="sendArea"></span>
+        <script>
+            document.getElementById('sendbtn').addEventListener('click', function () {
+                var el = document.createElement('div');
+                el.className = 'gotDataA';
+                el.id = 'gotDataA';
+                el.textContent = 'data got';
+                document.getElementById('sendArea').appendChild(el);
+            });
+        </script>
+    </section>
+
+    <div class="row">
+        <h2>Drag &amp; drop</h2>
+        <div class="dragoverlay" id="overlay">drag me</div>
+        <div class="red" id="red"></div>
+        <input type="text" class="searchinput" id="searchinput" value="">
+        <script>
+            (function () {
+                var input = document.getElementById('searchinput');
+                document.getElementById('red').addEventListener('mouseup', function () {
+                    input.value = 'Dropped!';
+                });
+            })();
+        </script>
+    </div>
+
+    <div class="row" id="lateRow">
+        <h2>Late element</h2>
+        <script>
+            // .lateElem is not present at load; injected after ~1s so the
+            // "no element on the page ... wait ... becomes displayed" steps work.
+            setTimeout(function () {
+                var late = document.createElement('div');
+                late.className = 'lateElem';
+                late.id = 'lateElem';
+                late.textContent = 'late content';
+                document.getElementById('lateRow').appendChild(late);
+            }, 1000);
+        </script>
+    </div>
+
+    <div class="row">
+        <h2>Checkbox</h2>
+        <input type="checkbox" class="checkbox_notselected" id="cb">
+    </div>
+
+</body>
+</html>

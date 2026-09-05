@@ -145,3 +145,5 @@ tmp/
 .settings/
 .pytest_cache/
 __pycache__/
+**/smoke-report/
+**/test-results/

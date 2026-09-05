@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vArmour | Data Center Security</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2b2b;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  a { text-decoration: none; color: #22304d; }
+  ul { list-style: none; }
+
+  /* ---------- header ---------- */
+  .site-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+  .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #10233f;
+    letter-spacing: 1px;
+  }
+  .logo em { font-style: normal; color: #e87722; }
+  .top-menu {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+  }
+  .top-menu > li { background: #ffffff; }
+  .top-menu > li > a {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #22304d;
+    background: #ffffff;
+  }
+  .top-menu > li > a:hover { color: #e87722; }
+  .top-menu > li > a.nav-contact {
+    color: #ffffff;
+    background: #ffffff;
+  }
+
+  /* ---------- main menu bar ---------- */
+  .menu-bar {
+    background: #f4f6fa;
+    border-bottom: 1px solid #dde3ec;
+  }
+  .menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+  }
+  .menu-list { display: flex; align-items: center; }
+  .menu-list > li > a.menu-link {
+    display: inline-block;
+    padding: 14px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #22304d;
+  }
+  .menu-list > li > a.menu-link:hover { color: #e87722; }
+  .menu .btn-wrap {
+    display: inline-block;
+    margin-left: 24px;
+    padding: 10px 22px;
+    border-radius: 3px;
+    background: #e87722;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+  }
+  .menu .btn-wrap:hover { background: #d2691a; }
+
+  /* ---------- hero ---------- */
+  .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px 30px;
+    flex: 1 0 auto;
+  }
+  .hero h1 {
+    font-size: 42px;
+    color: #10233f;
+    margin-bottom: 18px;
+  }
+  .hero p.lead {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #4a5568;
+    max-width: 720px;
+    margin-bottom: 34px;
+  }
+  .feature-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+  }
+  .feature-card {
+    flex: 1 1 280px;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 22px;
+    background: #ffffff;
+  }
+  .feature-card h3 { color: #10233f; font-size: 18px; margin-bottom: 8px; }
+  .feature-card p { font-size: 14px; line-height: 1.55; color: #55617a; }
+
+  /* ---------- footer ---------- */
+  footer {
+    background: #ffffff;
+    border-top: 1px solid #e4e4e4;
+    flex-shrink: 0;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 22px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-inner p { font-size: 13px; color: #8892a6; }
+  .footer-links { display: flex; align-items: center; }
+  .footer-links li { background: #ffffff; }
+  .footer-links li a {
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #55617a;
+    background: #ffffff;
+  }
+  .footer-links li a:hover { color: #e87722; }
+  .footer-links li a.contact-link {
+    color: #ffffff;
+    background: #ffffff;
+  }
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">vArm<em>our</em></div>
+      <ul class="top-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a class="nav-contact" href="contact.html" target="_blank">Contact Us</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="partners.html">Partners</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="menu-bar">
+    <nav class="menu">
+      <ul class="menu-list">
+        <li><a class="menu-link" href="products.html">Product</a></li>
+        <li><a class="menu-link" href="services.html">Services</a></li>
+        <li><a class="menu-link" href="resources.html">Resources</a></li>
+        <li><a class="menu-link" href="company.html">Company</a></li>
+      </ul>
+      <a class="btn-wrap" href="#">Free Trial</a>
+    </nav>
+  </div>
+
+  <main class="hero">
+    <h1>Adaptive Micro-Segmentation Security</h1>
+    <p class="lead">
+      Stop breaches from spreading across your data center and cloud with
+      software-defined security that sees everything and locks down every workload.
+    </p>
+    <div class="feature-row">
+      <div class="feature-card">
+        <h3>See Everything</h3>
+        <p>Continuous, agentless visibility into every application flow across your hybrid infrastructure.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Stop Attacks</h3>
+        <p>Precise per-application segmentation stops lateral movement before it reaches critical systems.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Simplify Operations</h3>
+        <p>Automated policy from observed traffic means less manual effort and fewer errors.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2026 vArmour Networks. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a class="contact-link" href="contact.html" target="_blank">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

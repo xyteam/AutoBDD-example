@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>vArmour - Cloud Application Security</title>
+        <style type="text/css">
+            * { box-sizing: border-box; }
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background: #ffffff;
+                color: #1c2733;
+            }
+            img { border: 0; }
+            .page { max-width: 980px; margin: 0 auto; padding: 18px 28px 40px 28px; }
+
+            .topbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 2px solid #e8edf2;
+                padding-bottom: 12px;
+            }
+            .brand { font-size: 30px; font-weight: bold; color: #0a3d91; letter-spacing: 1px; }
+            .nav a {
+                color: #1c2733;
+                text-decoration: none;
+                margin-left: 22px;
+                font-size: 17px;
+            }
+
+            .hero { margin-top: 26px; }
+            .hero h1 {
+                font-size: 54px;
+                line-height: 1.15;
+                margin: 0 0 10px 0;
+                color: #0a3d91;
+                font-weight: bold;
+            }
+            .hero h2 {
+                font-size: 30px;
+                font-weight: normal;
+                margin: 0 0 14px 0;
+                color: #1c2733;
+            }
+            .hero p.lead {
+                font-size: 20px;
+                line-height: 1.5;
+                max-width: 820px;
+                margin: 0 0 20px 0;
+                color: #33424f;
+            }
+
+            .cta-row {
+                display: flex;
+                align-items: center;
+                background: #f3f7fb;
+                border: 1px solid #d7e2ec;
+                border-radius: 10px;
+                padding: 16px 22px;
+                margin: 24px 0 0 0;
+            }
+            .cta-row .cta-label { font-size: 22px; font-weight: bold; margin-right: 24px; color: #1c2733; }
+            .free-trial-shot {
+                display: inline-block;
+                background: #ffffff;
+                line-height: 0;
+            }
+
+            .bot-section {
+                margin-top: 34px;
+                border-top: 2px solid #e8edf2;
+                padding-top: 22px;
+            }
+            .bot-section h3 { font-size: 24px; margin: 0 0 12px 0; color: #0a3d91; }
+            .bot-stage {
+                display: flex;
+                align-items: flex-start;
+            }
+            .bot-launcher {
+                display: inline-block;
+                background: #ffffff;
+                border: 2px solid #c9d6e2;
+                border-radius: 8px;
+                padding: 8px;
+                cursor: pointer;
+                line-height: 0;
+            }
+            .bot-hint {
+                margin: 0 0 0 14px;
+                font-size: 18px;
+                color: #33424f;
+                line-height: 1.4;
+                align-self: center;
+            }
+            .bot-window {
+                display: none;
+                background: #ffffff;
+                border: 2px solid #c9d6e2;
+                border-radius: 8px;
+                padding: 10px;
+                line-height: 0;
+            }
+            .bot-window .dialog-shot { display: block; }
+            .bot-bubble {
+                background: #eef4fa;
+                border-radius: 8px;
+                padding: 10px 14px;
+                margin: 10px 0 0 0;
+                font-size: 17px;
+                color: #1c2733;
+                line-height: 1.4;
+                max-width: 340px;
+            }
+            .foot {
+                margin-top: 30px;
+                font-size: 13px;
+                color: #7a8794;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <div class="topbar">
+                <div class="brand">vArmour</div>
+                <div class="nav">
+                    <a href="#">Platform</a>
+                    <a href="#">Micro-Segmentation</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="hero">
+                <h1>Cloud Application Security</h1>
+                <h2>Adaptive security for cloud applications and data center workloads</h2>
+                <p class="lead">
+                    vArmour delivers distributed micro-segmentation so every cloud
+                    application gets visibility, protection, and policy enforcement
+                    without re-architecting your network.
+                </p>
+            </div>
+
+            <div class="cta-row">
+                <span class="cta-label">Start your 30-day evaluation today:</span>
+                <span class="free-trial-shot"><img src="FreeTrial.png" alt="Free Trial" draggable="false"></span>
+            </div>
+
+            <div class="bot-section">
+                <h3>Talk to the vArmour Bot</h3>
+                <div class="bot-stage">
+                    <span class="bot-launcher" id="bot-launcher">
+                        <img id="dialog-robot" src="dialogRobot.jpg" alt="dialog robot" draggable="false">
+                    </span>
+                    <p class="bot-hint">Click the dialog robot to open a chat with our virtual assistant.</p>
+                </div>
+
+                <div class="bot-window" id="bot-window">
+                    <img class="dialog-shot" id="dialog-window" src="robotDialogWindow.png" alt="vArmour Bot dialog window" draggable="false">
+                    <p class="bot-bubble">Hello! I am the vArmour Bot. How can I help you with cloud application security today?</p>
+                </div>
+            </div>
+
+            <p class="foot">Copyright &copy; 2026 vArmour Networks. All rights reserved.</p>
+        </div>
+
+        <script type="text/javascript">
+            // jQuery-free interaction for WebDriver/robotjs-driven mouse events.
+            // A physical left click (mousedown + mouseup at the same point) lands
+            // on the dialog robot image; opening the chat window is triggered by
+            // the real click event and guarded so it happens exactly once.
+            (function () {
+                'use strict';
+
+                var launcher = document.getElementById('bot-launcher');
+                var botWindow = document.getElementById('bot-window');
+                var opened = false;
+
+                function openBot() {
+                    if (opened) {
+                        return;
+                    }
+                    opened = true;
+                    launcher.style.display = 'none';
+                    botWindow.style.display = 'inline-block';
+                }
+
+                function hitLauncher(node) {
+                    while (node && node !== document) {
+                        if (node === launcher) {
+                            return true;
+                        }
+                        node = node.parentNode;
+                    }
+                    return false;
+                }
+
+                document.addEventListener('mouseup', function (event) {
+                    if (event.button === 0 && hitLauncher(event.target)) {
+                        openBot();
+                    }
+                });
+                document.addEventListener('click', function (event) {
+                    if (hitLauncher(event.target)) {
+                        openBot();
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>
