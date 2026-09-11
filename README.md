@@ -46,6 +46,16 @@ Open the searchable cucumber HTML report at
 > `docker compose run …`) to run against a **local AutoBDD checkout** you are editing,
 > instead of the published image — useful while developing the framework itself.
 
+## Project layout
+
+Test modules under `e2e-test/`, grouped by the kind of action they exercise:
+
+- **web-page actions** — drive a real browser: `test-demoapp`, `test-browser`,
+  `test-table`, `test-1nit`.
+- **screen-image actions** — act on the actual screen with images/text:
+  `test-screen` (image matching + OCR), `test-webpage` (live-page image/mouse actions).
+- **API** — `test-postman`.
+
 ## Make it your own
 
 Rename this project and edit the features under `e2e-test/`; all automated by the
