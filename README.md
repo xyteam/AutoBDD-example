@@ -54,7 +54,16 @@ Test modules under `e2e-test/`, grouped by the kind of action they exercise:
   `test-table`, `test-1nit`.
 - **screen-image actions** — act on the actual screen with images/text:
   `test-screen` (image matching + OCR), `test-webpage` (live-page image/mouse actions).
-- **API** — `test-postman`.
+- **tool actions** — non-e2e tooling: API (`e2e-test/test-postman`, postman),
+  unit tests (`js-test` → jest, `py-test` → pytest) and performance (`k6-test` → k6).
+
+Run the non-e2e tool tests (inside the image):
+
+```bash
+export USER=$(whoami) HOSTOS=$(uname -s) USERID=$(id -u) GROUPID=$(id -g)
+AutoBDD_Ver=3.0.0 ABDD_PROJECT=AutoBDD-example \
+  docker compose -f docker-compose.docker.yml run --rm autobdd-example-run "make tool-test"
+```
 
 ## Make it your own
 
