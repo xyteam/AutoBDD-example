@@ -52,6 +52,22 @@ export USER=$(whoami) HOSTOS=$(uname -s) USERID=$(id -u) GROUPID=$(id -g)
 docker-compose run --rm autobdd-example-run "make e2e-test"
 ```
 
+#### Run off the published image (no AutoBDD clone needed)
+
+To run purely against the published AutoBDD image — without a local AutoBDD
+checkout — use the baked-mode compose. It mounts only this project; the startup
+copies the image's framework into place. Select the version with `AutoBDD_Ver`:
+
+```
+cd ~/Projects/AutoBDD-example
+export USER=$(whoami) HOSTOS=$(uname -s) USERID=$(id -u) GROUPID=$(id -g)
+AutoBDD_Ver=3.0.0 ABDD_PROJECT=AutoBDD-example \
+  docker compose -f docker-compose.docker.yml run --rm autobdd-example-run "make e2e-test"
+```
+
+(`docker-compose.yml` is the developer mode — it mounts a local AutoBDD working
+tree so you can run against source you are editing.)
+
 #### Run the full test with movie recording enabled
 Add `--movie 1` to the auto-runner call so every scenario records a movie:
 
