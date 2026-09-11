@@ -22,27 +22,12 @@ e2e-test: demo-up mock-up
 	cd e2e-test && \
 	make test
 
-# tool actions: non-e2e tool tests (unit / performance). The API/postman suite
-# lives with the e2e modules (e2e-test/test-postman).
-jest-test:
-	mkdir -p test-results/jest-test; \
-	cd js-test && npm install && \
-	node_modules/.bin/jest --verbose . > ../test-results/jest-test/run.log 2>&1; \
-	exit $$?
-
-pytest-test:
-	mkdir -p test-results/pytest-test; \
-	pip3 install -q -r py-test/requirement3.txt && \
-	python3 -m pytest -r A py-test > test-results/pytest-test/run.log 2>&1; \
-	exit $$?
-
-k6-test:
-	mkdir -p test-results/k6-test; \
-	cd k6-test && for f in $$(find . -type f -name "*-test.js"); do k6 run "$$f"; done > ../test-results/k6-test/run.log 2>&1; \
-	exit $$?
-
-# run all non-e2e tool tests
-tool-test: jest-test pytest-test k6-test
+# Tool actions (non-e2e: API/postman, jest, pytest, k6) are BDD cucumber features,
+# so there are no separate make targets for them:
+#   e2e-test/test-postman  - postman collection via newman
+#   e2e-test/test-tools    - jest / pytest / k6, each run as a direct command carried
+#                            by the feature: "When I run this command \"...\""
+# They run with the rest of the suite via `make e2e-test`.
 
 docker-run:
 	@echo make $@
