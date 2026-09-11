@@ -1,0 +1,30 @@
+# Docker (baked) mode — standalone. Run AutoBDD-example purely off the local
+# xyteam/autobdd:<AutoBDD_Ver> image. No working-tree AutoBDD mount, no
+# AUTOBDD_DEV_MOUNT: the startup copies the image's baked framework to
+# ~/Projects/AutoBDD, which sets FrameworkPath + framework/scripts on PATH.
+#
+#   AutoBDD_Ver=3.0.0 ABDD_PROJECT=AutoBDD-example \
+#     docker compose -f docker-compose.docker.yml run --rm autobdd-example-run "make e2e-test"
+services:
+  autobdd-example-run:
+    image: "xyteam/autobdd:${AutoBDD_Ver}"
+    container_name: autobdd-example-run
+    shm_size: 1536M
+    user: root
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:delegated
+      - ${PWD}:/home/${USER}/Projects/AutoBDD/test-projects/${ABDD_PROJECT}:consistent
+      - ${PWD}/dev/autobdd-run.startup.sh:/root/autobdd-run.startup.sh:ro
+    environment:
+      - USER=${USER}
+      - ABDD_PROJECT=${ABDD_PROJECT}
+      - HOSTOS=${HOSTOS:-Linux}
+      - USERID=${USERID:-1000}
+      - GROUPID=${GROUPID:-1000}
+      - PASSWORD=${PASSWORD:-ubuntu}
+      # wdio9 uses CHROMEDRIVER_PATH to launch the driver from the system binary
+      # instead of downloading it into /tmp (which races to corruption under 8
+      # parallel workers). /usr/local/bin/chromedriver is baked into the image.
+      - CHROMEDRIVER_PATH=/usr/local/bin/chromedriver
+    entrypoint: "/root/autobdd-run.startup.sh"
