@@ -1,14 +1,14 @@
 # AutoBDD-example
 
 **AutoBDD-example** is the **example test project for the
-[AutoBDD](https://github.com/xyteam/AutoBDD) framework** — a BDD (Cucumber/Gherkin)
-web/E2E test project.
+[AutoBDD](https://github.com/xyteam/AutoBDD) framework** — a **screen-first**
+BDD (Cucumber/Gherkin) E2E test project.
 
-It demonstrates the two kinds of actions AutoBDD provides:
+It demonstrates the two kinds of actions AutoBDD provides, **screen first**:
 
-- **web-page actions** — drive a real browser with pre-canned Cucumber steps, and
 - **screen-image actions** — find, click and assert on anything on screen using the
-  images and text you provide (image matching + OCR), not just DOM elements.
+  images and text you provide (image matching + OCR), not just DOM elements; and
+- **web-page actions** — drive a real browser with pre-canned Cucumber steps (DOM assist).
 
 You do **not** need the AutoBDD framework repository. Running this project
 **automatically pulls the AutoBDD docker image** (`xyteam/autobdd:<version>`) and runs
@@ -50,10 +50,10 @@ Open the searchable cucumber HTML report at
 
 Test modules under `e2e-test/`, grouped by the kind of action they exercise:
 
-- **web-page actions** — drive a real browser: `test-demoapp`, `test-browser`,
-  `test-table`, `test-1nit`.
 - **screen-image actions** — act on the actual screen with images/text:
   `test-screen` (image matching + OCR), `test-webpage` (live-page image/mouse actions).
+- **web-page actions** — drive a real browser (DOM assist): `test-demoapp`, `test-browser`,
+  `test-table`, `test-1nit`.
 - **tool actions** — non-e2e tooling as **BDD features**: API (`e2e-test/test-postman`,
   postman/newman) and jest/pytest/k6 (`e2e-test/test-tools`). Each runs its command
   directly from the feature, e.g. `When I run this command "…"` → `Then the command
